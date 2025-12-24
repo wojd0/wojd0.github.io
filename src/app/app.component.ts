@@ -1,12 +1,23 @@
 import { Component, computed, signal, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { take } from 'rxjs';
+import { HideNotLoadedDirective } from './shared/hideNotLoaded.directive';
+import { AboutComponent } from './about/about.component';
+import { HeadingComponent } from './shared/heading/heading.component';
+import { ProjectList } from './projectList/list.component';
+import { HrComponent } from './hr/hr.component';
+import { provideAppRoutes } from '../routes';
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.sass'],
-    standalone: false
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.sass'],
+  imports: [
+    HideNotLoadedDirective,
+    AboutComponent,
+    HeadingComponent,
+    ProjectList,
+    HrComponent,
+  ],
 })
 export class AppComponent {
   private translateService = inject(TranslateService);

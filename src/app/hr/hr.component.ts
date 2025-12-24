@@ -1,10 +1,11 @@
 import { Component, ElementRef, HostListener, Input, ViewChild } from '@angular/core';
+import { NgStyle } from '@angular/common';
 
 @Component({
     selector: 'app-hr',
     templateUrl: './hr.component.html',
     styleUrls: ['./hr.component.css'],
-    standalone: false
+    imports: [NgStyle]
 })
 export class HrComponent {
   margin: string = '';

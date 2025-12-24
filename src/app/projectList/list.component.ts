@@ -2,6 +2,7 @@ import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, Input, OnInit, inject } from '@angular/core';
 import { ProjectsService } from '../projects.service';
 import { ProjectInfo } from '../shared/types';
+import { ProjectComponent } from './project/project.component';
 
 @Component({
     selector: 'app-list',
@@ -16,7 +17,7 @@ import { ProjectInfo } from '../shared/types';
             }),
         ]),
     ],
-    standalone: false
+    imports: [ProjectComponent]
 })
 export class ProjectList implements OnInit {
   private projectsService = inject(ProjectsService);

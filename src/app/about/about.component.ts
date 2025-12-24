@@ -1,6 +1,9 @@
 import { animate, style, transition, trigger } from '@angular/animations';
 import { InteractionButton } from '../shared/types';
 import { Component } from '@angular/core';
+import { ButtonsBarComponent } from '../shared/buttons-bar/buttons-bar.component';
+import { HrComponent } from '../hr/hr.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-about',
@@ -30,7 +33,7 @@ import { Component } from '@angular/core';
             })
         ]),
     ],
-    standalone: false
+    imports: [ButtonsBarComponent, HrComponent, TranslateModule]
 })
 export class AboutComponent {
   visited = 1;

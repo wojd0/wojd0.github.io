@@ -19,7 +19,7 @@ import { animate, query, style, transition, trigger } from '@angular/animations'
       {{ this.text | translate }}
     </h2>
   `,
-    standalone: false
+    imports: [TranslateModule]
 })
 export class HeadingComponent {
   @Input() text: string = '';
