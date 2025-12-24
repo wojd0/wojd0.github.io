@@ -1,4 +1,4 @@
-import { enableProdMode, importProvidersFrom } from '@angular/core';
+import { enableProdMode, importProvidersFrom, provideZoneChangeDetection } from '@angular/core';
 import { environment } from './environments/environment';
 import {
   provideHttpClient,
@@ -23,7 +23,7 @@ if (environment.production) {
 
 bootstrapApplication(AppComponent, {
   providers: [
-    importProvidersFrom(
+    provideZoneChangeDetection(),importProvidersFrom(
       BrowserModule,
       NgOptimizedImage,
       TranslateModule.forRoot({
