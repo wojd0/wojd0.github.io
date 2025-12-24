@@ -2,7 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import {
+  HttpClient,
+  provideHttpClient,
+  withInterceptorsFromDi,
+} from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AboutComponent } from './about/about.component';
@@ -17,7 +21,7 @@ import { HideNotLoadedDirective } from './shared/hideNotLoaded.directive';
 import { FlagSrcPipe } from './shared/flag-src.pipe';
 import { HeadingComponent } from './shared/heading/heading.component';
 function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http,  './assets/i18n/', '.json');
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({
@@ -30,12 +34,12 @@ function HttpLoaderFactory(http: HttpClient) {
     FlagSrcPipe,
     HeadingComponent,
   ],
+  bootstrap: [AppComponent],
   imports: [
     CommonModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule,
     ButtonsBarComponent,
     NgOptimizedImage,
     HideNotLoadedDirective,
@@ -44,11 +48,10 @@ function HttpLoaderFactory(http: HttpClient) {
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
+        deps: [HttpClient],
+      },
+    }),
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [provideHttpClient(withInterceptorsFromDi())],
 })
-export class AppModule { }
+export class AppModule {}
