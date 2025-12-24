@@ -1,4 +1,4 @@
-import { Component, computed, signal } from '@angular/core';
+import { Component, computed, signal, inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { take } from 'rxjs';
 
@@ -9,11 +9,13 @@ import { take } from 'rxjs';
     standalone: false
 })
 export class AppComponent {
+  private translateService = inject(TranslateService);
+
   language = signal('en');
   nextLanguage = computed(() => (this.language() === 'pl' ? 'en' : 'pl'));
   flag = computed(() => `./assets/${this.nextLanguage()}.svg`);
 
-  constructor(private translateService: TranslateService) {
+  constructor() {
     const browserLanguage = navigator.language;
     const lsLang = localStorage.getItem('lang');
 

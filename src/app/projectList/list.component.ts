@@ -1,5 +1,5 @@
 import { animate, style, transition, trigger } from '@angular/animations';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, inject } from '@angular/core';
 import { ProjectsService } from '../projects.service';
 import { ProjectInfo } from '../shared/types';
 
@@ -19,9 +19,10 @@ import { ProjectInfo } from '../shared/types';
     standalone: false
 })
 export class ProjectList implements OnInit {
+  private projectsService = inject(ProjectsService);
+
   projects?: ProjectInfo[];
   @Input() type: string = 'projects';
-  constructor(private projectsService: ProjectsService) {}
 
   ngOnInit(): void {
     this.projects = this.projectsService.getProjectsInfo(this.type);

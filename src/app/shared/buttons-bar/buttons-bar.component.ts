@@ -1,6 +1,6 @@
 
 import { HttpClient } from '@angular/common/http';
-import { Component, Input } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { InteractionButton } from '../types';
 
 @Component({
@@ -10,7 +10,8 @@ import { InteractionButton } from '../types';
     imports: []
 })
 export class ButtonsBarComponent  {
-  constructor(private httpClient: HttpClient) { }
+  private httpClient = inject(HttpClient);
+
   @Input() btnClass = '';
   preventLink(event: Event){
     event.preventDefault();
