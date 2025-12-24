@@ -5,6 +5,16 @@ article
 .box-shadow
   box-shadow: 5px 4px gray
 .hover-button
-  @apply opacity-0 group-hover:opacity-100 text-emerald-400 text-6xl z-20 transition-all flex
+  opacity: 0
+  color: rgb(52 211 153)
+  font-size: 3.75rem
+  line-height: 1
+  z-index: 20
+  transition-property: all
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration: 150ms
+  display: flex
   &>i
-    @apply pointer-events-none
+    pointer-events: none
+:host-context(.group:hover) .hover-button
+  opacity: 1

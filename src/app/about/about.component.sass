@@ -1,12 +1,25 @@
 .name
-  @apply text-7xl md:text-8xl  w-full text-emerald-500 origin-left transition-opacity duration-300 last:delay-200 last:origin-right font-josefin
+  font-size: 4.5rem
+  line-height: 1
+  width: 100%
+  color: rgb(16 185 129)
+  transform-origin: left
+  transition-property: opacity
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration: 300ms
+  font-family: 'Josefin Sans', sans-serif
   text-shadow: 3px 3px rgb(29 78 216)
+  &:last-child
+    transition-delay: 200ms
+    transform-origin: right
+  @media (min-width: 768px)
+    font-size: 6rem
 
 @keyframes jump
   0%, 75%
-    @apply translate-y-0
+    transform: translateY(0)
   50%
-    @apply translate-y-8
+    transform: translateY(2rem)
 
 .animate-jump
   animation: jump 3s infinite

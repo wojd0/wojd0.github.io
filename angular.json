@@ -73,9 +73,6 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "options": {
-            "disableHostCheck": true
-          },
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
