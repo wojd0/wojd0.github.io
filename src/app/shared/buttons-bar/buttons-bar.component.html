@@ -1,17 +1,15 @@
 <div class="w-full flex justify-center gap-1 flex-wrap">
 
-  <a *ngFor="let button of this.buttons" #btn class="group bg-emerald-500 hover:bg-emerald-400
+  @for (button of this.buttons; track button) {
+<a #btn class="group bg-emerald-500 hover:bg-emerald-400
   p-2 rounded-full md:rouned-3xl flex align-middle shadow-custom {{this.btnClass}} mb-3" [href]="button.url" (click)="button.url.length < 1 ? this.preventLink($event) : null" [target]="button.url ? '_blank' : ''">
-
-    <div class="w-16 grid place-items-center">
-      <img #img class="h-8 object-center object-contain" [src]="'assets/' + button.icon" (error)="img.hidden = !(i.hidden = false)"/>
-
-      <i #i hidden="true" class="text-3xl justify-center" [class]="button.icon + '-fill'"></i>
-    </div>
-
-
-    <span class="motion-safe:transition-all duration-200 whitespace-nowrap origin-left max-w-prose pr-3 overflow-hidden xl:pr-0 xl:group-hover:pr-3 xl:group-hover:ml-1 xl:max-w-0 xl:group-hover:max-w-prose mt-1 font-bahnschrift font-light text-lg">
-      {{ button.name }}&nbsp;
-    </span>
-  </a>
+      <div class="w-16 grid place-items-center">
+        <img #img class="h-8 object-center object-contain" [src]="'assets/' + button.icon" (error)="img.hidden = !(i.hidden = false)"/>
+        <i #i hidden="true" class="text-3xl justify-center" [class]="button.icon + '-fill'"></i>
+      </div>
+      <span class="motion-safe:transition-all duration-200 whitespace-nowrap origin-left max-w-prose pr-3 overflow-hidden xl:pr-0 xl:group-hover:pr-3 xl:group-hover:ml-1 xl:max-w-0 xl:group-hover:max-w-prose mt-1 font-bahnschrift font-light text-lg">
+        {{ button.name }}&nbsp;
+      </span>
+    </a>
+  }
 </div>

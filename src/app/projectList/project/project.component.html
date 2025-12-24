@@ -1,31 +1,39 @@
 <article class="sm:pb-3 black mt-10 sm:mt-0 h-full flex flex-col border-gray-400">
-  <div *ngIf="this.project.images.length > 0" class="flex-none h-64 mx-auto group mt-5 relative sm:pb-16" target="_blank">
-    <div class="w-full h-full transition-all">
-      <div class="w-full h-full absolute z-20">
-        <img [src]="this.project.images[0].src" [alt]="this.project.images[0].alt" class="object-contain origin-center lg:scale-90" NgOptimizedImage>
-      </div>
-      <img [src]="this.project.images[0].src" [alt]="this.project.images[0].alt" class="-z-10 blur-sm h-full opacity-70" NgOptimizedImage>
-      <a target="_blank" class="block w-full bg-black h-full opacity-0 group-hover:opacity-60 blur transition-all absolute-center z-20">
-      </a>
-      <div class="hover-button absolute-center">
-        <a *ngIf="this.project.url" [href]="this.project.url" target="_blank">
-          <i class="ph-link"></i>
+  @if (this.project.images.length > 0) {
+    <div class="flex-none h-64 mx-auto group mt-5 relative sm:pb-16" target="_blank">
+      <div class="w-full h-full transition-all">
+        <div class="w-full h-full absolute z-20">
+          <img [src]="this.project.images[0].src" [alt]="this.project.images[0].alt" class="object-contain origin-center lg:scale-90" NgOptimizedImage>
+        </div>
+        <img [src]="this.project.images[0].src" [alt]="this.project.images[0].alt" class="-z-10 blur-sm h-full opacity-70" NgOptimizedImage>
+        <a target="_blank" class="block w-full bg-black h-full opacity-0 group-hover:opacity-60 blur transition-all absolute-center z-20">
         </a>
-        <button (click)="this.open.next(true)">
-          <i class="ph-eye"></i>
-        </button>
+        <div class="hover-button absolute-center">
+          @if (this.project.url) {
+            <a [href]="this.project.url" target="_blank">
+              <i class="ph-link"></i>
+            </a>
+          }
+          <button (click)="this.open.next(true)">
+            <i class="ph-eye"></i>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
+  }
   <div class="w-full p-2 sm:pb-5 grow">
     <h2 class="text-4xl font-bold text-center mt-10 md:mt-4 font-josefin text-emerald-500 stroke w-full">
-      {{ ('projects.'+this.project.name+'.title') | translate }}</h2>
+    {{ ('projects.'+this.project.name+'.title') | translate }}</h2>
     <div class="basis-full text-center mx-5 mt-4 font-lato text-base lg:text-lg tracking-tight leading-tight">
-      <p *ngFor="let paragraph of ('projects.'+this.project.name+'.description') | translate" class="mt-1">{{ paragraph }}</p>
+      @for (paragraph of ('projects.'+this.project.name+'.description') | translate; track paragraph) {
+        <p class="mt-1">{{ paragraph }}</p>
+      }
     </div>
   </div>
   <app-buttons-bar btnClass="bg-emerald-700" class="w-full mt-auto basis-32 xl:basis-0" [buttons]="this.project.interactions"></app-buttons-bar>
 </article>
-<div *ngIf="this.open | async" class="w-full h-full absolute-center fixed grid place-items-center z-50 bg-[rgba(0,0,0,.5)]" (click)="this.open.next(false)">
-  <img [src]="this.project.images[0].full || this.project.images[0].src" [alt]="this.project.images[0].alt" class="[draggable:false]" NgOptimizedImage>
-</div>
+@if (this.open | async) {
+  <div class="w-full h-full absolute-center fixed grid place-items-center z-50 bg-[rgba(0,0,0,.5)]" (click)="this.open.next(false)">
+    <img [src]="this.project.images[0].full || this.project.images[0].src" [alt]="this.project.images[0].alt" class="[draggable:false]" NgOptimizedImage>
+  </div>
+}

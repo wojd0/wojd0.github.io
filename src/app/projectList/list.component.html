@@ -1,9 +1,11 @@
 <div class="mx-auto md:w-11/12 md:p-10 my-10 flex justify-center flex-col">
 
   <div class="grid grid-cols-12 grid-flow-row lg:gap-10 mx-3">
-    <div class="lg:col-span-6 col-span-12 lg:last:odd:col-start-4 lg:last:odd:col-span-6" *ngFor="let project of this.projects">
-      <app-project [project]="project"></app-project>
-    </div>
+    @for (project of this.projects; track project) {
+      <div class="lg:col-span-6 col-span-12 lg:last:odd:col-start-4 lg:last:odd:col-span-6">
+        <app-project [project]="project"></app-project>
+      </div>
+    }
   </div>
 
 </div>
