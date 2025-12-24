@@ -1,7 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'flagSrc'
+    name: 'flagSrc',
+    standalone: false
 })
 export class FlagSrcPipe implements PipeTransform {
 

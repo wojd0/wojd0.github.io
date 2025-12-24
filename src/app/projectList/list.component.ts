@@ -4,22 +4,19 @@ import { ProjectsService } from '../projects.service';
 import { ProjectInfo } from '../shared/types';
 
 @Component({
-  selector: 'app-list',
-  templateUrl: './list.component.html',
-  animations: [
-    trigger('open', [
-      transition(
-        ':enter',
-        [style({ opacity: 0 }), animate('{{ duration }}s {{ delay }}ms')],
-        {
-          params: {
-            duration: 0.7,
-            delay: 0,
-          },
-        }
-      ),
-    ]),
-  ],
+    selector: 'app-list',
+    templateUrl: './list.component.html',
+    animations: [
+        trigger('open', [
+            transition(':enter', [style({ opacity: 0 }), animate('{{ duration }}s {{ delay }}ms')], {
+                params: {
+                    duration: 0.7,
+                    delay: 0,
+                },
+            }),
+        ]),
+    ],
+    standalone: false
 })
 export class ProjectList implements OnInit {
   projects?: ProjectInfo[];

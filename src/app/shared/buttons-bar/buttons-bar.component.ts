@@ -4,11 +4,10 @@ import { Component, Input } from '@angular/core';
 import { InteractionButton } from '../types';
 
 @Component({
-  selector: 'app-buttons-bar',
-  templateUrl: './buttons-bar.component.html',
-  styleUrls: ['./buttons-bar.component.sass'],
-  standalone: true,
-  imports: [CommonModule]
+    selector: 'app-buttons-bar',
+    templateUrl: './buttons-bar.component.html',
+    styleUrls: ['./buttons-bar.component.sass'],
+    imports: [CommonModule]
 })
 export class ButtonsBarComponent  {
   constructor(private httpClient: HttpClient) { }

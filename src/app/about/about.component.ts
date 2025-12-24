@@ -3,34 +3,34 @@ import { InteractionButton } from '../shared/types';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.sass'],
-  animations: [
-    trigger('load', [
-      transition(':enter', [
-        style({opacity: 0}),
-        animate('{{ duration }}s {{ delay }}ms')
-      ], {
-        params: {
-          duration: .4,
-          delay: 0
-        }
-      }),
-
-    ]),
-    trigger('underline', [
-      transition(':enter', [
-        style({width: 0}),
-        animate('{{ duration }}s {{ delay }}ms ease-in-out')
-      ], {
-        params: {
-          duration: 2,
-          delay: 0
-        }
-      })
-    ]),
-  ]
+    selector: 'app-about',
+    templateUrl: './about.component.html',
+    styleUrls: ['./about.component.sass'],
+    animations: [
+        trigger('load', [
+            transition(':enter', [
+                style({ opacity: 0 }),
+                animate('{{ duration }}s {{ delay }}ms')
+            ], {
+                params: {
+                    duration: .4,
+                    delay: 0
+                }
+            }),
+        ]),
+        trigger('underline', [
+            transition(':enter', [
+                style({ width: 0 }),
+                animate('{{ duration }}s {{ delay }}ms ease-in-out')
+            ], {
+                params: {
+                    duration: 2,
+                    delay: 0
+                }
+            })
+        ]),
+    ],
+    standalone: false
 })
 export class AboutComponent {
   visited = 1;

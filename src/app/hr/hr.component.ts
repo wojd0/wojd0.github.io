@@ -1,9 +1,10 @@
 import { Component, ElementRef, HostListener, Input, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'app-hr',
-  templateUrl: './hr.component.html',
-  styleUrls: ['./hr.component.css']
+    selector: 'app-hr',
+    templateUrl: './hr.component.html',
+    styleUrls: ['./hr.component.css'],
+    standalone: false
 })
 export class HrComponent {
   margin: string = '';
