@@ -1,4 +1,4 @@
-import { provideRouter, Routes } from '@angular/router';
+import { provideRouter, type Routes } from '@angular/router';
 
 const routes: Routes = [];
 

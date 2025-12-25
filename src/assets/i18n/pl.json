@@ -1,59 +1,59 @@
-    {
-      "about": {
-        "title": "JavaScript Developer",
-        "description": "Jestem programistą z\u00a0pasją do\u00a0rozwiązywania problemów. Lubię angażować się w\u00a0ciekawe projekty, które wymagają kreatywnego myślenia. Jestem ambitną osobą, która dąży do\u00a0osiągnięcia swoich\u00a0celów.",
-        "email": "E\u2011mail",
-        "projects": "Moje projekty",
-        "work": "Realizacje"
-      },
-      "projects": {
-        "polyform": {
-          "title": "PolyForms",
-          "description": [
-            "Podobne do Google Forms narzędzie do tworzenia formularzy i\u00a0przeglądu wyników. Zaprojektowany z\u00a0myślą o\u00a0prostocie.",
-            "Oprócz eleganckiego frontu w\u00a0Angularze, stworzyłem również dedykowany serwer API w\u00a0NestJS zapewniający bezpieczeństwo danych i\u00a0kontrolę ich\u00a0typów."
-          ]
-        },
-        "webflowrepo": {
-          "title": "Repozytorium WebFlow",
-          "description": [
-            "Prototyp prostej galerii dla komponentów dla platformy WebFlow. Umożliwia łatwe zarządzanie elementami, posiada stylizowany interfejs stworzony w\u00a0Angularze oraz wykorzystuje API Firebase do\u00a0przechowywania informacji o komponentach.",
-            "\u00a0",
-            "Proszę o\u00a0kontakt w\u00a0sprawie loginu do\u00a0panelu administracyjnego."
-          ]
-        },
-        "derry": {
-          "title": "Wirtualny przewodnik po\u00a0Derry",
-          "description": [
-            "Wirtualny przewodnik dla\u00a0miasta Derry stworzony w\u00a0ramach projektu Erasmus w\u00a0Irlandii Północnej. Odpowiadałem za\u00a0stworzenie interaktywnej mapy miejsc opisanych w\u00a0przewodniku oraz obsługę API strony.",
-            "Zyskał uznanie ze strony recenzentów i\u00a0społeczności lokalnej."
-          ]
-        },
-        "timeline": {
-          "title": "GitHub Timeline",
-          "description": [
-            "Proste narzędzie do\u00a0wizualizacji aktywności repozytorium GitHub. Pozwala zobaczyć działalność w\u00a0formacie osi czasu oraz zapewnia przystępny przegląd wybranego commita."
-          ]
-        },
-        "nocodelib": {
-          "title": "Wtyczki do\u00a0platform\u00a0no\u2011code",
-          "description": [
-            "Obecnie biorę udział w\u00a0tworzeniu usługi umożliwiającej zakup gotowych komponentów dla\u00a0różnych platform\u00a0no\u2011code.",
-            "W projekcie jestem częścią zespołu pracującego nad\u00a0rozszerzeniami dla Webflow, Bubble.io i\u00a0Figma. Wykorzystując React oraz RxJS pracuję nad połączeniem tych wtyczek z API serwisu i\u00a0zapewnieniem płynnego doświadczenia użytkownika z\u00a0filtrowaniem i\u00a0wyszukiwaniem komponentów."
-          ]
-        },
-        "adminpanel":{
-          "title": "Panel administracyjny serwisu komponentów",
-          "description": [
-            "W\u00a0ramach wspomnianego projektu serwisu komponentów no\u2011code, pracuję nad\u00a0 jego panelem administracyjnym.",
-            "Panel ten będzie umożliwiał administratorom zarządzanie komponentami oraz edycję ich\u00a0metadanych. Będzie również pozwalał na\u00a0przeglądanie bieżących statystyk oraz moderację klientów i\u00a0wykupionych przez\u00a0nich subskrybcji."
-          ]
-        },
-        "remotion-tiktoks":{
-          "title": "Generator TikTok'ów w\u00a0Remotion",
-          "description": [
-            "Używając Remotion - bazującym na\u00a0React'cie proceduralnym generatorze wideo - stworzyłem automatyczny generator filmików, który bazując na obrazach, dźwiękach i\u00a0filmikach podanych przez użytkownika tworzy krótkie TikTok'i z\u00a0możliwością dostosowania tekstu wyświetlanego w\u00a0materiale."
-          ]
-        }
-      }
-    }
+{
+	"about": {
+		"title": "JavaScript Developer",
+		"description": "Jestem programistą z\u00a0pasją do\u00a0rozwiązywania problemów. Lubię angażować się w\u00a0ciekawe projekty, które wymagają kreatywnego myślenia. Jestem ambitną osobą, która dąży do\u00a0osiągnięcia swoich\u00a0celów.",
+		"email": "E\u2011mail",
+		"projects": "Moje projekty",
+		"work": "Realizacje"
+	},
+	"projects": {
+		"polyform": {
+			"title": "PolyForms",
+			"description": [
+				"Podobne do Google Forms narzędzie do tworzenia formularzy i\u00a0przeglądu wyników. Zaprojektowany z\u00a0myślą o\u00a0prostocie.",
+				"Oprócz eleganckiego frontu w\u00a0Angularze, stworzyłem również dedykowany serwer API w\u00a0NestJS zapewniający bezpieczeństwo danych i\u00a0kontrolę ich\u00a0typów."
+			]
+		},
+		"webflowrepo": {
+			"title": "Repozytorium WebFlow",
+			"description": [
+				"Prototyp prostej galerii dla komponentów dla platformy WebFlow. Umożliwia łatwe zarządzanie elementami, posiada stylizowany interfejs stworzony w\u00a0Angularze oraz wykorzystuje API Firebase do\u00a0przechowywania informacji o komponentach.",
+				"\u00a0",
+				"Proszę o\u00a0kontakt w\u00a0sprawie loginu do\u00a0panelu administracyjnego."
+			]
+		},
+		"derry": {
+			"title": "Wirtualny przewodnik po\u00a0Derry",
+			"description": [
+				"Wirtualny przewodnik dla\u00a0miasta Derry stworzony w\u00a0ramach projektu Erasmus w\u00a0Irlandii Północnej. Odpowiadałem za\u00a0stworzenie interaktywnej mapy miejsc opisanych w\u00a0przewodniku oraz obsługę API strony.",
+				"Zyskał uznanie ze strony recenzentów i\u00a0społeczności lokalnej."
+			]
+		},
+		"timeline": {
+			"title": "GitHub Timeline",
+			"description": [
+				"Proste narzędzie do\u00a0wizualizacji aktywności repozytorium GitHub. Pozwala zobaczyć działalność w\u00a0formacie osi czasu oraz zapewnia przystępny przegląd wybranego commita."
+			]
+		},
+		"nocodelib": {
+			"title": "Wtyczki do\u00a0platform\u00a0no\u2011code",
+			"description": [
+				"Obecnie biorę udział w\u00a0tworzeniu usługi umożliwiającej zakup gotowych komponentów dla\u00a0różnych platform\u00a0no\u2011code.",
+				"W projekcie jestem częścią zespołu pracującego nad\u00a0rozszerzeniami dla Webflow, Bubble.io i\u00a0Figma. Wykorzystując React oraz RxJS pracuję nad połączeniem tych wtyczek z API serwisu i\u00a0zapewnieniem płynnego doświadczenia użytkownika z\u00a0filtrowaniem i\u00a0wyszukiwaniem komponentów."
+			]
+		},
+		"adminpanel": {
+			"title": "Panel administracyjny serwisu komponentów",
+			"description": [
+				"W\u00a0ramach wspomnianego projektu serwisu komponentów no\u2011code, pracuję nad\u00a0 jego panelem administracyjnym.",
+				"Panel ten będzie umożliwiał administratorom zarządzanie komponentami oraz edycję ich\u00a0metadanych. Będzie również pozwalał na\u00a0przeglądanie bieżących statystyk oraz moderację klientów i\u00a0wykupionych przez\u00a0nich subskrybcji."
+			]
+		},
+		"remotion-tiktoks": {
+			"title": "Generator TikTok'ów w\u00a0Remotion",
+			"description": [
+				"Używając Remotion - bazującym na\u00a0React'cie proceduralnym generatorze wideo - stworzyłem automatyczny generator filmików, który bazując na obrazach, dźwiękach i\u00a0filmikach podanych przez użytkownika tworzy krótkie TikTok'i z\u00a0możliwością dostosowania tekstu wyświetlanego w\u00a0materiale."
+			]
+		}
+	}
+}

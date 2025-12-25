@@ -1,22 +1,17 @@
-
-import { HttpClient } from '@angular/common/http';
-import { Component, Input, inject } from '@angular/core';
-import { InteractionButton } from '../types';
+import { Component, Input } from '@angular/core';
+import type { InteractionButton } from '../types';
 
 @Component({
-    selector: 'app-buttons-bar',
-    templateUrl: './buttons-bar.component.html',
-    styleUrls: ['./buttons-bar.component.sass'],
-    imports: []
+	selector: 'app-buttons-bar',
+	templateUrl: './buttons-bar.component.html',
+	styleUrls: ['./buttons-bar.component.sass'],
+	imports: [],
 })
-export class ButtonsBarComponent  {
-  private httpClient = inject(HttpClient);
+export class ButtonsBarComponent {
+	@Input() btnClass = '';
+	preventLink(event: Event) {
+		event.preventDefault();
+	}
 
-  @Input() btnClass = '';
-  preventLink(event: Event){
-    event.preventDefault();
-  }
-
-  @Input() buttons?: InteractionButton[]
-
+	@Input() buttons?: InteractionButton[];
 }

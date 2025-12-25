@@ -1,59 +1,59 @@
 {
-  "about": {
-    "title": "JavaScript Developer",
-    "description": "I'm a JavaScript Developer with a passion for solving challenges. I enjoy committing to interesting projects that require creative thinking and research. I'm an ambitious person who likes to make things happen.",
-    "email": "E\u2011Mail me",
-    "projects": "My projects",
-    "work": "Recent work"
-  },
-  "projects": {
-    "polyform": {
-      "title": "PolyForms",
-      "description": [
-        "A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
-        "Besides a sleek\u2011looking front end made in Angular, I also created an extensive API server in NestJS featuring data safety and type checking."
-      ]
-    },
-    "webflowrepo": {
-      "title": "Webflow repository",
-      "description": [
-        "A simple gallery for user\u2011created  Webflow components. Features extensive filtering options, easy access management and a stylized design. Created using Firebase API and Angular.",
-        "\u00a0",
-        "Please contact me to obtain a login to the admin panel."
-      ]
-    },
-    "derry": {
-      "title": "Derry Virtual Guide",
-      "description": [
-        "Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. I was involved in creating map of places described in the guide and managing site's API.",
-        "It gained a very positive acclaim from reviewers and local community."
-      ]
-    },
-    "timeline": {
-      "title": "Github Timeline",
-      "description": [
-        "A simple tool for visualizing a Github repository's activity. It allows you to see your activity in a timeline format, providing a quick overview of selected commit."
-      ]
-    },
-    "nocodelib": {
-      "title": "No\u2011Code components library",
-      "description": [
-        "I'm currently participating in a creation of a service for pre\u2011created components for various no\u2011code platforms.",
-        "In the project, I'm part of the team working on extensions for Webflow, Bubble.io and Figma. Using React and RxJS I'm working on connecting those plugins to the service's API and ensuring smooth user experience with filtering and searching for components."
-      ]
-    },
-    "adminpanel":{
-      "title": "Component service's admin panel",
-      "description": [
-        "I have been tasked with creation of an admin panel for mentioned no\u2011code components library.",
-        "The panel is to be used by the service's employees to manage components and their metadata. It will also provide the staff with a way to inspect statistics of the project and manage customers' accounts and subscriptions."
-      ]
-    },
-    "remotion-tiktoks":{
-      "title": "Remotion TikTok generator",
-      "description": [
-        "Using Remotion - React\u2011based procedural video generator - I have created an automated TikTok generator. It can be feeded with pictures, sounds or videos and generate a TikTok with a trending song and a customizable text."
-      ]
-    }
-  }
+	"about": {
+		"title": "JavaScript Developer",
+		"description": "I'm a JavaScript Developer with a passion for solving challenges. I enjoy committing to interesting projects that require creative thinking and research. I'm an ambitious person who likes to make things happen.",
+		"email": "E\u2011Mail me",
+		"projects": "My projects",
+		"work": "Recent work"
+	},
+	"projects": {
+		"polyform": {
+			"title": "PolyForms",
+			"description": [
+				"A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
+				"Besides a sleek\u2011looking front end made in Angular, I also created an extensive API server in NestJS featuring data safety and type checking."
+			]
+		},
+		"webflowrepo": {
+			"title": "Webflow repository",
+			"description": [
+				"A simple gallery for user\u2011created  Webflow components. Features extensive filtering options, easy access management and a stylized design. Created using Firebase API and Angular.",
+				"\u00a0",
+				"Please contact me to obtain a login to the admin panel."
+			]
+		},
+		"derry": {
+			"title": "Derry Virtual Guide",
+			"description": [
+				"Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. I was involved in creating map of places described in the guide and managing site's API.",
+				"It gained a very positive acclaim from reviewers and local community."
+			]
+		},
+		"timeline": {
+			"title": "Github Timeline",
+			"description": [
+				"A simple tool for visualizing a Github repository's activity. It allows you to see your activity in a timeline format, providing a quick overview of selected commit."
+			]
+		},
+		"nocodelib": {
+			"title": "No\u2011Code components library",
+			"description": [
+				"I'm currently participating in a creation of a service for pre\u2011created components for various no\u2011code platforms.",
+				"In the project, I'm part of the team working on extensions for Webflow, Bubble.io and Figma. Using React and RxJS I'm working on connecting those plugins to the service's API and ensuring smooth user experience with filtering and searching for components."
+			]
+		},
+		"adminpanel": {
+			"title": "Component service's admin panel",
+			"description": [
+				"I have been tasked with creation of an admin panel for mentioned no\u2011code components library.",
+				"The panel is to be used by the service's employees to manage components and their metadata. It will also provide the staff with a way to inspect statistics of the project and manage customers' accounts and subscriptions."
+			]
+		},
+		"remotion-tiktoks": {
+			"title": "Remotion TikTok generator",
+			"description": [
+				"Using Remotion - React\u2011based procedural video generator - I have created an automated TikTok generator. It can be feeded with pictures, sounds or videos and generate a TikTok with a trending song and a customizable text."
+			]
+		}
+	}
 }

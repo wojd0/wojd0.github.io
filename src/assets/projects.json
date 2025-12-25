@@ -1,157 +1,157 @@
 [
-  {
-    "name": "webflowrepo",
-    "url": "https://webflowrepo.ct8.pl/",
-    "images": [
-      {
-        "alt": "Screenshot of the Webflow Library project's website",
-        "src": "assets/webflowrepo-ss.png",
-        "full": "assets/complib-full.png"
-      }
-    ],
-    "interactions": [
-      {
-        "name": "TypeScript",
-        "icon": "typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "name": "Angular",
-        "icon": "angular.svg",
-        "url": "https://angular.io/"
-      },
-      {
-        "name": "Firebase",
-        "icon": "firebase.svg",
-        "url": "https://firebase.google.com/"
-      }
-    ],
-    "enabled": true
-  },
-  {
-    "name": "timeline",
-    "description": [
-      "A simple tool for visualizing a Github repository's activity. It allows you to see your activity in a timeline format, providing a quick overview of selected commit."
-    ],
-    "enabled": true,
-    "url": "https://wojd0.github.io/timeline/",
-    "images": [
-      {
-        "alt": "Screenshot of the Github Timeline project's website",
-        "src": "assets/gittimeline-ss.png"
-      }
-    ],
-    "interactions": [
-      {
-        "name": "TypeScript",
-        "icon": "typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "name": "ReactJS",
-        "icon": "react.svg",
-        "url": "https://react.dev/"
-      },
-      {
-        "name": "RxJS",
-        "icon": "rxjs.svg",
-        "url": "https://rxjs.dev/"
-      }
-    ]
-  },
-  {
-    "name": "remotion-tiktoks",
-    "enabled":true,
-      "images":[
-        {
-          "alt": "Demonstration of the Remotion's result video",
-          "src": "assets/remotion.png"
-        }
-      ],
-      "interactions": [
-        {
-          "name": "TypeScript",
-          "icon": "typescript.svg",
-          "url": "https://www.typescriptlang.org/"
-        },
-        {
-          "name": "Remotion",
-          "icon": "remotion.svg",
-          "url": "https://www.remotion.dev/"
-        },
-        {
-          "name": "ReactJS",
-          "icon": "react.svg",
-          "url": "https://react.dev/"
-        }
-      ]
-  },
-  {
-    "name": "derry",
-    "description": [
-      "Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. It gained a very positive reviewer and local community acclaim."
-    ],
-    "url": "https://derry.ct8.pl/",
-    "images": [
-      {
-        "alt": "Screenshot of the Derry Guide project's website",
-        "src": "assets/derry-ss.png",
-        "full": "assets/derry-full.png"
-      }
-    ],
-    "interactions": [
-      {
-        "name": "Wordpress",
-        "icon": "wp.svg",
-        "url": "https://wordpress.org/"
-      },
-      {
-        "name": "Leaflet",
-        "icon": "ph-leaf",
-        "url": "https://leafletjs.com/"
-      }
-    ],
-    "enabled": true
-  },
-  {
-    "name": "polyform",
-    "description": [
-      "A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
-      "Besides a sleek-looking front end, I also created an extensive API server featuring data safety and limitation checks."
-    ],
-    "images": [
-      {
-        "alt": "Screenshot of the PolyForm project's website",
-        "src": "assets/polyform-ss.png"
-      }
-    ],
-    "interactions": [
-      {
-        "name": "TypeScript",
-        "icon": "typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "name": "Angular",
-        "icon": "angular.svg",
-        "url": "https://angular.io/"
-      },
-      {
-        "name": "Beer CSS",
-        "icon": "beercss.svg",
-        "url": "https://beercss.com/"
-      },
-      {
-        "name": "Nest JS",
-        "icon": "nestjs.svg",
-        "url": "https://nestjs.com/"
-      },
-      {
-        "name": "Ngx Charts",
-        "icon": "ngxcharts.svg",
-        "url": "https://swimlane.gitbook.io/ngx-charts/"
-      }
-    ],
-    "enabled": true
-  }
+	{
+		"name": "webflowrepo",
+		"url": "https://webflowrepo.ct8.pl/",
+		"images": [
+			{
+				"alt": "Screenshot of the Webflow Library project's website",
+				"src": "assets/webflowrepo-ss.png",
+				"full": "assets/complib-full.png"
+			}
+		],
+		"interactions": [
+			{
+				"name": "TypeScript",
+				"icon": "typescript.svg",
+				"url": "https://www.typescriptlang.org/"
+			},
+			{
+				"name": "Angular",
+				"icon": "angular.svg",
+				"url": "https://angular.io/"
+			},
+			{
+				"name": "Firebase",
+				"icon": "firebase.svg",
+				"url": "https://firebase.google.com/"
+			}
+		],
+		"enabled": true
+	},
+	{
+		"name": "timeline",
+		"description": [
+			"A simple tool for visualizing a Github repository's activity. It allows you to see your activity in a timeline format, providing a quick overview of selected commit."
+		],
+		"enabled": true,
+		"url": "https://wojd0.github.io/timeline/",
+		"images": [
+			{
+				"alt": "Screenshot of the Github Timeline project's website",
+				"src": "assets/gittimeline-ss.png"
+			}
+		],
+		"interactions": [
+			{
+				"name": "TypeScript",
+				"icon": "typescript.svg",
+				"url": "https://www.typescriptlang.org/"
+			},
+			{
+				"name": "ReactJS",
+				"icon": "react.svg",
+				"url": "https://react.dev/"
+			},
+			{
+				"name": "RxJS",
+				"icon": "rxjs.svg",
+				"url": "https://rxjs.dev/"
+			}
+		]
+	},
+	{
+		"name": "remotion-tiktoks",
+		"enabled": true,
+		"images": [
+			{
+				"alt": "Demonstration of the Remotion's result video",
+				"src": "assets/remotion.png"
+			}
+		],
+		"interactions": [
+			{
+				"name": "TypeScript",
+				"icon": "typescript.svg",
+				"url": "https://www.typescriptlang.org/"
+			},
+			{
+				"name": "Remotion",
+				"icon": "remotion.svg",
+				"url": "https://www.remotion.dev/"
+			},
+			{
+				"name": "ReactJS",
+				"icon": "react.svg",
+				"url": "https://react.dev/"
+			}
+		]
+	},
+	{
+		"name": "derry",
+		"description": [
+			"Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. It gained a very positive reviewer and local community acclaim."
+		],
+		"url": "https://derry.ct8.pl/",
+		"images": [
+			{
+				"alt": "Screenshot of the Derry Guide project's website",
+				"src": "assets/derry-ss.png",
+				"full": "assets/derry-full.png"
+			}
+		],
+		"interactions": [
+			{
+				"name": "Wordpress",
+				"icon": "wp.svg",
+				"url": "https://wordpress.org/"
+			},
+			{
+				"name": "Leaflet",
+				"icon": "ph-leaf",
+				"url": "https://leafletjs.com/"
+			}
+		],
+		"enabled": true
+	},
+	{
+		"name": "polyform",
+		"description": [
+			"A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
+			"Besides a sleek-looking front end, I also created an extensive API server featuring data safety and limitation checks."
+		],
+		"images": [
+			{
+				"alt": "Screenshot of the PolyForm project's website",
+				"src": "assets/polyform-ss.png"
+			}
+		],
+		"interactions": [
+			{
+				"name": "TypeScript",
+				"icon": "typescript.svg",
+				"url": "https://www.typescriptlang.org/"
+			},
+			{
+				"name": "Angular",
+				"icon": "angular.svg",
+				"url": "https://angular.io/"
+			},
+			{
+				"name": "Beer CSS",
+				"icon": "beercss.svg",
+				"url": "https://beercss.com/"
+			},
+			{
+				"name": "Nest JS",
+				"icon": "nestjs.svg",
+				"url": "https://nestjs.com/"
+			},
+			{
+				"name": "Ngx Charts",
+				"icon": "ngxcharts.svg",
+				"url": "https://swimlane.gitbook.io/ngx-charts/"
+			}
+		],
+		"enabled": true
+	}
 ]
