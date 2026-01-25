@@ -10,8 +10,8 @@ export class HrComponent {
 	@ViewChild('gt') gradient!: ElementRef<SVGElement>;
 
 	@Input('colors') colors: { start: string; end: string } = {
-		start: '#00d084',
-		end: '#7bdcb5',
+		start: 'var(--hr-start)',
+		end: 'var(--hr-end)',
 	};
 	// {topStart: '#00d084', topEnd: '#7bdcb5', bottomStart: '#00d084', bottomEnd: '#00d084'}
 }

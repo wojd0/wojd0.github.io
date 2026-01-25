@@ -1,7 +1,17 @@
-@use "tailwindcss"
+@use 'tailwindcss';
+
+@layer base
+  :root
+    --hr-start: #00d084
+    --hr-end: #7bdcb5
+
+  .dark
+    --hr-start: #059669
+    --hr-end: #10b981
 
 html
   scroll-behavior: smooth
+  @apply dark:bg-slate-900 dark:text-slate-100
 
 *
   overflow-x: clip
