@@ -1,6 +1,6 @@
-name = "wojd0-github-io"
-main = "src/worker.js"
-compatibility_date = "2026-01-25"
+name = 'wojd0-github-io'
+main = 'src/worker.js'
+compatibility_date = '2026-01-25'
 
 [site]
-bucket = "./dist/browser"
+bucket = './dist/browser'
