@@ -1,7 +1,7 @@
 <div class="absolute top-0 right-0 md:right-5 md:top-5 flex gap-2 z-50">
   <button (click)="this.toggleDarkMode()"
     class="h-8 w-8 p-1 bg-emerald-300 dark:bg-emerald-700 rounded-xl hover:scale-110 transition-all cursor-pointer grid place-items-center text-emerald-900 dark:text-emerald-100 border-none">
-    <i class="text-xl" [class]="this.darkMode() ? 'ph-sun-fill' : 'ph-moon-fill'"></i>
+    <i class="text-xl ph" [class]="this.darkMode() ? 'ph-sun' : 'ph-moon'"></i>
   </button>
   <img (click)="this.toggleLanguage()"
     class="h-8 w-auto p-1 bg-emerald-300 dark:bg-emerald-700 rounded-xl hover:scale-110 transition-all cursor-pointer"
@@ -16,7 +16,7 @@
 <app-list type="work"></app-list>
 <app-hr></app-hr>
 <app-heading id="projects" text="about.projects"></app-heading>
-<app-list type="projects"></app-list>
+<app-list type="projects"></app-list>-
 <footer class="pt-10 text-center font-bahnschrift">
   <i class="ph ph-copyright"></i>&nbsp;Wojciech Duda 2026
 </footer>
