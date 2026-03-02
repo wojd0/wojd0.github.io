@@ -60,33 +60,6 @@
 		]
 	},
 	{
-		"name": "remotion-tiktoks",
-		"enabled": true,
-		"images": [
-			{
-				"alt": "Demonstration of the Remotion's result video",
-				"src": "assets/remotion.png"
-			}
-		],
-		"interactions": [
-			{
-				"name": "TypeScript",
-				"icon": "typescript.svg",
-				"url": "https://www.typescriptlang.org/"
-			},
-			{
-				"name": "Remotion",
-				"icon": "remotion.svg",
-				"url": "https://www.remotion.dev/"
-			},
-			{
-				"name": "ReactJS",
-				"icon": "react.svg",
-				"url": "https://react.dev/"
-			}
-		]
-	},
-	{
 		"name": "derry",
 		"description": [
 			"Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. It gained a very positive reviewer and local community acclaim."

@@ -57,7 +57,7 @@ export class AboutComponent {
 		},
 		{
 			name: 'GitHub',
-			icon: 'ph-github',
+			icon: 'ph-github-logo',
 			url: 'https://github.com/wojd0',
 		},
 	];

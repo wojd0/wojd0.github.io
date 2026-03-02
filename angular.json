@@ -28,8 +28,10 @@
 						"tsConfig": "tsconfig.app.json",
 						"inlineStyleLanguage": "scss",
 						"assets": ["src/favicon.ico", "src/assets"],
-						"styles": ["src/styles.sass"],
-						"scripts": ["node_modules/phosphor-icons/src/index.js"],
+						"styles": [
+							"src/styles.scss",
+							"https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+						],
 						"browser": "src/main.ts"
 					},
 					"configurations": {
@@ -90,7 +92,7 @@
 						"karmaConfig": "karma.conf.js",
 						"inlineStyleLanguage": "sass",
 						"assets": ["src/favicon.ico", "src/assets"],
-						"styles": ["src/styles.sass"],
+						"styles": ["src/styles.scss"],
 						"scripts": []
 					}
 				},
