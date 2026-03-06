@@ -6,6 +6,8 @@
   --font-bahnschrift: "Bahnschrift", sans-serif;
   --font-josefin: "Josefin Sans", sans-serif;
   --font-lato: "Lato", sans-serif;
+  --color-primary-*: var(--color-emerald-*);
+  --color-secondary-*: var(--color-blue-*);
 }
 
 @layer base {

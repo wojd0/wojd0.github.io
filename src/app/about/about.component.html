@@ -5,9 +5,9 @@
     <h1 class="name transition" [@load]>Wojciech</h1>
     <h1 class="name transition" [@load]>Duda</h1>
     <h2
-      class="text-xl md:text-2xl pt-8 text-gray-800 dark:text-gray-200 font-bahnschrift mx-auto w-fit break-words"
+      class="text-xl md:text-2xl pt-8 text-gray-800 dark:text-gray-200 font-bahnschrift mx-auto w-fit wrap-break-word"
       [@load]="{value:'', params: {delay: 500 / visited}}">{{ 'about.title' | translate }}
-      <div class="border-b-[1px] border-gray-500 dark:border-gray-400 mx-auto mt-2" [@underline]>
+      <div class="border-b border-gray-500 dark:border-gray-400 mx-auto mt-2" [@underline]>
       </div>
     </h2>
   </div>
@@ -21,7 +21,7 @@
     class="w-full flex justify-center pt-6 animate-pulse [animation-duration:8s] [animation-timing-function:ease]"
     [@load]="{value:'', params: {delay: 2000 / visited}}">
     <a href="#work">
-      <i class="text-6xl ph-arrow-down text-emerald-600 dark:text-emerald-400 scale-125"></i>
+      <i class="text-6xl ph-arrow-down text-primary-600 dark:text-primary-400 scale-125"></i>
     </a>
   </div>
 </div>

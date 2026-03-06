@@ -27,7 +27,7 @@
   }
   <div class="w-full p-2 sm:pb-5 grow">
     <h2
-      class="text-4xl font-bold text-center mt-10 md:mt-4 font-josefin text-emerald-500 dark:text-emerald-400 stroke w-full">
+      class="text-4xl font-bold text-center mt-10 md:mt-4 font-josefin text-primary-500 dark:text-primary-400 stroke w-full">
       {{ ('projects.'+this.project.name+'.title') | translate }}</h2>
     <div
       class="basis-full text-center mx-5 mt-4 font-lato text-base lg:text-lg tracking-tight leading-tight">
@@ -37,7 +37,7 @@
       }
     </div>
   </div>
-  <app-buttons-bar btnClass="bg-emerald-700" class="w-full mt-auto basis-32 xl:basis-0"
+  <app-buttons-bar btnClass="bg-primary-700" class="w-full mt-auto basis-32 xl:basis-0"
     [buttons]="this.project.interactions"></app-buttons-bar>
 </article>
 @if (this.open | async) {

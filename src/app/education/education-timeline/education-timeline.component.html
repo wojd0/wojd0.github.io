@@ -1,9 +1,9 @@
 <div class="w-full py-16 mt-32">
-    <div class="h-1 mx-[15vw] rounded-xl bg-emerald-500/40 relative overflow-visible">
+    <div class="h-1 mx-[15vw] rounded-xl bg-primary-500/40 relative overflow-visible">
 
         @for (year of years; track year.label) {
-            <div class="absolute -top-1 h-3 w-px bg-emerald-500/50" [style.left.%]="year.left">
-                <span class="absolute -top-6 text-xs font-mono text-emerald-300/70" style="transform: translateX(-50%)">{{ year.label }}</span>
+            <div class="absolute -top-1 h-3 w-px bg-primary-500/50" [style.left.%]="year.left">
+                <span class="absolute -top-6 text-xs font-mono text-primary-300/70" style="transform: translateX(-50%)">{{ year.label }}</span>
             </div>
         }
 
@@ -17,10 +17,10 @@
             <span slot="title">{{ 'education.university.title' | translate }}</span>
             <span slot="description">{{ 'education.university.description' | translate }}</span>
         </app-education-highlight>
-        <div class="h-1 pt-1 bg-blue-500 absolute top-3 font-medium opacity-90 rounded-xl text-end" [style.left.%]="25" [style.width.%]="75">
+        <div class="h-1 pt-1 bg-secondary-500 absolute top-3 font-medium opacity-90 rounded-xl text-end" [style.left.%]="25" [style.width.%]="75">
             {{ 'education.job' | translate }}
         </div>
-        <div class="absolute top-0 h-1 bg-emerald-500 rounded-l-xl" [style.left.%]="0" [style.width.%]="21"></div>
-        <div class="absolute top-0 h-1 bg-emerald-500 rounded-r-xl" [style.left.%]="56" [style.width.%]="44"></div>
+        <div class="absolute top-0 h-1 bg-primary-500 rounded-l-xl" [style.left.%]="0" [style.width.%]="21"></div>
+        <div class="absolute top-0 h-1 bg-primary-500 rounded-r-xl" [style.left.%]="56" [style.width.%]="44"></div>
     </div>
 </div>
