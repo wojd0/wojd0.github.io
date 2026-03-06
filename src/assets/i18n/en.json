@@ -4,7 +4,8 @@
 		"description": "I'm a JavaScript Developer with a passion for solving challenges. I enjoy working on projects that require technical thinking and creativity.",
 		"email": "E\u2011Mail me",
 		"projects": "My projects",
-		"work": "Recent work"
+		"work": "Recent work",
+		"education": "Education"
 	},
 	"projects": {
 		"polyform": {

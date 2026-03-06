@@ -6,18 +6,20 @@ import { HrComponent } from './hr/hr.component';
 import { ProjectList } from './projectList/list.component';
 import { HeadingComponent } from './shared/heading/heading.component';
 import { HideNotLoadedDirective } from './shared/hideNotLoaded.directive';
+import { EducationTimelineComponent } from "./education/education-timeline/education-timeline.component";
 
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
 	styleUrls: ['./app.component.sass'],
 	imports: [
-		HideNotLoadedDirective,
-		AboutComponent,
-		HeadingComponent,
-		ProjectList,
-		HrComponent,
-	],
+    HideNotLoadedDirective,
+    AboutComponent,
+    HeadingComponent,
+    ProjectList,
+    HrComponent,
+    EducationTimelineComponent
+],
 })
 export class AppComponent {
 	private translateService = inject(TranslateService);
