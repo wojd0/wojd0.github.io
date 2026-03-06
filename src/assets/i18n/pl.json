@@ -55,5 +55,18 @@
 				"Używając Remotion - bazującym na\u00a0React'cie proceduralnym generatorze wideo - stworzyłem automatyczny generator filmików, który bazując na obrazach, dźwiękach i\u00a0filmikach podanych przez użytkownika tworzy krótkie TikTok'i z\u00a0możliwością dostosowania tekstu wyświetlanego w\u00a0materiale."
 			]
 		}
+	},
+	"education": {
+		"highschool": {
+			"label": "2019 - 2023",
+			"title": "Technik informatyk",
+			"description": "Zespół Szkół Technicznych w Wodzisławiu Śląskim"
+		},
+		"university": {
+			"label": "2024 - obecnie",
+			"title": "Studia inżynierskie na kierunku informatyka",
+			"description": "Uniwersytet WSB Merito w Chorzowie"
+		},
+		"job": "Praca na pełen etat"
 	}
 }

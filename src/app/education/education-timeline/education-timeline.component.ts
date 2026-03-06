@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { EducationHighlightComponent } from '../education-highlight/education-highlight.component';
 
 @Component({
 	selector: 'app-education-timeline',
-	imports: [EducationHighlightComponent],
+	imports: [EducationHighlightComponent, TranslateModule],
 	templateUrl: './education-timeline.component.html',
 	styleUrl: './education-timeline.component.sass',
 })

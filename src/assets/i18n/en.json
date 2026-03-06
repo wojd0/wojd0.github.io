@@ -50,5 +50,18 @@
 				"The panel is to be used by the service's employees to manage components and their metadata. It will also provide the staff with a way to inspect statistics of the project and manage customers' accounts and subscriptions."
 			]
 		}
+	},
+	"education": {
+		"highschool": {
+			"label": "2019 - 2023",
+			"title": "Technical High School, IT specialist qualificaiton",
+			"description": "Zespół Szkół Technicznych in Wodzisław Śląski"
+		},
+		"university": {
+			"label": "2024 - present",
+			"title": "Bachelor's Degree in Computer Science",
+			"description": "WSB Merito Chorzów"
+		},
+		"job": "Full-time job"
 	}
 }
