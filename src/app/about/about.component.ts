@@ -56,6 +56,11 @@ export class AboutComponent {
 			url: 'mailto:contact@wojciech-duda.com',
 		},
 		{
+			name: 'LinkedIn',
+			icon: 'ph-linkedin-logo',
+			url: 'https://www.linkedin.com/in/wojciechduda3/',
+		},
+		{
 			name: 'GitHub',
 			icon: 'ph-github-logo',
 			url: 'https://github.com/wojd0',

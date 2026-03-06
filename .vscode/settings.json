@@ -20,5 +20,8 @@
 		"strings": true
 	},
 	"scss.lint.unknownAtRules": "ignore",
-	"css.lint.unknownAtRules": "ignore"
+	"css.lint.unknownAtRules": "ignore",
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	}
 }
