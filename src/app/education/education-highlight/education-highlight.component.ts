@@ -18,6 +18,8 @@ export class EducationHighlightComponent {
 	}
 
 	get tooltipClasses(): string {
-		return this.position() === 'top' ? 'bottom-full mb-3' : 'top-full mt-3';
+		return this.position() === 'top'
+			? 'bottom-full mb-17 md:mb-3'
+			: 'top-full mt-17 md:mt-3';
 	}
 }
