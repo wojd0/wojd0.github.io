@@ -1,4 +1,4 @@
-<div class="absolute top-0 right-0 md:right-5 md:top-5 flex gap-2 z-50">
+<div class="absolute right-1 top-1 flex gap-2 z-50">
   <button (click)="this.toggleDarkMode()" aria-label="Toggle dark mode"
     class="h-8 w-8 p-1 bg-primary-500 dark:bg-primary-700 rounded-xl hover:scale-110 transition-all cursor-pointer grid place-items-center text-white border-none shadow-sm">
     <i class="text-xl ph" [class]="this.darkMode() ? 'ph-sun' : 'ph-moon'"></i>
@@ -37,6 +37,6 @@
     <app-list type="projects" class="block my-10"></app-list>
   </section>
 </main>
-<footer class="pt-10 text-center font-bahnschrift">
+<footer class="pt-10 pb-1 text-center font-bahnschrift">
   <i class="ph ph-copyright"></i>&nbsp;Wojciech Duda 2026
 </footer>
