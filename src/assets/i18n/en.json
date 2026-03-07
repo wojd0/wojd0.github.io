@@ -49,12 +49,18 @@
 				"I created an admin panel for mentioned no\u2011code components library.",
 				"The panel is used by the service's employees to manage components and their metadata. It also provides the staff with a way to inspect statistics of the project and manage customers' accounts and subscriptions."
 			]
+		},
+		"remotion-tiktoks": {
+			"title": "TikTok Generator in\u00a0Remotion",
+			"description": [
+				"Using Remotion - a React-based procedural video generator - I created an automated video generator that, based on images, sounds, and clips provided by the user, creates short TikToks with customizable text displayed in the footage."
+			]
 		}
 	},
 	"education": {
 		"highschool": {
 			"label": "2019 - 2023",
-			"title": "Technical High School, IT\u00a0specialist qualificaiton",
+			"title": "Technical High School, IT\u00a0specialist qualification",
 			"description": "Zespół Szkół Technicznych, Wodzisław Śląski"
 		},
 		"university": {
