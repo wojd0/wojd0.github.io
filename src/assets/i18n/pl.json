@@ -60,12 +60,12 @@
 		"highschool": {
 			"label": "2019 - 2023",
 			"title": "Technik informatyk",
-			"description": "Zespół Szkół Technicznych w Wodzisławiu Śląskim"
+			"description": "Zespół Szkół Technicznych w\u00a0Wodzisławiu Śląskim"
 		},
 		"university": {
 			"label": "2024 - obecnie",
-			"title": "Studia inżynierskie na kierunku informatyka",
-			"description": "Uniwersytet WSB Merito w Chorzowie"
+			"title": "Studia inżynierskie na\u00a0kierunku informatyka",
+			"description": "Uniwersytet WSB Merito w\u00a0Chorzowie"
 		},
 		"job": "Praca na pełen etat"
 	}

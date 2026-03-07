@@ -9,15 +9,28 @@
 </div>
 <button class="opacity-0 text-3xl hover:opacity-100 absolute top-0 left-0"
   (click)="this.secret()">🤫</button>
-<app-about></app-about>
+<main class="">
+  <section id="hero">
+    <app-about class="block mb-30 mt-20"></app-about>
+  </section>
 
-<app-heading id="work" text="about.education"></app-heading>
-<app-education-timeline></app-education-timeline>
-<app-heading id="work" text="about.work"></app-heading>
-<app-list type="work"></app-list>
-<app-hr></app-hr>
-<app-heading id="projects" text="about.projects"></app-heading>
-<app-list type="projects"></app-list>-
+  <section id="education">
+    <app-heading text="about.education" class="block mb-8"></app-heading>
+    <app-education-timeline class="block py-16 mt-32"></app-education-timeline>
+  </section>
+
+  <section id="work">
+    <app-heading text="about.work" class="block mb-8"></app-heading>
+    <app-list type="work" class="block my-10"></app-list>
+  </section>
+
+  <app-hr></app-hr>
+
+  <section id="projects">
+    <app-heading text="about.projects" class="block mb-8"></app-heading>
+    <app-list type="projects" class="block my-10"></app-list>
+  </section>
+</main>
 <footer class="pt-10 text-center font-bahnschrift">
   <i class="ph ph-copyright"></i>&nbsp;Wojciech Duda 2026
 </footer>

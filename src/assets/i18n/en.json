@@ -54,12 +54,12 @@
 	"education": {
 		"highschool": {
 			"label": "2019 - 2023",
-			"title": "Technical High School, IT specialist qualificaiton",
-			"description": "Zespół Szkół Technicznych in Wodzisław Śląski"
+			"title": "Technical High School, IT\u00a0specialist qualificaiton",
+			"description": "Zespół Szkół Technicznych, Wodzisław Śląski"
 		},
 		"university": {
 			"label": "2024 - present",
-			"title": "Bachelor's Degree in Computer Science",
+			"title": "Bachelor's Degree in\u00a0Computer Science",
 			"description": "WSB Merito Chorzów"
 		},
 		"job": "Full-time job"
