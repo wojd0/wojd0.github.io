@@ -1,12 +1,15 @@
+@reference '#styles';
+
 article
   box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 1)
+  @apply dark:shadow-[0px_0px_40px_-25px_rgba(255,255,255,0.1)]
 .stroke
   text-shadow: 1px 1px rgb(29 78 216)
 .box-shadow
   box-shadow: 5px 4px gray
+  @apply dark:shadow-[5px_4px_#4b5563]
 .hover-button
   opacity: 0
-  color: rgb(52 211 153)
   font-size: 3.75rem
   line-height: 1
   z-index: 20

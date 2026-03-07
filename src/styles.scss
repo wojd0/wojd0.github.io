@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-bahnschrift: "Bahnschrift", sans-serif;
+  --font-josefin: "Josefin Sans", sans-serif;
+  --color-primary-50: var(--color-emerald-50);
+  --color-primary-100: var(--color-emerald-100);
+  --color-primary-200: var(--color-emerald-200);
+  --color-primary-300: var(--color-emerald-300);
+  --color-primary-400: var(--color-emerald-400);
+  --color-primary-500: var(--color-emerald-500);
+  --color-primary-600: var(--color-emerald-600);
+  --color-primary-700: var(--color-emerald-700);
+  --color-primary-800: var(--color-emerald-800);
+  --color-primary-900: var(--color-emerald-900);
+  --color-primary-950: var(--color-emerald-950);
+  --color-secondary-50: var(--color-blue-50);
+  --color-secondary-100: var(--color-blue-100);
+  --color-secondary-200: var(--color-blue-200);
+  --color-secondary-300: var(--color-blue-300);
+  --color-secondary-400: var(--color-blue-400);
+  --color-secondary-500: var(--color-blue-500);
+  --color-secondary-600: var(--color-blue-600);
+  --color-secondary-700: var(--color-blue-700);
+  --color-secondary-800: var(--color-blue-800);
+  --color-secondary-900: var(--color-blue-900);
+  --color-secondary-950: var(--color-blue-950);
+
+  --color-page: var(--color-slate-50);
+  --color-page-foreground: var(--color-slate-900);
+  --color-card: var(--color-white);
+  --color-page-border: var(--color-gray-200);
+}
+
+.dark {
+  --color-page: var(--color-slate-900);
+  --color-page-foreground: var(--color-slate-100);
+  --color-card: var(--color-slate-800);
+  --color-page-border: var(--color-gray-700);
+}
+
+@layer base {
+  :root {
+    --hr-start: #00d084;
+    --hr-end: #7bdcb5;
+  }
+
+  .dark {
+    --hr-start: #059669;
+    --hr-end: #10b981;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  @apply bg-page text-page-foreground transition-colors duration-300;
+}
+
+@layer components {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.10);
+  }
+
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0.08);
+  }
+
+  .text-shadow-none {
+    text-shadow: none;
+  }
+
+  .absolute-center {
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
+}

@@ -29,6 +29,7 @@ export interface InteractionButton {
 	name: string;
 	icon: string;
 	url: string;
+	target?: string
 }
 
 /**

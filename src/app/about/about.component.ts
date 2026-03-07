@@ -53,17 +53,17 @@ export class AboutComponent {
 		{
 			name: 'E-Mail me',
 			icon: 'ph-envelope',
-			url: 'mailto:wojciechduda03@gmail.com',
+			url: 'mailto:contact@wojciech-duda.com',
+		},
+		{
+			name: 'LinkedIn',
+			icon: 'ph-linkedin-logo',
+			url: 'https://www.linkedin.com/in/wojciechduda3/',
 		},
 		{
 			name: 'GitHub',
 			icon: 'ph-github-logo',
 			url: 'https://github.com/wojd0',
-		},
-		{
-			name: 'Upwork',
-			icon: 'upwork.svg',
-			url: 'https://www.upwork.com/freelancers/~016bbdbafee3f36314',
 		},
 	];
 }

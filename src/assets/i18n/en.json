@@ -1,10 +1,41 @@
 {
 	"about": {
 		"title": "JavaScript Developer",
-		"description": "I'm a JavaScript Developer with a passion for solving challenges. I enjoy committing to interesting projects that require creative thinking and research. I'm an ambitious person who likes to make things happen.",
+		"description": "I'm a JavaScript Developer with a passion for solving challenges. I enjoy working on projects that require technical thinking and creativity.",
 		"email": "E\u2011Mail me",
 		"projects": "My projects",
-		"work": "Recent work"
+		"work": "Recent work",
+		"education": "Education",
+		"experience": "Experience"
+	},
+	"skills": {
+		"angular": "Angular",
+		"typescript": "TypeScript",
+		"javascript": "JavaScript",
+		"saas": "SaaS",
+		"git": "Git",
+		"cicd": "CI/CD",
+		"cloud": "Cloud",
+		"sysarch": "System Architecture",
+		"react": "React",
+		"nodejs": "Node.js",
+		"sass": "SASS",
+		"webflow": "Webflow",
+		"nocode": "No-Code",
+		"wordpress": "WordPress",
+		"joomla": "Joomla",
+		"seo": "SEO",
+		"gcp": "GCP",
+		"bootstrap": "Bootstrap",
+		"jquery": "jQuery",
+		"ecommerce": "E-commerce",
+		"firebase": "Firebase",
+		"rxjs": "RxJS",
+		"leaflet": "Leaflet",
+		"beercss": "Beer CSS",
+		"nestjs": "NestJS",
+		"ngxcharts": "Ngx Charts",
+		"echarts": "Apache ECharts"
 	},
 	"projects": {
 		"polyform": {
@@ -38,22 +69,61 @@
 		"nocodelib": {
 			"title": "No\u2011Code components library",
 			"description": [
-				"I'm currently participating in a creation of a service for pre\u2011created components for various no\u2011code platforms.",
-				"In the project, I'm part of the team working on extensions for Webflow, Bubble.io and Figma. Using React and RxJS I'm working on connecting those plugins to the service's API and ensuring smooth user experience with filtering and searching for components."
+				"I participated in a creation of a service for pre\u2011created components for various no\u2011code platforms.",
+				"In the project, I was part of the team working on extensions for Webflow, Bubble.io and Figma. Using React and RxJS I connected those plugins to the service's API and ensured smooth user experience with filtering and searching for components."
 			]
 		},
 		"adminpanel": {
 			"title": "Component service's admin panel",
 			"description": [
-				"I have been tasked with creation of an admin panel for mentioned no\u2011code components library.",
-				"The panel is to be used by the service's employees to manage components and their metadata. It will also provide the staff with a way to inspect statistics of the project and manage customers' accounts and subscriptions."
+				"I created an admin panel for mentioned no\u2011code components library.",
+				"The panel is used by the service's employees to manage components and their metadata. It also provides the staff with a way to inspect statistics of the project and manage customers' accounts and subscriptions."
 			]
 		},
 		"remotion-tiktoks": {
-			"title": "Remotion TikTok generator",
+			"title": "TikTok Generator in\u00a0Remotion",
 			"description": [
-				"Using Remotion - React\u2011based procedural video generator - I have created an automated TikTok generator. It can be feeded with pictures, sounds or videos and generate a TikTok with a trending song and a customizable text."
+				"Using Remotion - a React-based procedural video generator - I created an automated video generator that, based on images, sounds, and clips provided by the user, creates short TikToks with customizable text displayed in the footage."
 			]
+		}
+	},
+	"education": {
+		"highschool": {
+			"label": "2019 - 2023",
+			"title": "Technical High School, IT\u00a0specialist qualification",
+			"description": "Zespół Szkół Technicznych, Wodzisław Śląski"
+		},
+		"university": {
+			"label": "2024 - present",
+			"title": "Bachelor's Degree in\u00a0Computer Science",
+			"description": "WSB Merito Chorzów"
+		},
+		"job": "Full-time job"
+	},
+	"experience": {
+		"hyland": {
+			"title": "Frontend Web Developer",
+			"company": "Hyland",
+			"dates": "Jul 2023 \u2013 Present",
+			"location": "Remote",
+			"type": "Full-time",
+			"description": "Building and maintaining enterprise\u2011grade SaaS applications using Angular and TypeScript. Working on cloud\u2011based solutions with focus on user experience, CI/CD pipelines, process automation and system architecture."
+		},
+		"eternals": {
+			"title": "Freelance JavaScript Developer",
+			"company": "The Eternals \u2013 Low Code / Automation / Webflow Agency",
+			"dates": "Mar 2023 \u2013 Jul 2023",
+			"location": "Remote",
+			"type": "Freelance",
+			"description": "Developed front-end features, plugins and no\u2011code integrations for various platforms. Built solutions using React, Angular and Node.js while delivering marketing automation tools and SaaS\u00a0components."
+		},
+		"freelance": {
+			"title": "Freelance Web Developer",
+			"company": "Self-employed",
+			"dates": "May 2021 \u2013 May 2022",
+			"location": "Hybrid \u2013 Wodzis\u0142aw \u015al\u0105ski, Poland",
+			"type": "Freelance",
+			"description": "Created 4 fully fledged websites in WordPress and Joomla. Responsible for designing, building, customising and SEO\u2011optimising those sites. Also tested various cloud computing services including GCP."
 		}
 	}
 }

@@ -1,0 +1,21 @@
+<div class="relative flex flex-col items-center group">
+    <div class="h-6 w-6 rounded-full bg-primary-400 relative flex items-center justify-center cursor-pointer ring-2 ring-primary-300/30 transition-all duration-300 group-hover:ring-primary-300/60 group-hover:scale-110">
+        <div class="h-2.5 w-2.5 rounded-full bg-white"></div>
+    </div>
+
+    <div class="w-0.5 h-24 md:h-10 bg-primary-400/60 absolute left-1/2 -translate-x-1/2" [class]="stemClasses"></div>
+
+    <div class="absolute left-1/2 -translate-x-1/2 z-10" [class]="tooltipClasses">
+        <div class="bg-card border border-primary-500/30 rounded-xl px-3 py-3 shadow-xl shadow-black/40 min-w-48 md:min-w-60 text-center backdrop-blur-sm">
+            <div class="text-primary-400 dark:text-primary-300 text-sm font-semibold uppercase tracking-widest mb-1">
+                <ng-content select="[slot=label]"></ng-content>
+            </div>
+            <div class="text-page-foreground font-medium leading-snug text-base md:text-lg font-bahnschrift">
+                <ng-content select="[slot=title]"></ng-content>
+            </div>
+            <div class="text-page-foreground/60 text-sm mt-1 leading-relaxed">
+                <ng-content select="[slot=description]"></ng-content>
+            </div>
+        </div>
+    </div>
+</div>
