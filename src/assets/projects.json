@@ -11,17 +11,17 @@
 		],
 		"interactions": [
 			{
-				"name": "TypeScript",
+				"name": "typescript",
 				"icon": "typescript.svg",
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
-				"name": "Angular",
+				"name": "angular",
 				"icon": "angular.svg",
 				"url": "https://angular.io/"
 			},
 			{
-				"name": "Firebase",
+				"name": "firebase",
 				"icon": "firebase.svg",
 				"url": "https://firebase.google.com/"
 			}
@@ -43,17 +43,17 @@
 		],
 		"interactions": [
 			{
-				"name": "TypeScript",
+				"name": "typescript",
 				"icon": "typescript.svg",
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
-				"name": "ReactJS",
+				"name": "react",
 				"icon": "react.svg",
 				"url": "https://react.dev/"
 			},
 			{
-				"name": "RxJS",
+				"name": "rxjs",
 				"icon": "rxjs.svg",
 				"url": "https://rxjs.dev/"
 			}
@@ -74,12 +74,12 @@
 		],
 		"interactions": [
 			{
-				"name": "Wordpress",
+				"name": "wordpress",
 				"icon": "wp.svg",
 				"url": "https://wordpress.org/"
 			},
 			{
-				"name": "Leaflet",
+				"name": "leaflet",
 				"icon": "ph-leaf",
 				"url": "https://leafletjs.com/"
 			}
@@ -100,27 +100,27 @@
 		],
 		"interactions": [
 			{
-				"name": "TypeScript",
+				"name": "typescript",
 				"icon": "typescript.svg",
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
-				"name": "Angular",
+				"name": "angular",
 				"icon": "angular.svg",
 				"url": "https://angular.io/"
 			},
 			{
-				"name": "Beer CSS",
+				"name": "beercss",
 				"icon": "beercss.svg",
 				"url": "https://beercss.com/"
 			},
 			{
-				"name": "Nest JS",
+				"name": "nestjs",
 				"icon": "nestjs.svg",
 				"url": "https://nestjs.com/"
 			},
 			{
-				"name": "Ngx Charts",
+				"name": "ngxcharts",
 				"icon": "ngxcharts.svg",
 				"url": "https://swimlane.gitbook.io/ngx-charts/"
 			}

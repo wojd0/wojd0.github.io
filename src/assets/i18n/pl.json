@@ -5,7 +5,37 @@
 		"email": "E\u2011mail",
 		"projects": "Moje projekty",
 		"work": "Realizacje",
-		"education": "Edukacja"
+		"education": "Edukacja",
+		"experience": "Do\u015bwiadczenie"
+	},
+	"skills": {
+		"angular": "Angular",
+		"typescript": "TypeScript",
+		"javascript": "JavaScript",
+		"saas": "SaaS",
+		"git": "Git",
+		"cicd": "CI/CD",
+		"cloud": "Chmura",
+		"sysarch": "Architektura system\u00f3w",
+		"react": "React",
+		"nodejs": "Node.js",
+		"sass": "SASS",
+		"webflow": "Webflow",
+		"nocode": "No-Code",
+		"wordpress": "WordPress",
+		"joomla": "Joomla",
+		"seo": "SEO",
+		"gcp": "GCP",
+		"bootstrap": "Bootstrap",
+		"jquery": "jQuery",
+		"ecommerce": "E-commerce",
+		"firebase": "Firebase",
+		"rxjs": "RxJS",
+		"leaflet": "Leaflet",
+		"beercss": "Beer CSS",
+		"nestjs": "NestJS",
+		"ngxcharts": "Ngx Charts",
+		"echarts": "Apache ECharts"
 	},
 	"projects": {
 		"polyform": {
@@ -68,6 +98,32 @@
 			"title": "Studia inżynierskie na\u00a0kierunku informatyka",
 			"description": "Uniwersytet WSB Merito w\u00a0Chorzowie"
 		},
-		"job": "Praca na pełen etat"
+		"job": "Praca na pe\u0142en etat"
+	},
+	"experience": {
+		"hyland": {
+			"title": "Frontend Web Developer",
+			"company": "Hyland",
+			"dates": "lip 2023 \u2013 obecnie",
+			"location": "Praca zdalna",
+			"type": "Umowa o\u00a0prac\u0119",
+			"description": "Tworzenie i\u00a0utrzymywanie aplikacji SaaS klasy enterprise w\u00a0Angularze i\u00a0TypeScript. Praca nad rozwi\u0105zaniami chmurowymi z\u00a0naciskiem na UX, CI/CD, automatyzacj\u0119 proces\u00f3w i\u00a0architektur\u0119 system\u00f3w."
+		},
+		"eternals": {
+			"title": "Freelance JavaScript Developer",
+			"company": "The Eternals \u2013 Low Code / Automation / Webflow Agency",
+			"dates": "mar 2023 \u2013 lip 2023",
+			"location": "Praca zdalna",
+			"type": "Umowa zlecenie",
+			"description": "Tworzenie funkcjonalno\u015bci front-end, wtyczek i\u00a0integracji no\u2011code dla r\u00f3\u017cnych platform. Budowanie rozwi\u0105za\u0144 w\u00a0React, Angular i\u00a0Node.js oraz dostarczanie narz\u0119dzi do\u00a0automatyzacji marketingu i\u00a0komponent\u00f3w SaaS."
+		},
+		"freelance": {
+			"title": "Freelance Web Developer",
+			"company": "Dzia\u0142alno\u015b\u0107 w\u0142asna",
+			"dates": "maj 2021 \u2013 maj 2022",
+			"location": "Praca hybrydowa \u2013 pow. wodzis\u0142awski",
+			"type": "Umowa zlecenie",
+			"description": "Stworzenie 4 kompletnych stron internetowych w\u00a0WordPressie i\u00a0Joomli. Odpowiedzialno\u015b\u0107 za\u00a0projektowanie, tworzenie, dostosowywanie i\u00a0optymalizacj\u0119 SEO tych stron. Testowanie r\u00f3\u017cnych us\u0142ug cloud computing, w\u00a0tym GCP."
+		}
 	}
 }

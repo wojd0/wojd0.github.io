@@ -5,17 +5,17 @@
 		"images": [],
 		"interactions": [
 			{
-				"name": "TypeScript",
+				"name": "typescript",
 				"icon": "typescript.svg",
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
-				"name": "RxJS",
+				"name": "rxjs",
 				"icon": "rxjs.svg",
 				"url": "https://rxjs.dev/"
 			},
 			{
-				"name": "ReactJS",
+				"name": "react",
 				"icon": "react.svg",
 				"url": "https://react.dev/"
 			}
@@ -27,17 +27,17 @@
 		"images": [],
 		"interactions": [
 			{
-				"name": "TypeScript",
+				"name": "typescript",
 				"icon": "typescript.svg",
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
-				"name": "Angular",
+				"name": "angular",
 				"icon": "angular.svg",
 				"url": "https://angular.io/"
 			},
 			{
-				"name": "Apache echarts",
+				"name": "echarts",
 				"icon": "apache-echarts.svg",
 				"url": "https://echarts.apache.org/"
 			}

@@ -6,11 +6,11 @@
     <div class="w-0.5 h-10 bg-primary-400/60 absolute left-1/2 -translate-x-1/2" [class]="stemClasses"></div>
 
     <div class="absolute left-1/2 -translate-x-1/2 z-10" [class]="tooltipClasses">
-        <div class="bg-card border border-primary-500/30 rounded-xl px-3 py-3 shadow-xl shadow-black/40 min-w-52 text-center backdrop-blur-sm">
-            <div class="text-primary-400 dark:text-primary-300 text-xs font-semibold uppercase tracking-widest mb-1">
+        <div class="bg-card border border-primary-500/30 rounded-xl px-3 py-3 shadow-xl shadow-black/40 min-w-60 text-center backdrop-blur-sm">
+            <div class="text-primary-400 dark:text-primary-300 text-sm font-semibold uppercase tracking-widest mb-1">
                 <ng-content select="[slot=label]"></ng-content>
             </div>
-            <div class="text-page-foreground font-medium leading-snug font-bahnschrift">
+            <div class="text-page-foreground font-medium leading-snug text-lg font-bahnschrift">
                 <ng-content select="[slot=title]"></ng-content>
             </div>
             <div class="text-page-foreground/60 text-sm mt-1 leading-relaxed">

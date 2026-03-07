@@ -37,8 +37,8 @@
       }
     </div>
   </div>
-  <app-buttons-bar btnClass="bg-primary-700" class="w-full mt-auto basis-32 xl:basis-0"
-    [buttons]="this.project.interactions"></app-buttons-bar>
+  <app-tag-bar class="w-full mt-auto basis-32 xl:basis-0"
+    [tags]="this.tags"></app-tag-bar>
 </article>
 @if (this.open | async) {
 <div class="w-full h-full absolute-center fixed grid place-items-center z-50 bg-[rgba(0,0,0,.5)]"
