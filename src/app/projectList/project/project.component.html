@@ -14,7 +14,7 @@
       </a>
       <div class="hover-button text-primary-400 dark:text-primary-300 absolute-center">
         @if (this.project.url) {
-        <a [href]="this.project.url" target="_blank">
+        <a [href]="this.project.url" target="_blank" rel="noopener noreferrer" aria-label="Visit project">
           <i class="ph-link"></i>
         </a>
         }
@@ -26,9 +26,9 @@
   </div>
   }
   <div class="w-full p-2 sm:pb-5 grow">
-    <h2
+    <h3
       class="text-4xl font-bold text-center mt-10 md:mt-4 font-josefin text-primary-500 dark:text-primary-400 stroke w-full">
-      {{ ('projects.'+this.project.name+'.title') | translate }}</h2>
+      {{ ('projects.'+this.project.name+'.title') | translate }}</h3>
     <div
       class="basis-full text-center mx-5 mt-4 font-lato text-base lg:text-lg tracking-tight leading-tight text-page-foreground/80 transition-colors duration-300">
       @for (paragraph of ('projects.'+this.project.name+'.description') | translate; track

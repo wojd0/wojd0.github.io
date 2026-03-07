@@ -42,6 +42,8 @@ export class AppComponent {
 			this.translateService.use(browserLanguage);
 
 		this.language.set(this.translateService.currentLang);
+		this.document.documentElement.lang =
+			this.translateService.currentLang || 'en';
 
 		const lsDark = localStorage.getItem('darkMode');
 		const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -69,6 +71,7 @@ export class AppComponent {
 
 	toggleLanguage() {
 		localStorage.setItem('lang', this.nextLanguage());
+		this.document.documentElement.lang = this.nextLanguage();
 		this.secret();
 	}
 

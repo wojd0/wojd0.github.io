@@ -2,29 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Primary Meta Tags -->
-  <title>Wojciech Duda | Portfolio</title>
-  <meta name="title" content="Wojciech Duda | Web Developer">
-  <meta name="description" content="">
+  <title>Wojciech Duda | JavaScript Developer – Portfolio</title>
+  <meta name="title" content="Wojciech Duda | JavaScript Developer – Portfolio">
+  <meta name="description" content="Portfolio of Wojciech Duda – JavaScript Developer specializing in Angular, TypeScript, React and Node.js. Explore my projects, professional experience and skills.">
+  <meta name="keywords" content="Wojciech Duda, JavaScript Developer, Angular Developer, TypeScript, React, Node.js, Frontend Developer, Web Developer, Portfolio">
+  <meta name="author" content="Wojciech Duda">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://wojciech-duda.com/">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://wojd0.github.io/">
-  <meta property="og:title" content="Wojciech Duda | Web Developer">
-  <meta property="og:image" content="/assets/meta-preview.png">
+  <meta property="og:url" content="https://wojciech-duda.com/">
+  <meta property="og:title" content="Wojciech Duda | JavaScript Developer – Portfolio">
+  <meta property="og:description" content="Portfolio of Wojciech Duda – JavaScript Developer specializing in Angular, TypeScript, React and Node.js. Explore my projects, professional experience and skills.">
+  <meta property="og:image" content="https://wojciech-duda.com/assets/meta-preview.png">
+  <meta property="og:site_name" content="Wojciech Duda Portfolio">
+  <meta property="og:locale" content="en_US">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://wojd0.github.io/">
-  <meta property="twitter:title" content="Wojciech Duda | Web Developer">
-  <meta property="twitter:image" content="/assets/meta-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://wojciech-duda.com/">
+  <meta name="twitter:title" content="Wojciech Duda | JavaScript Developer – Portfolio">
+  <meta name="twitter:description" content="Portfolio of Wojciech Duda – JavaScript Developer specializing in Angular, TypeScript, React and Node.js. Explore my projects, professional experience and skills.">
+  <meta name="twitter:image" content="https://wojciech-duda.com/assets/meta-preview.png">
 
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Wojciech Duda",
+    "url": "https://wojciech-duda.com/",
+    "jobTitle": "JavaScript Developer",
+    "sameAs": [
+      "https://www.linkedin.com/in/wojciechduda3/",
+      "https://github.com/wojd0"
+    ],
+    "knowsAbout": ["Angular", "TypeScript", "JavaScript", "React", "Node.js", "SaaS", "CI/CD", "Cloud"],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Hyland"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "WSB Merito Chorzów"
+    }
+  }
+  </script>
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
   <link href="https://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- GitHub Pages SPA redirect handler -->
+  <script>
+    (function(){
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 </head>
 <body>
   <app-root></app-root>

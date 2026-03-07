@@ -27,7 +27,13 @@
 						"polyfills": ["src/polyfills.ts"],
 						"tsConfig": "tsconfig.app.json",
 						"inlineStyleLanguage": "scss",
-						"assets": ["src/favicon.ico", "src/assets"],
+						"assets": [
+							"src/favicon.ico",
+							"src/assets",
+							"src/robots.txt",
+							"src/sitemap.xml",
+							"src/404.html"
+						],
 						"styles": [
 							"src/styles.scss",
 							"https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
