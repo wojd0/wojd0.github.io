@@ -1,11 +1,12 @@
 <div class="absolute top-0 right-0 md:right-5 md:top-5 flex gap-2 z-50">
   <button (click)="this.toggleDarkMode()"
-    class="h-8 w-8 p-1 bg-primary-300 dark:bg-primary-700 rounded-xl hover:scale-110 transition-all cursor-pointer grid place-items-center text-primary-900 dark:text-primary-100 border-none">
+    class="h-8 w-8 p-1 bg-primary-500 dark:bg-primary-700 rounded-xl hover:scale-110 transition-all cursor-pointer grid place-items-center text-white border-none shadow-sm">
     <i class="text-xl ph" [class]="this.darkMode() ? 'ph-sun' : 'ph-moon'"></i>
   </button>
-  <img (click)="this.toggleLanguage()"
-    class="h-8 w-auto p-1 bg-primary-300 dark:bg-primary-700 rounded-xl hover:scale-110 transition-all cursor-pointer"
-    [src]="this.flag()" a-hideNotLoaded />
+  <div (click)="this.toggleLanguage()"
+    class="h-8 w-8 p-1 bg-primary-500 dark:bg-primary-700 rounded-xl hover:scale-110 transition-all cursor-pointer grid place-items-center shadow-sm">
+    <img class="h-full w-auto" [src]="this.flag()" a-hideNotLoaded />
+  </div>
 </div>
 <button class="opacity-0 text-3xl hover:opacity-100 absolute top-0 left-0"
   (click)="this.secret()">🤫</button>

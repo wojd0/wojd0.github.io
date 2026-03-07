@@ -1,5 +1,5 @@
 <article
-  class="sm:pb-3 black mt-10 sm:mt-0 h-full flex flex-col border-gray-400 dark:border-gray-600">
+  class="sm:pb-3 black mt-10 sm:mt-0 h-full flex flex-col border-page-border transition-colors duration-300">
   @if (this.project.images.length > 0) {
   <div class="flex-none h-64 mx-auto group mt-5 relative sm:pb-16" target="_blank">
     <div class="w-full h-full transition-all">
@@ -30,7 +30,7 @@
       class="text-4xl font-bold text-center mt-10 md:mt-4 font-josefin text-primary-500 dark:text-primary-400 stroke w-full">
       {{ ('projects.'+this.project.name+'.title') | translate }}</h2>
     <div
-      class="basis-full text-center mx-5 mt-4 font-lato text-base lg:text-lg tracking-tight leading-tight">
+      class="basis-full text-center mx-5 mt-4 font-lato text-base lg:text-lg tracking-tight leading-tight text-page-foreground/80 transition-colors duration-300">
       @for (paragraph of ('projects.'+this.project.name+'.description') | translate; track
       paragraph) {
       <p class="mt-1">{{ paragraph }}</p>

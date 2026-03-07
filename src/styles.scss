@@ -27,6 +27,18 @@
   --color-secondary-800: var(--color-blue-800);
   --color-secondary-900: var(--color-blue-900);
   --color-secondary-950: var(--color-blue-950);
+
+  --color-page: var(--color-slate-50);
+  --color-page-foreground: var(--color-slate-900);
+  --color-card: var(--color-white);
+  --color-page-border: var(--color-gray-200);
+}
+
+.dark {
+  --color-page: var(--color-slate-900);
+  --color-page-foreground: var(--color-slate-100);
+  --color-card: var(--color-slate-800);
+  --color-page-border: var(--color-gray-700);
 }
 
 @layer base {
@@ -43,7 +55,7 @@
 
 html {
   scroll-behavior: smooth;
-  @apply dark:bg-slate-900 dark:text-slate-100;
+  @apply bg-page text-page-foreground transition-colors duration-300;
 }
 
 @layer components {
