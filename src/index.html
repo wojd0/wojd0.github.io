@@ -53,12 +53,18 @@
   }
   </script>
 
-  <!-- Fonts -->
+  <!-- Fonts (non-render-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
-  <link href="https://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.cdnfonts.com/css/bahnschrift">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Lato:wght@400;700&display=swap">
+  <link href="https://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript>
+    <link href="https://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  </noscript>
 
   <base href="/">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
