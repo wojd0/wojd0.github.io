@@ -38,15 +38,15 @@
 		"nocodelib": {
 			"title": "Wtyczki do\u00a0platform\u00a0no\u2011code",
 			"description": [
-				"Obecnie biorę udział w\u00a0tworzeniu usługi umożliwiającej zakup gotowych komponentów dla\u00a0różnych platform\u00a0no\u2011code.",
-				"W projekcie jestem częścią zespołu pracującego nad\u00a0rozszerzeniami dla Webflow, Bubble.io i\u00a0Figma. Wykorzystując React oraz RxJS pracuję nad połączeniem tych wtyczek z API serwisu i\u00a0zapewnieniem płynnego doświadczenia użytkownika z\u00a0filtrowaniem i\u00a0wyszukiwaniem komponentów."
+				"Brałem udział w\u00a0tworzeniu usługi umożliwiającej zakup gotowych komponentów dla\u00a0różnych platform\u00a0no\u2011code.",
+				"W projekcie byłem częścią zespołu pracującego nad\u00a0rozszerzeniami dla Webflow, Bubble.io i\u00a0Figma. Wykorzystując React oraz RxJS pracowałem nad połączeniem tych wtyczek z API serwisu i\u00a0zapewnieniem płynnego doświadczenia użytkownika z\u00a0filtrowaniem i\u00a0wyszukiwaniem komponentów."
 			]
 		},
 		"adminpanel": {
 			"title": "Panel administracyjny serwisu komponentów",
 			"description": [
-				"W\u00a0ramach wspomnianego projektu serwisu komponentów no\u2011code, pracuję nad\u00a0 jego panelem administracyjnym.",
-				"Panel ten będzie umożliwiał administratorom zarządzanie komponentami oraz edycję ich\u00a0metadanych. Będzie również pozwalał na\u00a0przeglądanie bieżących statystyk oraz moderację klientów i\u00a0wykupionych przez\u00a0nich subskrybcji."
+				"W\u00a0ramach wspomnianego projektu serwisu komponentów no\u2011code, stworzyłem jego panel administracyjny.",
+				"Panel ten umożliwia administratorom zarządzanie komponentami oraz edycję ich\u00a0metadanych. Pozwala również na\u00a0przeglądanie bieżących statystyk oraz moderację klientów i\u00a0wykupionych przez\u00a0nich subskrybcji."
 			]
 		},
 		"remotion-tiktoks": {

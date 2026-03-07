@@ -39,15 +39,15 @@
 		"nocodelib": {
 			"title": "No\u2011Code components library",
 			"description": [
-				"I'm currently participating in a creation of a service for pre\u2011created components for various no\u2011code platforms.",
-				"In the project, I'm part of the team working on extensions for Webflow, Bubble.io and Figma. Using React and RxJS I'm working on connecting those plugins to the service's API and ensuring smooth user experience with filtering and searching for components."
+				"I participated in a creation of a service for pre\u2011created components for various no\u2011code platforms.",
+				"In the project, I was part of the team working on extensions for Webflow, Bubble.io and Figma. Using React and RxJS I connected those plugins to the service's API and ensured smooth user experience with filtering and searching for components."
 			]
 		},
 		"adminpanel": {
 			"title": "Component service's admin panel",
 			"description": [
-				"I have been tasked with creation of an admin panel for mentioned no\u2011code components library.",
-				"The panel is to be used by the service's employees to manage components and their metadata. It will also provide the staff with a way to inspect statistics of the project and manage customers' accounts and subscriptions."
+				"I created an admin panel for mentioned no\u2011code components library.",
+				"The panel is used by the service's employees to manage components and their metadata. It also provides the staff with a way to inspect statistics of the project and manage customers' accounts and subscriptions."
 			]
 		}
 	},
