@@ -40,6 +40,7 @@
 	"projects": {
 		"polyform": {
 			"title": "PolyForms",
+			"imageAlt": "Zrzut ekranu projektu PolyForms",
 			"description": [
 				"Podobne do Google Forms narzędzie do tworzenia formularzy i\u00a0przeglądu wyników. Zaprojektowany z\u00a0myślą o\u00a0prostocie.",
 				"Oprócz eleganckiego frontu w\u00a0Angularze, stworzyłem również dedykowany serwer API w\u00a0NestJS zapewniający bezpieczeństwo danych i\u00a0kontrolę ich\u00a0typów."
@@ -47,6 +48,7 @@
 		},
 		"webflowrepo": {
 			"title": "Repozytorium WebFlow",
+			"imageAlt": "Zrzut ekranu projektu Webflow Library",
 			"description": [
 				"Prototyp prostej galerii dla komponentów dla platformy WebFlow. Umożliwia łatwe zarządzanie elementami, posiada stylizowany interfejs stworzony w\u00a0Angularze oraz wykorzystuje API Firebase do\u00a0przechowywania informacji o komponentach.",
 				"\u00a0",
@@ -55,6 +57,7 @@
 		},
 		"derry": {
 			"title": "Wirtualny przewodnik po\u00a0Derry",
+			"imageAlt": "Zrzut ekranu projektu przewodnika po Derry",
 			"description": [
 				"Wirtualny przewodnik dla\u00a0miasta Derry stworzony w\u00a0ramach projektu Erasmus w\u00a0Irlandii Północnej. Odpowiadałem za\u00a0stworzenie interaktywnej mapy miejsc opisanych w\u00a0przewodniku oraz obsługę API strony.",
 				"Zyskał uznanie ze strony recenzentów i\u00a0społeczności lokalnej."
@@ -62,6 +65,7 @@
 		},
 		"timeline": {
 			"title": "GitHub Timeline",
+			"imageAlt": "Zrzut ekranu projektu GitHub Timeline",
 			"description": [
 				"Proste narzędzie do\u00a0wizualizacji aktywności repozytorium GitHub. Pozwala zobaczyć działalność w\u00a0formacie osi czasu oraz zapewnia przystępny przegląd wybranego commita."
 			]
@@ -125,5 +129,15 @@
 			"type": "Umowa zlecenie",
 			"description": "Stworzenie 4 kompletnych stron internetowych w\u00a0WordPressie i\u00a0Joomli. Odpowiedzialno\u015b\u0107 za\u00a0projektowanie, tworzenie, dostosowywanie i\u00a0optymalizacj\u0119 SEO tych stron. Testowanie r\u00f3\u017cnych us\u0142ug cloud computing, w\u00a0tym GCP."
 		}
+	},
+	"a11y": {
+		"toggleDarkMode": "Przełącz tryb ciemny",
+		"switchLanguage": "Zmień język",
+		"switchToLanguage": "Przełącz na angielski",
+		"scrollToEducation": "Przewiń do sekcji edukacja",
+		"previewImage": "Podgląd zdjęcia projektu",
+		"visitProject": "Odwiedź projekt",
+		"reset": "Resetuj",
+		"icon": "ikona"
 	}
 }

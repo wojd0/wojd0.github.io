@@ -4,21 +4,21 @@
   <div class="flex-none h-64 mx-auto group mt-5 relative sm:pb-16" target="_blank">
     <div class="w-full h-full transition-all">
       <div class="w-full h-full absolute z-20">
-        <img [src]="this.project.images[0].src" [alt]="this.project.images[0].alt"
-          class="object-contain origin-center lg:scale-90" NgOptimizedImage>
+        <img [src]="this.project.images[0].src" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
+          class="object-contain origin-center lg:scale-90" loading="lazy">
       </div>
-      <img [src]="this.project.images[0].src" [alt]="this.project.images[0].alt"
-        class="-z-10 blur-sm h-full opacity-70" NgOptimizedImage>
-      <a target="_blank"
+      <img [src]="this.project.images[0].src" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
+        class="-z-10 blur-sm h-full opacity-70" loading="lazy">
+      <span
         class="block w-full bg-black h-full opacity-0 group-hover:opacity-60 blur transition-all absolute-center z-20">
-      </a>
+      </span>
       <div class="hover-button text-primary-400 dark:text-primary-300 absolute-center">
         @if (this.project.url) {
-        <a [href]="this.project.url" target="_blank" rel="noopener noreferrer" aria-label="Visit project">
+        <a [href]="this.project.url" target="_blank" rel="noopener noreferrer" [attr.aria-label]="'a11y.visitProject' | translate">
           <i class="ph-link"></i>
         </a>
         }
-        <button (click)="this.open.next(true)">
+        <button (click)="this.open.next(true)" [attr.aria-label]="'a11y.previewImage' | translate">
           <i class="ph-eye"></i>
         </button>
       </div>
@@ -44,6 +44,6 @@
 <div class="w-full h-full absolute-center fixed grid place-items-center z-50 bg-[rgba(0,0,0,.5)]"
   (click)="this.open.next(false)">
   <img [src]="this.project.images[0].full || this.project.images[0].src"
-    [alt]="this.project.images[0].alt" class="[draggable:false]" NgOptimizedImage>
+    [alt]="('projects.' + this.project.name + '.imageAlt') | translate" class="[draggable:false]" loading="lazy">
 </div>
 }

@@ -40,6 +40,7 @@
 	"projects": {
 		"polyform": {
 			"title": "PolyForms",
+			"imageAlt": "Screenshot of the PolyForms project",
 			"description": [
 				"A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
 				"Besides a sleek\u2011looking front end made in Angular, I also created an extensive API server in NestJS featuring data safety and type checking."
@@ -47,6 +48,7 @@
 		},
 		"webflowrepo": {
 			"title": "Webflow repository",
+			"imageAlt": "Screenshot of the Webflow Library project",
 			"description": [
 				"A simple gallery for user\u2011created  Webflow components. Features extensive filtering options, easy access management and a stylized design. Created using Firebase API and Angular.",
 				"\u00a0",
@@ -55,6 +57,7 @@
 		},
 		"derry": {
 			"title": "Derry Virtual Guide",
+			"imageAlt": "Screenshot of the Derry Virtual Guide project",
 			"description": [
 				"Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. I was involved in creating map of places described in the guide and managing site's API.",
 				"It gained a very positive acclaim from reviewers and local community."
@@ -62,6 +65,7 @@
 		},
 		"timeline": {
 			"title": "Github Timeline",
+			"imageAlt": "Screenshot of the Github Timeline project",
 			"description": [
 				"A simple tool for visualizing a Github repository's activity. It allows you to see your activity in a timeline format, providing a quick overview of selected commit."
 			]
@@ -125,5 +129,15 @@
 			"type": "Freelance",
 			"description": "Created 4 fully fledged websites in WordPress and Joomla. Responsible for designing, building, customising and SEO\u2011optimising those sites. Also tested various cloud computing services including GCP."
 		}
+	},
+	"a11y": {
+		"toggleDarkMode": "Toggle dark mode",
+		"switchLanguage": "Switch language",
+		"switchToLanguage": "Switch to Polish",
+		"scrollToEducation": "Scroll to education section",
+		"previewImage": "Preview project image",
+		"visitProject": "Visit project",
+		"reset": "Reset",
+		"icon": "icon"
 	}
 }

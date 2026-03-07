@@ -1,12 +1,13 @@
-import { Component, Input, computed, inject, input } from '@angular/core';
+import { Component, computed, Input, inject, input } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import { TranslateModule } from '@ngx-translate/core';
 import type { InteractionButton } from '../types';
 
 @Component({
 	selector: 'app-buttons-bar',
 	templateUrl: './buttons-bar.component.html',
 	styleUrls: ['./buttons-bar.component.sass'],
-	imports: [],
+	imports: [TranslateModule],
 })
 export class ButtonsBarComponent {
 	private sanitizer = inject(DomSanitizer);

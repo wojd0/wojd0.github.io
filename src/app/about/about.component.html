@@ -21,7 +21,7 @@
   <div
     class="w-full flex justify-center pt-6 animate-pulse [animation-duration:8s] [animation-timing-function:ease]"
     [@load]="{value:'', params: {delay: 2000 / visited}}">
-    <a href="#education">
+    <a href="#education" [attr.aria-label]="'a11y.scrollToEducation' | translate">
       <i class="text-6xl ph-arrow-down text-primary-600 dark:text-primary-400 scale-125"></i>
     </a>
   </div>

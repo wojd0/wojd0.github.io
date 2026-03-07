@@ -1,6 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, computed, effect, inject, signal } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { AboutComponent } from './about/about.component';
 import { EducationTimelineComponent } from './education/education-timeline/education-timeline.component';
 import { ExperienceTimelineComponent } from './experience/experience-timeline.component';
@@ -21,6 +21,7 @@ import { HideNotLoadedDirective } from './shared/hideNotLoaded.directive';
 		HrComponent,
 		EducationTimelineComponent,
 		ExperienceTimelineComponent,
+		TranslateModule,
 	],
 })
 export class AppComponent {

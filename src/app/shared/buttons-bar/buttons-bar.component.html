@@ -7,7 +7,7 @@
     >
     <div class="w-16 grid place-items-center">
       <img #img class="h-8 object-center object-contain brightness-0 invert"
-        [src]="'assets/' + button.icon" [alt]="button.name + ' icon'" (error)="img.hidden = !(i.hidden = false)" />
+        [src]="'assets/' + button.icon" [alt]="button.name + ' ' + ('a11y.icon' | translate)" loading="lazy" (error)="img.hidden = !(i.hidden = false)" />
       <i #i hidden="true" class="text-3xl justify-center text-white" [class]="'ph ' + button.icon"></i>
     </div>
     <span
