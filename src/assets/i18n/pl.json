@@ -1,7 +1,6 @@
 {
 	"about": {
-		"title": "JavaScript Developer",
-		"description": "Jestem programistą z\u00a0pasją do\u00a0rozwiązywania problemów. Lubię angażować się w\u00a0ciekawe projekty, które wymagają kreatywnego myślenia. Jestem ambitną osobą, która dąży do\u00a0osiągnięcia swoich\u00a0celów.",
+		"description": "Pracuję z\u00a0pasją do\u00a0rozwiązywania problemów. Lubię pracować nad projektami, które wymagają technicznego myślenia i\u00a0kreatywności.",
 		"email": "E\u2011mail",
 		"projects": "Moje projekty",
 		"work": "Realizacje",
@@ -114,7 +113,7 @@
 			"description": "Tworzenie i\u00a0utrzymywanie aplikacji SaaS klasy enterprise w\u00a0Angularze i\u00a0TypeScript. Praca nad rozwi\u0105zaniami chmurowymi z\u00a0naciskiem na UX, CI/CD, automatyzacj\u0119 proces\u00f3w i\u00a0architektur\u0119 system\u00f3w."
 		},
 		"eternals": {
-			"title": "Freelance JavaScript Developer",
+			"title": "Freelance Software Developer",
 			"company": "The Eternals \u2013 Low Code / Automation / Webflow Agency",
 			"dates": "mar 2023 \u2013 lip 2023",
 			"location": "Praca zdalna",
