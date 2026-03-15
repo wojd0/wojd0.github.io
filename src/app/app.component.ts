@@ -1,27 +1,26 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, computed, effect, inject, signal } from '@angular/core';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { TranslateService } from '@ngx-translate/core';
 import { AboutComponent } from './about/about.component';
 import { EducationTimelineComponent } from './education/education-timeline/education-timeline.component';
 import { ExperienceTimelineComponent } from './experience/experience-timeline.component';
 import { HrComponent } from './hr/hr.component';
 import { ProjectList } from './projectList/list.component';
 import { HeadingComponent } from './shared/heading/heading.component';
-import { HideNotLoadedDirective } from './shared/hideNotLoaded.directive';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
 	styleUrls: ['./app.component.sass'],
 	imports: [
-		HideNotLoadedDirective,
+		ToolbarComponent,
 		AboutComponent,
 		HeadingComponent,
 		ProjectList,
 		HrComponent,
 		EducationTimelineComponent,
 		ExperienceTimelineComponent,
-		TranslateModule,
 	],
 })
 export class AppComponent {
