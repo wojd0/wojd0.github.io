@@ -3,16 +3,16 @@
   <a #btn class="group bg-primary-500 hover:bg-primary-400 dark:bg-primary-600 dark:hover:bg-primary-500
   p-2 rounded-full md:rouned-3xl flex items-center shadow-custom text-white {{this.btnClass}} mb-3"
     [href]="button.url" (click)="button.url.length < 1 ? this.preventLink($event) : null" [target]="button.url ? '_blank' : ''"
-    [attr.aria-label]="button.name" rel="noopener noreferrer"
+    [attr.aria-label]="button.name | translate" rel="noopener noreferrer"
     >
     <div class="w-16 grid place-items-center">
       <img #img class="h-8 object-center object-contain brightness-0 invert"
-        [src]="'assets/' + button.icon" [alt]="button.name + ' ' + ('a11y.icon' | translate)" loading="lazy" (error)="img.hidden = !(i.hidden = false)" />
+        [src]="'assets/' + button.icon" [alt]="(button.name | translate) + ' ' + ('a11y.icon' | translate)" loading="lazy" (error)="img.hidden = !(i.hidden = false)" />
       <i #i hidden="true" class="text-3xl justify-center text-white" [class]="'ph ' + button.icon"></i>
     </div>
     <span
       class="motion-safe:transition-all duration-200 whitespace-nowrap origin-left max-w-prose pr-3 overflow-hidden xl:pr-0 xl:max-w-0 font-bahnschrift text-lg text-white {{ expandClasses() }}">
-      {{ button.name }}&nbsp;
+      {{ button.name | translate }}&nbsp;
     </span>
   </a>
   }
