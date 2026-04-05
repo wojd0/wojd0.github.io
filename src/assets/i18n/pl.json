@@ -1,11 +1,11 @@
 {
 	"about": {
-		"description": "Pracuję z\u00a0pasją do\u00a0rozwiązywania problemów. Lubię pracować nad projektami, które wymagają technicznego myślenia i\u00a0kreatywności.",
-		"email": "E\u2011mail",
+		"description": "Pasjonuje mnie rozwiązywanie problemów. Lubię pracować nad projektami wymagającymi technicznego myślenia i\u00a0kreatywności.",
+		"email": "Napisz e\u2011mail",
 		"projects": "Moje projekty",
 		"work": "Realizacje",
 		"education": "Edukacja",
-		"experience": "Do\u015bwiadczenie"
+		"experience": "Doświadczenie"
 	},
 	"skills": {
 		"angular": "Angular",
@@ -15,7 +15,7 @@
 		"git": "Git",
 		"cicd": "CI/CD",
 		"cloud": "Chmura",
-		"sysarch": "Architektura system\u00f3w",
+		"sysarch": "Architektura systemów",
 		"react": "React",
 		"nodejs": "Node.js",
 		"sass": "SASS",
@@ -42,67 +42,67 @@
 			"title": "PolyForms",
 			"imageAlt": "Zrzut ekranu projektu PolyForms",
 			"description": [
-				"Podobne do Google Forms narzędzie do tworzenia formularzy i\u00a0przeglądu wyników. Zaprojektowany z\u00a0myślą o\u00a0prostocie.",
-				"Oprócz eleganckiego frontu w\u00a0Angularze, stworzyłem również dedykowany serwer API w\u00a0NestJS zapewniający bezpieczeństwo danych i\u00a0kontrolę ich\u00a0typów."
+				"Narzędzie do tworzenia formularzy i\u00a0przeglądania wyników, podobne do Google Forms. Zaprojektowane z\u00a0myślą o\u00a0prostocie.",
+				"Oprócz eleganckiego front endu stworzonego w\u00a0Angularze, zbudowałem również rozbudowany serwer API w\u00a0NestJS zapewniający bezpieczeństwo danych i\u00a0kontrolę typów."
 			]
 		},
 		"webflowrepo": {
-			"title": "Repozytorium WebFlow",
+			"title": "Repozytorium Webflow",
 			"imageAlt": "Zrzut ekranu projektu Webflow Library",
 			"description": [
-				"Prototyp prostej galerii dla komponentów dla platformy WebFlow. Umożliwia łatwe zarządzanie elementami, posiada stylizowany interfejs stworzony w\u00a0Angularze oraz wykorzystuje API Firebase do\u00a0przechowywania informacji o komponentach.",
+				"Prosta galeria komponentów Webflow tworzonych przez użytkowników. Oferuje rozbudowane opcje filtrowania, łatwe zarządzanie dostępem oraz stylizowany design. Stworzona z\u00a0wykorzystaniem Firebase API i\u00a0Angulara.",
 				"\u00a0",
-				"Proszę o\u00a0kontakt w\u00a0sprawie loginu do\u00a0panelu administracyjnego."
+				"Proszę o\u00a0kontakt w\u00a0celu uzyskania loginu do\u00a0panelu administracyjnego."
 			]
 		},
 		"derry": {
 			"title": "Wirtualny przewodnik po\u00a0Derry",
-			"imageAlt": "Zrzut ekranu projektu przewodnika po Derry",
+			"imageAlt": "Zrzut ekranu projektu wirtualnego przewodnika po\u00a0Derry",
 			"description": [
-				"Wirtualny przewodnik dla\u00a0miasta Derry stworzony w\u00a0ramach projektu Erasmus w\u00a0Irlandii Północnej. Odpowiadałem za\u00a0stworzenie interaktywnej mapy miejsc opisanych w\u00a0przewodniku oraz obsługę API strony.",
-				"Zyskał uznanie ze strony recenzentów i\u00a0społeczności lokalnej."
+				"Wirtualny przewodnik po mieście Derry stworzony w\u00a0ramach projektu Erasmus w\u00a0Irlandii Północnej. Byłem zaangażowany w\u00a0tworzenie mapy miejsc opisanych w\u00a0przewodniku oraz zarządzanie API\u00a0strony.",
+				"Projekt zyskał bardzo pozytywne opinie recenzentów i\u00a0lokalnej społeczności."
 			]
 		},
 		"timeline": {
-			"title": "GitHub Timeline",
-			"imageAlt": "Zrzut ekranu projektu GitHub Timeline",
+			"title": "Github Timeline",
+			"imageAlt": "Zrzut ekranu projektu Github Timeline",
 			"description": [
-				"Proste narzędzie do\u00a0wizualizacji aktywności repozytorium GitHub. Pozwala zobaczyć działalność w\u00a0formacie osi czasu oraz zapewnia przystępny przegląd wybranego commita."
+				"Proste narzędzie do wizualizacji aktywności repozytorium Github. Pozwala zobaczyć aktywność w\u00a0formacie osi czasu, zapewniając szybki podgląd wybranego\u00a0commita."
 			]
 		},
 		"nocodelib": {
-			"title": "Wtyczki do\u00a0platform\u00a0no\u2011code",
+			"title": "Biblioteka komponentów no\u2011code",
 			"description": [
-				"Brałem udział w\u00a0tworzeniu usługi umożliwiającej zakup gotowych komponentów dla\u00a0różnych platform\u00a0no\u2011code.",
-				"W projekcie byłem częścią zespołu pracującego nad\u00a0rozszerzeniami dla Webflow, Bubble.io i\u00a0Figma. Wykorzystując React oraz RxJS pracowałem nad połączeniem tych wtyczek z API serwisu i\u00a0zapewnieniem płynnego doświadczenia użytkownika z\u00a0filtrowaniem i\u00a0wyszukiwaniem komponentów."
+				"Brałem udział w\u00a0tworzeniu serwisu oferującego gotowe komponenty dla różnych platform\u00a0no\u2011code.",
+				"W projekcie byłem częścią zespołu pracującego nad rozszerzeniami dla Webflow, Bubble.io i\u00a0Figma. Korzystając z\u00a0Reacta i\u00a0RxJS, połączyłem te wtyczki z\u00a0API serwisu i\u00a0zapewniłem płynne doświadczenie użytkownika w\u00a0zakresie filtrowania i\u00a0wyszukiwania komponentów."
 			]
 		},
 		"adminpanel": {
 			"title": "Panel administracyjny serwisu komponentów",
 			"description": [
-				"W\u00a0ramach wspomnianego projektu serwisu komponentów no\u2011code, stworzyłem jego panel administracyjny.",
-				"Panel ten umożliwia administratorom zarządzanie komponentami oraz edycję ich\u00a0metadanych. Pozwala również na\u00a0przeglądanie bieżących statystyk oraz moderację klientów i\u00a0wykupionych przez\u00a0nich subskrybcji."
+				"Stworzyłem panel administracyjny dla wspomnianej biblioteki komponentów\u00a0no\u2011code.",
+				"Panel jest wykorzystywany przez pracowników serwisu do zarządzania komponentami i\u00a0ich metadanymi. Umożliwia również przeglądanie statystyk projektu oraz zarządzanie kontami i\u00a0subskrypcjami klientów."
 			]
 		},
 		"remotion-tiktoks": {
-			"title": "Generator TikTok'ów w\u00a0Remotion",
+			"title": "Generator TikToków w\u00a0Remotion",
 			"description": [
-				"Używając Remotion - bazującym na\u00a0React'cie proceduralnym generatorze wideo - stworzyłem automatyczny generator filmików, który bazując na obrazach, dźwiękach i\u00a0filmikach podanych przez użytkownika tworzy krótkie TikTok'i z\u00a0możliwością dostosowania tekstu wyświetlanego w\u00a0materiale."
+				"Korzystając z\u00a0Remotion \u2011 opartego na React proceduralnego generatora wideo \u2011 stworzyłem automatyczny generator filmików, który na podstawie obrazów, dźwięków i\u00a0klipów dostarczonych przez użytkownika tworzy krótkie TikToki z\u00a0konfigurowalnym tekstem wyświetlanym w\u00a0materiale."
 			]
 		}
 	},
 	"education": {
 		"highschool": {
 			"label": "2019 - 2023",
-			"title": "Technik informatyk",
-			"description": "Zespół Szkół Technicznych w\u00a0Wodzisławiu Śląskim"
+			"title": "Technikum, kwalifikacja technik\u00a0informatyk",
+			"description": "Zespół Szkół Technicznych, Wodzisław Śląski"
 		},
 		"university": {
 			"label": "2024 - obecnie",
-			"title": "Studia inżynierskie na\u00a0kierunku informatyka",
-			"description": "Uniwersytet WSB Merito w\u00a0Chorzowie"
+			"title": "Studia inżynierskie, kierunek\u00a0informatyka",
+			"description": "WSB Merito Chorzów"
 		},
-		"job": "Praca na pe\u0142en etat"
+		"job": "Praca na pełen etat"
 	},
 	"experience": {
 		"hyland": {
@@ -110,24 +110,30 @@
 			"company": "Hyland",
 			"dates": "lip 2023 \u2013 obecnie",
 			"location": "Praca zdalna",
-			"type": "Umowa o\u00a0prac\u0119",
-			"description": "Tworzenie i\u00a0utrzymywanie aplikacji SaaS klasy enterprise w\u00a0Angularze i\u00a0TypeScript. Praca nad rozwi\u0105zaniami chmurowymi z\u00a0naciskiem na UX, CI/CD, automatyzacj\u0119 proces\u00f3w i\u00a0architektur\u0119 system\u00f3w."
+			"type": "Pełen etat",
+			"description": [
+				"Tworzenie i\u00a0utrzymywanie aplikacji SaaS klasy enterprise do automatyzacji procesów, z\u00a0wykorzystaniem Angulara i\u00a0TypeScriptu. Rozwijam nowe funkcjonalności i\u00a0ulepszenia produktu w\u00a0kreatywnym, zwinnym środowisku z\u00a0naciskiem na najlepsze praktyki\u00a0UX.",
+				"Pracuję również nad usprawnieniem procesu developmentu poprzez optymalizację pipeline'ów CI/CD, migrację bazy kodu przez kolejne wersje Angulara oraz wdrażanie nowego, wewnętrznego designu opartego na\u00a0Material."
+			]
 		},
 		"eternals": {
 			"title": "Freelance Software Developer",
 			"company": "The Eternals \u2013 Low Code / Automation / Webflow Agency",
 			"dates": "mar 2023 \u2013 lip 2023",
 			"location": "Praca zdalna",
-			"type": "Umowa zlecenie",
-			"description": "Tworzenie funkcjonalno\u015bci front-end, wtyczek i\u00a0integracji no\u2011code dla r\u00f3\u017cnych platform. Budowanie rozwi\u0105za\u0144 w\u00a0React, Angular i\u00a0Node.js oraz dostarczanie narz\u0119dzi do\u00a0automatyzacji marketingu i\u00a0komponent\u00f3w SaaS."
+			"type": "Freelance",
+			"description": [
+				"Tworzenie front endu dla przeglądarek opartych na Chromium oraz integracji no\u2011code dla różnych\u00a0platform.",
+				"Wykorzystywałem React, Angular i\u00a0Node.js, współpracowałem z\u00a0designerem przy tworzeniu przyjaznych interfejsów i\u00a0zapewnieniu płynnego doświadczenia użytkownika. Prowadziłem regularne spotkania synchronizacyjne z\u00a0klientem, aby upewnić się, że produkt spełnia oczekiwania."
+			]
 		},
 		"freelance": {
 			"title": "Freelance Web Developer",
-			"company": "Dzia\u0142alno\u015b\u0107 w\u0142asna",
+			"company": "Działalność własna",
 			"dates": "maj 2021 \u2013 maj 2022",
-			"location": "Praca hybrydowa \u2013 pow. wodzis\u0142awski",
-			"type": "Umowa zlecenie",
-			"description": "Stworzenie 4 kompletnych stron internetowych w\u00a0WordPressie i\u00a0Joomli. Odpowiedzialno\u015b\u0107 za\u00a0projektowanie, tworzenie, dostosowywanie i\u00a0optymalizacj\u0119 SEO tych stron. Testowanie r\u00f3\u017cnych us\u0142ug cloud computing, w\u00a0tym GCP."
+			"location": "Praca hybrydowa \u2013 Wodzisław Śląski",
+			"type": "Freelance",
+			"description": "Stworzenie 4 kompletnych stron internetowych w\u00a0WordPressie i\u00a0Joomli. Odpowiedzialność za projektowanie, budowę, dostosowywanie i\u00a0optymalizację SEO tych stron. Testowanie różnych usług cloud computing, w\u00a0tym Google Cloud Platform i\u00a0Oracle Cloud\u00a0Infrastructure."
 		}
 	},
 	"a11y": {
