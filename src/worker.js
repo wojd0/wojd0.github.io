@@ -17,13 +17,13 @@ async function handleRequest(event) {
 				return req;
 			},
 		});
-	} catch (e) {
+	} catch (_e) {
 		try {
 			return await getAssetFromKV(event, {
 				mapRequestToAsset: () =>
 					new Request(`${url.origin}/index.html`, event.request),
 			});
-		} catch (e) {
+		} catch (_e) {
 			return new Response('Not Found', { status: 404 });
 		}
 	}
