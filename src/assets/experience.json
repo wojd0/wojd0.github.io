@@ -1,0 +1,43 @@
+[
+	{
+		"key": "hyland",
+		"tags": [
+			"angular",
+			"typescript",
+			"javascript",
+			"saas",
+			"git",
+			"cicd",
+			"cloud",
+			"sysarch"
+		]
+	},
+	{
+		"key": "eternals",
+		"tags": [
+			"javascript",
+			"typescript",
+			"react",
+			"angular",
+			"nodejs",
+			"sass",
+			"webflow",
+			"nocode",
+			"saas"
+		]
+	},
+	{
+		"key": "freelance",
+		"tags": [
+			"wordpress",
+			"joomla",
+			"javascript",
+			"seo",
+			"gcp",
+			"oci",
+			"bootstrap",
+			"jquery",
+			"ecommerce"
+		]
+	}
+]
