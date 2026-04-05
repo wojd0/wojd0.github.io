@@ -25,6 +25,7 @@
 		"joomla": "Joomla",
 		"seo": "SEO",
 		"gcp": "GCP",
+		"oci": "OCI",
 		"bootstrap": "Bootstrap",
 		"jquery": "jQuery",
 		"ecommerce": "E-commerce",
@@ -110,7 +111,10 @@
 			"dates": "Jul 2023 \u2013 Present",
 			"location": "Remote",
 			"type": "Full-time",
-			"description": "Building and maintaining enterprise\u2011grade SaaS applications using Angular and TypeScript. Working on cloud\u2011based solutions with focus on user experience, CI/CD pipelines, process automation and system architecture."
+			"description": [
+				"Building and maintaining enterprise targeted process automation SaaS application using Angular and TypeScript. I'm developing new features and improvements to the product in a creative, agile environment with best user experience practices.",
+				"I'm also working on improving the development process by optimizing CI/CD pipelines, migrating the codebase through major Angular version updates and implementing new, internal, Material-based design."
+			]
 		},
 		"eternals": {
 			"title": "Freelance Software Developer",
@@ -118,7 +122,10 @@
 			"dates": "Mar 2023 \u2013 Jul 2023",
 			"location": "Remote",
 			"type": "Freelance",
-			"description": "Developed front-end features, plugins and no\u2011code integrations for various platforms. Built solutions using React, Angular and Node.js while delivering marketing automation tools and SaaS\u00a0components."
+			"description": [
+				"Developed front-end for Chromium-based web browsers and no\u2011code integrations for various platforms.",
+				"Used React, Angular and Node.js, collaborated with a designer to create user-friendly interfaces and ensured smooth user experience, conducted periodical sync meetings with the client to ensure the product met their needs and expectations."
+			]
 		},
 		"freelance": {
 			"title": "Freelance Web Developer",
@@ -126,7 +133,7 @@
 			"dates": "May 2021 \u2013 May 2022",
 			"location": "Hybrid \u2013 Wodzis\u0142aw \u015al\u0105ski, Poland",
 			"type": "Freelance",
-			"description": "Created 4 fully fledged websites in WordPress and Joomla. Responsible for designing, building, customising and SEO\u2011optimising those sites. Also tested various cloud computing services including GCP."
+			"description": "Created 4 fully fledged websites in WordPress and Joomla. Responsible for designing, building, customising and SEO\u2011optimising those sites. Also tested various cloud computing services including Google Cloud Platform and Oracle Cloud Infrastructure."
 		}
 	},
 	"a11y": {
