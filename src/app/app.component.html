@@ -2,9 +2,11 @@
   (toggleDarkMode)="this.toggleDarkMode()" (toggleLanguage)="this.toggleLanguage()" (reset)="this.secret()">
 </app-toolbar>
 <main class="">
-  <section id="hero">
-    <app-about class="block mb-30 mt-20"></app-about>
+  <section id="hero" class="min-h-screen flex flex-col items-center justify-center pt-20">
+    <app-about class="block"></app-about>
   </section>
+
+  <app-hr></app-hr>
 
   <section id="education">
     @defer (on viewport; prefetch on idle) {

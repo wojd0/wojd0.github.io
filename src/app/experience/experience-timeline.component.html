@@ -22,7 +22,9 @@
                     {{ ('experience.' + exp.key + '.company') | translate }}
                 </div>
                 <div class="text-page-foreground/60 text-sm leading-relaxed mb-3">
-                    {{ ('experience.' + exp.key + '.description') | translate }}
+                  @for (paragraph of localizedArray('experience.' + exp.key + '.description'); track $index) {
+                    <p>{{ paragraph }}</p>
+                  }
                 </div>
                 <app-tag-bar [tags]="exp.tags"></app-tag-bar>
             </div>

@@ -1,7 +1,6 @@
 import { animate, style, transition, trigger } from '@angular/animations';
 import { Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
-import { HrComponent } from '../hr/hr.component';
 import { ButtonsBarComponent } from '../shared/buttons-bar/buttons-bar.component';
 import type { InteractionButton } from '../shared/types';
 
@@ -38,7 +37,7 @@ import type { InteractionButton } from '../shared/types';
 			),
 		]),
 	],
-	imports: [ButtonsBarComponent, HrComponent, TranslateModule],
+	imports: [ButtonsBarComponent, TranslateModule],
 })
 export class AboutComponent {
 	visited = 1;
