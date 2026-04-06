@@ -1,0 +1,37 @@
+<div class="w-full h-full cursor-pointer" (click)="openLightbox()">
+   <ng-content />
+</div>
+@if (open()) {
+<div class="fixed inset-0 z-50 grid place-items-center bg-black/80 backdrop-blur-sm"
+   [class.lightbox-closing]="closing()"
+   (click)="close()"
+   (animationend)="onAnimationDone()"
+   role="dialog"
+   aria-modal="true"
+   style="animation: fadeIn 120ms ease-out">
+   <button class="fixed top-4 right-4 z-51 text-4xl leading-none text-white bg-transparent border-none cursor-pointer opacity-70 transition-opacity hover:opacity-100 focus-visible:opacity-100"
+      (click)="close()" aria-label="Close lightbox"><i class="ph ph-x"></i></button>
+   @if (hasMultiple()) {
+      <button class="fixed top-1/2 left-4 -translate-y-1/2 z-51 text-5xl leading-none text-white bg-transparent border-none cursor-pointer opacity-60 transition-opacity p-2 hover:opacity-100 focus-visible:opacity-100"
+         (click)="prev(); $event.stopPropagation()" aria-label="Previous image"><i class="ph ph-caret-left"></i></button>
+      <button class="fixed top-1/2 right-4 -translate-y-1/2 z-51 text-5xl leading-none text-white bg-transparent border-none cursor-pointer opacity-60 transition-opacity p-2 hover:opacity-100 focus-visible:opacity-100"
+         (click)="next(); $event.stopPropagation()" aria-label="Next image"><i class="ph ph-caret-right"></i></button>
+   }
+   @if (!loaded()) {
+      <div class="absolute w-10 h-10 rounded-full border-3 border-white/30 border-t-white lightbox-spinner"></div>
+   }
+   <img
+      [src]="currentSrc()"
+      [alt]="alt()"
+      class="max-w-[90vw] max-h-[90vh] object-contain opacity-0 scale-95 transition-all duration-150 ease-out"
+      [class.opacity-100]="loaded()"
+      [class.scale-100]="loaded()"
+      (load)="onLoad()"
+      (click)="$event.stopPropagation()"
+      draggable="false"
+   />
+   @if (hasMultiple()) {
+      <div class="fixed bottom-6 left-1/2 -translate-x-1/2 text-white text-sm opacity-70" (click)="$event.stopPropagation()">{{ index() + 1 }} / {{ images().length }}</div>
+   }
+</div>
+}

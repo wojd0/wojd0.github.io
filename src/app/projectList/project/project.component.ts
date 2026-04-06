@@ -1,7 +1,6 @@
-import { AsyncPipe } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
-import { BehaviorSubject } from 'rxjs';
+import { LightboxComponent } from '../../shared/lightbox/lightbox.component';
 import { TagBarComponent } from '../../shared/tag-bar/tag-bar.component';
 import type { ProjectInfo } from '../../shared/types';
 
@@ -9,11 +8,9 @@ import type { ProjectInfo } from '../../shared/types';
 	selector: 'app-project',
 	templateUrl: './project.component.html',
 	styleUrls: ['./project.component.sass'],
-	imports: [TagBarComponent, AsyncPipe, TranslateModule],
+	imports: [TagBarComponent, TranslateModule, LightboxComponent],
 })
 export class ProjectComponent {
-	open = new BehaviorSubject(false);
-
 	@Input() project!: ProjectInfo;
 
 	get tags(): string[] {

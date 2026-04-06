@@ -1,8 +1,9 @@
 <article
   class="sm:pb-3 black mt-10 sm:mt-0 h-full flex flex-col border-page-border transition-colors duration-300">
   @if (this.project.images.length > 0) {
-  <div class="flex-none h-64 mx-auto group mt-5 relative sm:pb-16" target="_blank">
-    <div class="w-full h-full transition-all">
+  <app-lightbox [images]="this.project.images" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
+    class="flex-none h-64 mx-auto group mt-5 relative sm:pb-16">
+    <div class="w-full h-full transition-all overflow-hidden relative">
       <div class="w-full h-full absolute z-20">
         <img [src]="this.project.images[0].src" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
           class="object-contain origin-center lg:scale-90" loading="lazy">
@@ -14,16 +15,14 @@
       </span>
       <div class="hover-button text-primary-400 dark:text-primary-300 absolute-center">
         @if (this.project.url) {
-        <a [href]="this.project.url" target="_blank" rel="noopener noreferrer" [attr.aria-label]="'a11y.visitProject' | translate">
+        <a [href]="this.project.url" target="_blank" rel="noopener noreferrer" [attr.aria-label]="'a11y.visitProject' | translate"
+          (click)="$event.stopPropagation()">
           <i class="ph-link"></i>
         </a>
         }
-        <button (click)="this.open.next(true)" [attr.aria-label]="'a11y.previewImage' | translate">
-          <i class="ph-eye"></i>
-        </button>
       </div>
     </div>
-  </div>
+  </app-lightbox>
   }
   <div class="w-full p-2 sm:pb-5 grow">
     <h3
@@ -40,10 +39,3 @@
   <app-tag-bar class="w-full mt-auto basis-32 xl:basis-0"
     [tags]="this.tags"></app-tag-bar>
 </article>
-@if (this.open | async) {
-<div class="w-full h-full absolute-center fixed grid place-items-center z-50 bg-[rgba(0,0,0,.5)]"
-  (click)="this.open.next(false)">
-  <img [src]="this.project.images[0].full || this.project.images[0].src"
-    [alt]="('projects.' + this.project.name + '.imageAlt') | translate" class="[draggable:false]" loading="lazy">
-</div>
-}
