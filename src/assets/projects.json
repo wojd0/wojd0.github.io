@@ -7,8 +7,11 @@
 		"images": [
 			{
 				"alt": "Screenshot of the Paragony app's scan result view",
-				"src": "assets/paragony-full.png",
-				"full": "assets/paragony-ss.png"
+				"src": "assets/paragony-full.png"
+			},
+			{
+				"alt": "Screenshot of the Paragony app's receipt scan",
+				"src": "assets/paragony-ss.png"
 			}
 		],
 		"interactions": [
@@ -46,8 +49,11 @@
 		"images": [
 			{
 				"alt": "Screenshot of the Webflow Library project's website",
-				"src": "assets/webflowrepo-ss.png",
-				"full": "assets/complib-full.png"
+				"src": "assets/webflowrepo-ss.png"
+			},
+			{
+				"alt": "Full view of the Webflow Library project",
+				"src": "assets/complib-full.png"
 			}
 		],
 		"interactions": [
@@ -109,8 +115,11 @@
 		"images": [
 			{
 				"alt": "Screenshot of the Derry Guide project's website",
-				"src": "assets/derry-ss.png",
-				"full": "assets/derry-full.png"
+				"src": "assets/derry-ss.png"
+			},
+			{
+				"alt": "Full view of the Derry Guide project",
+				"src": "assets/derry-full.png"
 			}
 		],
 		"interactions": [
