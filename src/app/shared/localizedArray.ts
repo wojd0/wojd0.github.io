@@ -6,8 +6,8 @@ export const localizedArray = () => {
 
 	return (key: string): string[] => {
 		const rawArray = translationService.instant(key);
-		console.log(rawArray);
 
 		return Array.isArray(rawArray) ? rawArray : [rawArray];
 	};
 };
+

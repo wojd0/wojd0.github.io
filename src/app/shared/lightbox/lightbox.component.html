@@ -8,7 +8,7 @@
    (animationend)="onAnimationDone()"
    role="dialog"
    aria-modal="true"
-   style="animation: fadeIn 120ms ease-out">
+   [class.lightbox-opening]="!closing()">
    <button class="fixed top-4 right-4 z-51 text-4xl leading-none text-white bg-transparent border-none cursor-pointer opacity-70 transition-opacity hover:opacity-100 focus-visible:opacity-100"
       (click)="close()" aria-label="Close lightbox"><i class="ph ph-x"></i></button>
    @if (hasMultiple()) {
