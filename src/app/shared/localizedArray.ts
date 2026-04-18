@@ -10,4 +10,3 @@ export const localizedArray = () => {
 		return Array.isArray(rawArray) ? rawArray : [rawArray];
 	};
 };
-

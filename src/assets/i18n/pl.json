@@ -40,6 +40,13 @@
 		"echarts": "Apache ECharts"
 	},
 	"projects": {
+		"paragony": {
+			"title": "Paragony",
+			"imageAlt": "Zrzut ekranu aplikacji Paragony do skanowania paragonów",
+			"description": [
+				"[TRANSLATE] A receipt scanning app powered by Google Gemini AI. Upload photos of receipts and get structured, editable data extracted automatically — item names, prices, discounts, and totals. Features a color-coded flagging system for organizing items."
+			]
+		},
 		"polyform": {
 			"title": "PolyForms",
 			"imageAlt": "Zrzut ekranu projektu PolyForms",
