@@ -114,16 +114,13 @@
 		"job": "Full-time job"
 	},
 	"experience": {
-		"hyland": {
-			"title": "Frontend Web Developer",
-			"company": "Hyland",
-			"dates": "Jul 2023 \u2013 Present",
-			"location": "Remote",
-			"type": "Full-time",
-			"description": [
-				"Building and maintaining enterprise targeted process automation SaaS application using Angular and TypeScript. I'm developing new features and improvements to the product in a creative, agile environment with best user experience practices.",
-				"I'm also working on improving the development process by optimizing CI/CD pipelines, migrating the codebase through major Angular version updates and implementing new, internal, Material-based design."
-			]
+		"freelance": {
+			"title": "Freelance Web Developer",
+			"company": "Self-employed",
+			"dates": "May 2021 \u2013 May 2022",
+			"location": "Hybrid \u2013 Wodzis\u0142aw \u015al\u0105ski, Poland",
+			"type": "Freelance",
+			"description": "Created 4 fully fledged websites in WordPress and Joomla. Responsible for designing, building, customising and SEO\u2011optimising those sites. Also tested various cloud computing services including Google Cloud Platform and Oracle Cloud Infrastructure."
 		},
 		"eternals": {
 			"title": "Freelance Software Developer",
@@ -136,13 +133,16 @@
 				"Used React, Angular and Node.js, collaborated with a designer to create user-friendly interfaces and ensured smooth user experience, conducted periodical sync meetings with the client to ensure the product met their needs and expectations."
 			]
 		},
-		"freelance": {
-			"title": "Freelance Web Developer",
-			"company": "Self-employed",
-			"dates": "May 2021 \u2013 May 2022",
-			"location": "Hybrid \u2013 Wodzis\u0142aw \u015al\u0105ski, Poland",
-			"type": "Freelance",
-			"description": "Created 4 fully fledged websites in WordPress and Joomla. Responsible for designing, building, customising and SEO\u2011optimising those sites. Also tested various cloud computing services including Google Cloud Platform and Oracle Cloud Infrastructure."
+		"hyland": {
+			"title": "Frontend Web Developer",
+			"company": "Hyland",
+			"dates": "Jul 2023 \u2013 Present",
+			"location": "Remote",
+			"type": "Full-time",
+			"description": [
+				"Building and maintaining enterprise targeted process automation SaaS application using Angular and TypeScript. I'm developing new features and improvements to the product in a creative, agile environment with best user experience practices.",
+				"I'm also working on improving the development process by optimizing CI/CD pipelines, migrating the codebase through major Angular version updates and implementing new, internal, Material-based design."
+			]
 		}
 	},
 	"a11y": {

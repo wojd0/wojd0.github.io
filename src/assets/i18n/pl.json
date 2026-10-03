@@ -114,16 +114,13 @@
 		"job": "Praca na pełen etat"
 	},
 	"experience": {
-		"hyland": {
-			"title": "Frontend Web Developer",
-			"company": "Hyland",
-			"dates": "lip 2023 \u2013 obecnie",
-			"location": "Praca zdalna",
-			"type": "Pełen etat",
-			"description": [
-				"Tworzenie i\u00a0utrzymywanie aplikacji SaaS klasy enterprise do automatyzacji procesów, z\u00a0wykorzystaniem Angulara i\u00a0TypeScriptu. Rozwijam nowe funkcjonalności i\u00a0ulepszenia produktu w\u00a0kreatywnym, zwinnym środowisku z\u00a0naciskiem na najlepsze praktyki\u00a0UX.",
-				"Pracuję również nad usprawnieniem procesu developmentu poprzez optymalizację pipeline'ów CI/CD, migrację bazy kodu przez kolejne wersje Angulara oraz wdrażanie nowego, wewnętrznego designu opartego na\u00a0Material."
-			]
+		"freelance": {
+			"title": "Freelance Web Developer",
+			"company": "Działalność własna",
+			"dates": "maj 2021 \u2013 maj 2022",
+			"location": "Praca hybrydowa \u2013 Wodzisław Śląski",
+			"type": "Freelance",
+			"description": "Stworzenie 4 kompletnych stron internetowych w\u00a0WordPressie i\u00a0Joomli. Odpowiedzialność za projektowanie, budowę, dostosowywanie i\u00a0optymalizację SEO tych stron. Testowanie różnych usług cloud computing, w\u00a0tym Google Cloud Platform i\u00a0Oracle Cloud\u00a0Infrastructure."
 		},
 		"eternals": {
 			"title": "Freelance Software Developer",
@@ -136,13 +133,16 @@
 				"Wykorzystywałem React, Angular i\u00a0Node.js, współpracowałem z\u00a0designerem przy tworzeniu przyjaznych interfejsów i\u00a0zapewnieniu płynnego doświadczenia użytkownika. Prowadziłem regularne spotkania synchronizacyjne z\u00a0klientem, aby upewnić się, że produkt spełnia oczekiwania."
 			]
 		},
-		"freelance": {
-			"title": "Freelance Web Developer",
-			"company": "Działalność własna",
-			"dates": "maj 2021 \u2013 maj 2022",
-			"location": "Praca hybrydowa \u2013 Wodzisław Śląski",
-			"type": "Freelance",
-			"description": "Stworzenie 4 kompletnych stron internetowych w\u00a0WordPressie i\u00a0Joomli. Odpowiedzialność za projektowanie, budowę, dostosowywanie i\u00a0optymalizację SEO tych stron. Testowanie różnych usług cloud computing, w\u00a0tym Google Cloud Platform i\u00a0Oracle Cloud\u00a0Infrastructure."
+		"hyland": {
+			"title": "Frontend Web Developer",
+			"company": "Hyland",
+			"dates": "lip 2023 \u2013 obecnie",
+			"location": "Praca zdalna",
+			"type": "Pełen etat",
+			"description": [
+				"Tworzenie i\u00a0utrzymywanie aplikacji SaaS klasy enterprise do automatyzacji procesów, z\u00a0wykorzystaniem Angulara i\u00a0TypeScriptu. Rozwijam nowe funkcjonalności i\u00a0ulepszenia produktu w\u00a0kreatywnym, zwinnym środowisku z\u00a0naciskiem na najlepsze praktyki\u00a0UX.",
+				"Pracuję również nad usprawnieniem procesu developmentu poprzez optymalizację pipeline'ów CI/CD, migrację bazy kodu przez kolejne wersje Angulara oraz wdrażanie nowego, wewnętrznego designu opartego na\u00a0Material."
+			]
 		}
 	},
 	"a11y": {
