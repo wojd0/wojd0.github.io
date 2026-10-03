@@ -1,6 +1,7 @@
 [
 	{
 		"name": "paragony",
+		"year": 2025,
 		"description": [
 			"A receipt scanning app powered by Google Gemini AI. Upload photos of receipts and get structured, editable data extracted automatically — item names, prices, discounts, and totals. Features a color-coded flagging system for organizing items."
 		],
@@ -45,6 +46,7 @@
 	},
 	{
 		"name": "webflowrepo",
+		"year": 2023,
 		"images": [
 			{
 				"alt": "Screenshot of the Webflow Library project's website",
@@ -78,6 +80,7 @@
 	},
 	{
 		"name": "timeline",
+		"year": 2023,
 		"description": [
 			"A simple tool for visualizing a Github repository's activity. It allows you to see your activity in a timeline format, providing a quick overview of selected commit."
 		],
@@ -108,6 +111,7 @@
 	},
 	{
 		"name": "derry",
+		"year": 2021,
 		"description": [
 			"Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. It gained a very positive reviewer and local community acclaim."
 		],
@@ -140,6 +144,7 @@
 	},
 	{
 		"name": "polyform",
+		"year": 2022,
 		"description": [
 			"A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
 			"Besides a sleek-looking front end, I also created an extensive API server featuring data safety and limitation checks."

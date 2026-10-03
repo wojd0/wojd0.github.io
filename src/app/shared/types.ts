@@ -16,6 +16,7 @@ export interface Repo {
  */
 export interface ProjectInfo {
 	name: string;
+	year?: number;
 	images: Image[];
 	interactions: Omit<InteractionButton, 'icon'>[];
 	enabled: boolean;

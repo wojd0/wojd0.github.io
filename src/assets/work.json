@@ -1,6 +1,7 @@
 [
 	{
 		"name": "nocodelib",
+		"year": 2023,
 		"enabled": true,
 		"images": [],
 		"interactions": [
@@ -20,6 +21,7 @@
 	},
 	{
 		"name": "adminpanel",
+		"year": 2023,
 		"enabled": true,
 		"images": [],
 		"interactions": [
