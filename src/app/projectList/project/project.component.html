@@ -2,27 +2,16 @@
   class="sm:pb-3 black mt-10 sm:mt-0 h-full flex flex-col border-page-border transition-colors duration-300">
   @if (this.project.images.length > 0) {
   <app-lightbox [images]="this.project.images" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
-    class="flex-none h-64 mx-auto group mt-5 relative sm:pb-16">
-    <div class="w-full h-full transition-all overflow-hidden relative">
+    class="flex-none h-64 mx-auto mt-5 relative sm:pb-16">
+    <div class="w-full h-full overflow-hidden relative">
       <div class="w-full h-full absolute z-20">
         <img [src]="this.project.images[0].src" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
           [attr.width]="this.project.images[0].width" [attr.height]="this.project.images[0].height"
-          class="object-contain origin-center lg:scale-90" loading="lazy">
+          class="object-contain origin-center lg:scale-90" loading="lazy" decoding="async" fetchpriority="low">
       </div>
       <img [src]="this.project.images[0].src" alt="" aria-hidden="true"
         [attr.width]="this.project.images[0].width" [attr.height]="this.project.images[0].height"
-        class="-z-10 blur-sm h-full w-full object-cover opacity-70" loading="lazy">
-      <span
-        class="block w-full bg-black h-full opacity-0 group-hover:opacity-60 blur transition-all absolute-center z-20">
-      </span>
-      <div class="hover-button text-primary-400 dark:text-primary-300 absolute-center">
-        @if (this.project.url) {
-        <a [href]="this.project.url" target="_blank" rel="noopener noreferrer" [attr.aria-label]="('a11y.visitProject' | translate) + ': ' + (('projects.' + this.project.name + '.title') | translate)"
-          (click)="$event.stopPropagation()">
-          <i class="ph ph-link" aria-hidden="true"></i>
-        </a>
-        }
-      </div>
+        class="-z-10 blur-sm h-full w-full object-cover opacity-70" loading="lazy" decoding="async" fetchpriority="low">
     </div>
   </app-lightbox>
   }

@@ -39,7 +39,10 @@
 		"beercss": "Beer CSS",
 		"nestjs": "NestJS",
 		"ngxcharts": "Ngx Charts",
-		"echarts": "Apache ECharts"
+		"echarts": "Apache ECharts",
+		"nextjs": "Next.js",
+		"tailwind": "Tailwind CSS",
+		"gemini": "Gemini"
 	},
 	"projects": {
 		"paragony": {
@@ -152,8 +155,6 @@
 		"switchLanguage": "Switch language",
 		"switchToLanguage": "Switch to Polish",
 		"scrollToExperience": "Scroll to experience section",
-		"previewImage": "Preview project image",
-		"visitProject": "Visit project",
 		"reset": "Reset",
 		"icon": "icon",
 		"closeLightbox": "Close lightbox",

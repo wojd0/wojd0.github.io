@@ -16,7 +16,6 @@ export interface Repo {
  */
 export interface ProjectInfo {
 	name: string;
-	url?: string;
 	images: Image[];
 	interactions: InteractionButton[];
 	enabled: boolean;

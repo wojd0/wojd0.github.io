@@ -26,7 +26,7 @@
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
-				"name": "next.js",
+				"name": "nextjs",
 				"icon": "nextjs.svg",
 				"url": "https://nextjs.org/"
 			},
@@ -50,7 +50,6 @@
 	},
 	{
 		"name": "webflowrepo",
-		"url": "https://webflowrepo.ct8.pl/",
 		"images": [
 			{
 				"alt": "Screenshot of the Webflow Library project's website",
@@ -90,7 +89,6 @@
 			"A simple tool for visualizing a Github repository's activity. It allows you to see your activity in a timeline format, providing a quick overview of selected commit."
 		],
 		"enabled": true,
-		"url": "https://wojd0.github.io/timeline/",
 		"images": [
 			{
 				"alt": "Screenshot of the Github Timeline project's website",
@@ -122,7 +120,6 @@
 		"description": [
 			"Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. It gained a very positive reviewer and local community acclaim."
 		],
-		"url": "https://derry.ct8.pl/",
 		"images": [
 			{
 				"alt": "Screenshot of the Derry Guide project's website",

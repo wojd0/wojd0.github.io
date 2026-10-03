@@ -8,16 +8,3 @@ article
 .box-shadow
   box-shadow: 5px 4px gray
   @apply dark:shadow-[5px_4px_#4b5563]
-.hover-button
-  opacity: 0
-  font-size: 3.75rem
-  line-height: 1
-  z-index: 20
-  transition-property: all
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
-  transition-duration: 150ms
-  display: flex
-  &>i
-    pointer-events: none
-:host-context(.group:hover) .hover-button
-  opacity: 1
