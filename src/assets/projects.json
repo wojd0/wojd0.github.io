@@ -22,27 +22,22 @@
 		"interactions": [
 			{
 				"name": "typescript",
-				"icon": "typescript.svg",
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
 				"name": "nextjs",
-				"icon": "nextjs.svg",
 				"url": "https://nextjs.org/"
 			},
 			{
 				"name": "react",
-				"icon": "react.svg",
 				"url": "https://react.dev/"
 			},
 			{
 				"name": "tailwind",
-				"icon": "tailwind.svg",
 				"url": "https://tailwindcss.com/"
 			},
 			{
 				"name": "gemini",
-				"icon": "gemini.svg",
 				"url": "https://ai.google.dev/"
 			}
 		],
@@ -53,7 +48,8 @@
 		"images": [
 			{
 				"alt": "Screenshot of the Webflow Library project's website",
-				"src": "assets/webflowrepo-ss.webp",
+				"src": "assets/webflowrepo-thumb.webp",
+				"full": "assets/webflowrepo-ss.webp",
 				"width": 1218,
 				"height": 663
 			},
@@ -67,17 +63,14 @@
 		"interactions": [
 			{
 				"name": "typescript",
-				"icon": "typescript.svg",
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
 				"name": "angular",
-				"icon": "angular.svg",
 				"url": "https://angular.io/"
 			},
 			{
 				"name": "firebase",
-				"icon": "firebase.svg",
 				"url": "https://firebase.google.com/"
 			}
 		],
@@ -92,7 +85,8 @@
 		"images": [
 			{
 				"alt": "Screenshot of the Github Timeline project's website",
-				"src": "assets/gittimeline-ss.webp",
+				"src": "assets/gittimeline-thumb.webp",
+				"full": "assets/gittimeline-ss.webp",
 				"width": 1536,
 				"height": 974
 			}
@@ -100,17 +94,14 @@
 		"interactions": [
 			{
 				"name": "typescript",
-				"icon": "typescript.svg",
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
 				"name": "react",
-				"icon": "react.svg",
 				"url": "https://react.dev/"
 			},
 			{
 				"name": "rxjs",
-				"icon": "rxjs.svg",
 				"url": "https://rxjs.dev/"
 			}
 		]
@@ -123,7 +114,8 @@
 		"images": [
 			{
 				"alt": "Screenshot of the Derry Guide project's website",
-				"src": "assets/derry-ss.webp",
+				"src": "assets/derry-thumb.webp",
+				"full": "assets/derry-ss.webp",
 				"width": 958,
 				"height": 675
 			},
@@ -137,12 +129,10 @@
 		"interactions": [
 			{
 				"name": "wordpress",
-				"icon": "wp.svg",
 				"url": "https://wordpress.org/"
 			},
 			{
 				"name": "leaflet",
-				"icon": "ph-leaf",
 				"url": "https://leafletjs.com/"
 			}
 		],
@@ -157,7 +147,8 @@
 		"images": [
 			{
 				"alt": "Screenshot of the PolyForm project's website",
-				"src": "assets/polyform-ss.webp",
+				"src": "assets/polyform-thumb.webp",
+				"full": "assets/polyform-ss.webp",
 				"width": 1137,
 				"height": 644
 			}
@@ -165,27 +156,22 @@
 		"interactions": [
 			{
 				"name": "typescript",
-				"icon": "typescript.svg",
 				"url": "https://www.typescriptlang.org/"
 			},
 			{
 				"name": "angular",
-				"icon": "angular.svg",
 				"url": "https://angular.io/"
 			},
 			{
 				"name": "beercss",
-				"icon": "beercss.svg",
 				"url": "https://beercss.com/"
 			},
 			{
 				"name": "nestjs",
-				"icon": "nestjs.svg",
 				"url": "https://nestjs.com/"
 			},
 			{
 				"name": "ngxcharts",
-				"icon": "ngxcharts.svg",
 				"url": "https://swimlane.gitbook.io/ngx-charts/"
 			}
 		],

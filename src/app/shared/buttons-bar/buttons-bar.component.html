@@ -6,12 +6,7 @@
     [attr.aria-label]="button.name | translate" rel="noopener noreferrer"
     >
     <div class="w-16 grid place-items-center">
-      @if (button.icon.startsWith('ph-')) {
       <i class="text-3xl justify-center text-white" [class]="'ph ' + button.icon" aria-hidden="true"></i>
-      } @else {
-      <img class="h-8 object-center object-contain brightness-0 invert"
-        [src]="'assets/' + button.icon" [alt]="(button.name | translate) + ' ' + ('a11y.icon' | translate)" loading="lazy" />
-      }
     </div>
     <span
       class="motion-safe:transition-all duration-200 whitespace-nowrap origin-left max-w-prose pr-3 overflow-hidden xl:pr-0 xl:max-w-0 font-bahnschrift text-lg text-white {{ expandClasses() }}">

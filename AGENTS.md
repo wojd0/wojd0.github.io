@@ -2,7 +2,7 @@
 
 ## Stack
 
-Angular 22 single-page portfolio app. TypeScript 6.0, Tailwind CSS v4 (PostCSS), SASS/SCSS component styles, Biome linter/formatter. No routing (empty `routes.ts`).
+Angular 22 single-page portfolio app. TypeScript 6.0, Tailwind CSS v4 (PostCSS), SASS/SCSS component styles, Biome linter/formatter. Zoneless (no zone.js). No client routing — `@angular/router` is only provided in `app.config.server.ts` for prerendering.
 
 ## Package manager
 
@@ -44,7 +44,6 @@ src/
   main.ts              # Bootstrap entry
   index.html           # SEO meta, JSON-LD, font preloads
   styles.scss          # Tailwind v4 theme (primary=emerald, secondary=blue), dark mode via .dark class
-  routes.ts            # Empty — SPA with no client routing
   worker.js            # Cloudflare Workers SPA fallback
   app/
     app.component.*    # Root: dark mode toggle, language switch, section layout
