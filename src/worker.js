@@ -11,6 +11,7 @@ function cacheControl(request) {
 	const { pathname } = new URL(request.url);
 
 	if (/-[\w-]{8}\.(js|css)$/.test(pathname)) return { browserTTL: YEAR };
+	if (pathname.startsWith('/assets/fonts/')) return { browserTTL: YEAR };
 	if (pathname.startsWith('/assets/')) return { browserTTL: WEEK };
 	return {};
 }
