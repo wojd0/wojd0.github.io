@@ -32,7 +32,7 @@
 	},
 	"devDependencies": {
 		"@angular/build": "^21.0.4",
-		"@angular/cli": "~21.0.4",
+		"@angular/cli": "22",
 		"@angular/compiler-cli": "^21.0.6",
 		"@biomejs/biome": "2.3.10",
 		"@cloudflare/kv-asset-handler": "^0.4.2",
