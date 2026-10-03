@@ -8,19 +8,21 @@
 
   <app-hr></app-hr>
 
-  <section id="education">
+  <section id="experience">
     @defer (on viewport; prefetch on idle) {
-      <app-heading text="about.education" class="block mb-8"></app-heading>
-      <app-education-timeline class="block py-16 mt-52 md:mt-32"></app-education-timeline>
+      <app-heading text="about.experience" class="block mb-8"></app-heading>
+      <app-experience-timeline class="block my-10"></app-experience-timeline>
     } @placeholder {
       <div class="h-96"></div>
     }
   </section>
 
-  <section id="experience">
+  <app-hr></app-hr>
+
+  <section id="projects">
     @defer (on viewport; prefetch on idle) {
-      <app-heading text="about.experience" class="block mb-8"></app-heading>
-      <app-experience-timeline class="block my-10"></app-experience-timeline>
+      <app-heading text="about.projects" class="block mb-8"></app-heading>
+      <app-list type="projects" class="block my-10"></app-list>
     } @placeholder {
       <div class="h-96"></div>
     }
@@ -37,13 +39,18 @@
 
   <app-hr></app-hr>
 
-  <section id="projects">
+  <section id="education">
     @defer (on viewport; prefetch on idle) {
-      <app-heading text="about.projects" class="block mb-8"></app-heading>
-      <app-list type="projects" class="block my-10"></app-list>
+      <app-heading text="about.education" class="block mb-8"></app-heading>
+      <app-education-timeline class="block py-16 mt-52 md:mt-32"></app-education-timeline>
     } @placeholder {
       <div class="h-96"></div>
     }
+  </section>
+
+  <section id="contact">
+    <app-heading text="about.contact" class="block mb-8"></app-heading>
+    <app-buttons-bar [buttons]="this.contactButtons" [expanded]="true" class="block my-10"></app-buttons-bar>
   </section>
 </main>
 <footer class="pt-10 pb-1 text-center font-bahnschrift">

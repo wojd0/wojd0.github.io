@@ -2,7 +2,7 @@ import { animate, style, transition, trigger } from '@angular/animations';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { ButtonsBarComponent } from '../shared/buttons-bar/buttons-bar.component';
-import type { InteractionButton } from '../shared/types';
+import { contactButtons } from '../shared/contactButtons';
 
 @Component({
 	selector: 'app-about',
@@ -49,21 +49,5 @@ export class AboutComponent {
 
 	show = false;
 
-	buttons: InteractionButton[] = [
-		{
-			name: 'about.email',
-			icon: 'ph-envelope',
-			url: 'mailto:contact@wojciech-duda.com',
-		},
-		{
-			name: 'about.linkedin',
-			icon: 'ph-linkedin-logo',
-			url: 'https://www.linkedin.com/in/wojciechduda3/',
-		},
-		{
-			name: 'about.github',
-			icon: 'ph-github-logo',
-			url: 'https://github.com/wojd0',
-		},
-	];
+	buttons = contactButtons;
 }

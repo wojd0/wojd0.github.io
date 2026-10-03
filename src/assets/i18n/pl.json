@@ -7,7 +7,8 @@
 		"projects": "Moje projekty",
 		"work": "Realizacje",
 		"education": "Edukacja",
-		"experience": "Doświadczenie"
+		"experience": "Doświadczenie",
+		"contact": "[TRANSLATE] Get in touch"
 	},
 	"skills": {
 		"angular": "Angular",
@@ -149,6 +150,7 @@
 		"toggleDarkMode": "Przełącz tryb ciemny",
 		"switchLanguage": "Zmień język",
 		"switchToLanguage": "Przełącz na angielski",
+		"scrollToExperience": "[TRANSLATE] Scroll to experience section",
 		"scrollToEducation": "Przewiń do sekcji edukacja",
 		"previewImage": "Podgląd zdjęcia projektu",
 		"visitProject": "Odwiedź projekt",

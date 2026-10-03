@@ -7,7 +7,8 @@
 		"projects": "My projects",
 		"work": "Recent work",
 		"education": "Education",
-		"experience": "Experience"
+		"experience": "Experience",
+		"contact": "Get in touch"
 	},
 	"skills": {
 		"angular": "Angular",
@@ -149,7 +150,7 @@
 		"toggleDarkMode": "Toggle dark mode",
 		"switchLanguage": "Switch language",
 		"switchToLanguage": "Switch to Polish",
-		"scrollToEducation": "Scroll to education section",
+		"scrollToExperience": "Scroll to experience section",
 		"previewImage": "Preview project image",
 		"visitProject": "Visit project",
 		"reset": "Reset",

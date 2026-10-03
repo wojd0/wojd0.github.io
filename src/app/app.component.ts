@@ -13,6 +13,8 @@ import { EducationTimelineComponent } from './education/education-timeline/educa
 import { ExperienceTimelineComponent } from './experience/experience-timeline.component';
 import { HrComponent } from './hr/hr.component';
 import { ProjectList } from './projectList/list.component';
+import { ButtonsBarComponent } from './shared/buttons-bar/buttons-bar.component';
+import { contactButtons } from './shared/contactButtons';
 import { HeadingComponent } from './shared/heading/heading.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 
@@ -29,6 +31,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 		HrComponent,
 		EducationTimelineComponent,
 		ExperienceTimelineComponent,
+		ButtonsBarComponent,
 	],
 })
 export class AppComponent {
@@ -40,6 +43,7 @@ export class AppComponent {
 	flag = computed(() => `./assets/${this.nextLanguage()}.svg`);
 
 	darkMode = signal(false);
+	contactButtons = contactButtons;
 
 	constructor() {
 		const browserLanguage = navigator.language;
