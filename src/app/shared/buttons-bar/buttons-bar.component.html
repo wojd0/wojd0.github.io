@@ -1,6 +1,6 @@
 <div class="w-full flex justify-center gap-1 flex-wrap">
   @for (button of this.buttons; track button) {
-  <a #btn class="group bg-primary-500 hover:bg-primary-400 dark:bg-primary-600 dark:hover:bg-primary-500
+  <a #btn class="group bg-primary-700 hover:bg-primary-600 dark:bg-primary-700 dark:hover:bg-primary-600
   p-2 rounded-full md:rouned-3xl flex items-center shadow-custom text-white {{this.btnClass}} mb-3"
     [attr.href]="button.url || null" [attr.target]="button.url ? '_blank' : null"
     [attr.aria-label]="button.name | translate" rel="noopener noreferrer"

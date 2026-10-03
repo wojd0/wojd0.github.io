@@ -5,7 +5,7 @@
   </button>
   <button (click)="this.toggleLanguage.emit()" [attr.aria-label]="'a11y.switchLanguage' | translate"
     class="h-11 w-11 p-2 bg-primary-500 dark:bg-primary-700 rounded-xl hover:scale-110 transition-all cursor-pointer grid place-items-center shadow-sm border-none">
-    <img class="h-full w-auto" [src]="this.flag()" [alt]="'a11y.switchToLanguage' | translate" a-hideNotLoaded />
+    <img class="h-full w-auto" width="34" height="20" [src]="this.flag()" [alt]="'a11y.switchToLanguage' | translate" a-hideNotLoaded />
   </button>
 </div>
 <button class="opacity-0 text-3xl hover:opacity-100 absolute top-0 left-0" [attr.aria-label]="'a11y.reset' | translate"

@@ -41,6 +41,14 @@
   --color-page-border: var(--color-gray-700);
 }
 
+@font-face {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Bahnschrift"), url("https://fonts.cdnfonts.com/s/21353/BAHNSCHRIFT.woff") format("woff");
+}
+
 @layer base {
   :root {
     --hr-start: #00d084;

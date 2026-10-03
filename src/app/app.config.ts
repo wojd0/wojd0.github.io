@@ -4,7 +4,6 @@ import {
 	provideClientHydration,
 	withIncrementalHydration,
 } from '@angular/platform-browser';
-import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideTranslateService, TranslateLoader } from '@ngx-translate/core';
 import { provideAppRoutes } from '../routes';
 import { JsonTranslateLoader } from './shared/json-translate.loader';
@@ -13,7 +12,6 @@ export const appConfig: ApplicationConfig = {
 	providers: [
 		provideZoneChangeDetection(),
 		provideClientHydration(withIncrementalHydration()),
-		provideAnimations(),
 		provideAppRoutes(),
 		provideTranslateService({
 			fallbackLang: 'en',

@@ -1,4 +1,3 @@
-import { animate, style, transition, trigger } from '@angular/animations';
 import {
 	ChangeDetectionStrategy,
 	Component,
@@ -13,20 +12,6 @@ import { ProjectComponent } from './project/project.component';
 @Component({
 	selector: 'app-list',
 	templateUrl: './list.component.html',
-	animations: [
-		trigger('open', [
-			transition(
-				':enter',
-				[style({ opacity: 0 }), animate('{{ duration }}s {{ delay }}ms')],
-				{
-					params: {
-						duration: 0.7,
-						delay: 0,
-					},
-				},
-			),
-		]),
-	],
 	changeDetection: ChangeDetectionStrategy.Eager,
 	imports: [ProjectComponent],
 })

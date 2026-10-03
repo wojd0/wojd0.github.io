@@ -1,4 +1,3 @@
-import { animate, style, transition, trigger } from '@angular/animations';
 import { isPlatformBrowser } from '@angular/common';
 import {
 	ChangeDetectionStrategy,
@@ -14,35 +13,6 @@ import { contactButtons } from '../shared/contactButtons';
 	selector: 'app-about',
 	templateUrl: './about.component.html',
 	styleUrls: ['./about.component.sass'],
-	animations: [
-		trigger('load', [
-			transition(
-				':enter',
-				[style({ opacity: 0 }), animate('{{ duration }}s {{ delay }}ms')],
-				{
-					params: {
-						duration: 0.4,
-						delay: 0,
-					},
-				},
-			),
-		]),
-		trigger('underline', [
-			transition(
-				':enter',
-				[
-					style({ width: 0 }),
-					animate('{{ duration }}s {{ delay }}ms ease-in-out'),
-				],
-				{
-					params: {
-						duration: 2,
-						delay: 0,
-					},
-				},
-			),
-		]),
-	],
 	changeDetection: ChangeDetectionStrategy.Eager,
 	imports: [ButtonsBarComponent, TranslateModule],
 })

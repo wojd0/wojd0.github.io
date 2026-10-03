@@ -2,22 +2,22 @@
   (appear)="this.show = true">
 
   <div class="text-center">
-    <h1 class="name transition text-primary-500 dark:text-primary-400" [@load]>
+    <h1 class="name transition text-primary-500 dark:text-primary-400" animate.enter="fade-in">
       Wojciech<br><span class="block">Duda</span>
       <span class="block mt-4 text-xl md:text-2xl font-lato font-semibold tracking-wide text-page-foreground [text-shadow:none]">{{ 'about.role' | translate }}</span>
     </h1>
   </div>
 
   <p class="w-4/5 xl:w-2/5 pt-6 pb-6 mx-auto text-lg text-center text-page-foreground font-lato"
-    [@load]="{value:'', params: {delay: 1200 / visited}}">
+    animate.enter="fade-in" [style.animation-delay.ms]="1200 / visited">
     {{ 'about.description' | translate}}</p>
   <app-buttons-bar [buttons]="this.buttons"
-    [@load]="{value:'', params: {delay: 1500 / visited}}" [expanded]="true"></app-buttons-bar>
+    animate.enter="fade-in" [style.animation-delay.ms]="1500 / visited" [expanded]="true"></app-buttons-bar>
   <div
     class="w-full flex justify-center pt-6 animate-pulse [animation-duration:8s] [animation-timing-function:ease]"
-    [@load]="{value:'', params: {delay: 2000 / visited}}">
+    animate.enter="fade-in" [style.animation-delay.ms]="2000 / visited">
     <a href="#experience" [attr.aria-label]="'a11y.scrollToExperience' | translate">
-      <i class="text-6xl ph-arrow-down text-primary-600 dark:text-primary-400 scale-125"></i>
+      <i class="text-6xl ph ph-arrow-down text-primary-600 dark:text-primary-400 scale-125" aria-hidden="true"></i>
     </a>
   </div>
 </div>

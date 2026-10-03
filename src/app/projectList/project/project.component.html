@@ -11,15 +11,15 @@
       </div>
       <img [src]="this.project.images[0].src" alt="" aria-hidden="true"
         [attr.width]="this.project.images[0].width" [attr.height]="this.project.images[0].height"
-        class="-z-10 blur-sm h-full opacity-70" loading="lazy">
+        class="-z-10 blur-sm h-full w-full object-cover opacity-70" loading="lazy">
       <span
         class="block w-full bg-black h-full opacity-0 group-hover:opacity-60 blur transition-all absolute-center z-20">
       </span>
       <div class="hover-button text-primary-400 dark:text-primary-300 absolute-center">
         @if (this.project.url) {
-        <a [href]="this.project.url" target="_blank" rel="noopener noreferrer" [attr.aria-label]="'a11y.visitProject' | translate"
+        <a [href]="this.project.url" target="_blank" rel="noopener noreferrer" [attr.aria-label]="('a11y.visitProject' | translate) + ': ' + (('projects.' + this.project.name + '.title') | translate)"
           (click)="$event.stopPropagation()">
-          <i class="ph-link"></i>
+          <i class="ph ph-link" aria-hidden="true"></i>
         </a>
         }
       </div>

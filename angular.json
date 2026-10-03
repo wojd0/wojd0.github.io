@@ -34,10 +34,7 @@
 							"src/sitemap.xml",
 							"src/404.html"
 						],
-						"styles": [
-							"src/styles.scss",
-							"https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
-						],
+						"styles": ["src/styles.scss", "src/icons.scss"],
 						"stylePreprocessorOptions": {
 							"includePaths": ["src"]
 						},
