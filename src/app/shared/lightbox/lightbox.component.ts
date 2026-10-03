@@ -5,11 +5,12 @@ import {
 	input,
 	signal,
 } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 import type { Image } from '../types';
 
 @Component({
 	selector: 'app-lightbox',
-	imports: [],
+	imports: [TranslateModule],
 	templateUrl: './lightbox.component.html',
 	styleUrl: './lightbox.component.sass',
 	changeDetection: ChangeDetectionStrategy.OnPush,
@@ -30,8 +31,10 @@ export class LightboxComponent {
 
 	thumbnailSrc = computed(() => this.images()[0]?.src);
 
+	current = computed(() => this.images()[this.index()]);
+
 	currentSrc = computed(() => {
-		const img = this.images()[this.index()];
+		const img = this.current();
 		return img.full || img.src;
 	});
 

@@ -9,7 +9,7 @@
   <app-hr></app-hr>
 
   <section id="experience">
-    @defer (on viewport; prefetch on idle) {
+    @defer (on viewport; hydrate on viewport; hydrate when this.translated(); prefetch on idle) {
       <app-heading text="about.experience" class="block mb-8"></app-heading>
       <app-experience-timeline class="block my-10"></app-experience-timeline>
     } @placeholder {
@@ -20,7 +20,7 @@
   <app-hr></app-hr>
 
   <section id="projects">
-    @defer (on viewport; prefetch on idle) {
+    @defer (on viewport; hydrate on viewport; hydrate when this.translated(); prefetch on idle) {
       <app-heading text="about.projects" class="block mb-8"></app-heading>
       <app-list type="projects" class="block my-10"></app-list>
     } @placeholder {
@@ -29,7 +29,7 @@
   </section>
 
   <section id="work">
-    @defer (on viewport; prefetch on idle) {
+    @defer (on viewport; hydrate on viewport; hydrate when this.translated(); prefetch on idle) {
       <app-heading text="about.work" class="block mb-8"></app-heading>
       <app-list type="work" class="block my-10"></app-list>
     } @placeholder {
@@ -40,7 +40,7 @@
   <app-hr></app-hr>
 
   <section id="education">
-    @defer (on viewport; prefetch on idle) {
+    @defer (on viewport; hydrate on viewport; hydrate when this.translated(); prefetch on idle) {
       <app-heading text="about.education" class="block mb-8"></app-heading>
       <app-education-timeline class="block py-16 mt-52 md:mt-32"></app-education-timeline>
     } @placeholder {

@@ -33,8 +33,4 @@ export class ButtonsBarComponent {
 	safeUrl(url: string) {
 		return this.sanitizer.bypassSecurityTrustUrl(url);
 	}
-
-	preventLink(event: Event) {
-		event.preventDefault();
-	}
 }

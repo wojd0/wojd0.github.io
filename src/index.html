@@ -5,20 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Wojciech Duda</title>
-  <meta name="title" content="Wojciech Duda">
-  <meta name="description" content="Portfolio of Wojciech Duda – Software Developer specializing in Angular, TypeScript, React and Node.js. Explore my projects, professional experience and skills.">
-  <meta name="keywords" content="Wojciech Duda, Software Developer, Angular Developer, TypeScript, React, Node.js, Frontend Developer, Web Developer, Portfolio">
+  <title>Wojciech Duda | Software Developer – Portfolio</title>
+  <meta name="description" content="Portfolio of Wojciech Duda – Software Developer specializing in Angular, TypeScript, React and Node.js. Explore my projects, experience and skills.">
   <meta name="author" content="Wojciech Duda">
   <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#10b981">
   <link rel="canonical" href="https://wojciech-duda.com/">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://wojciech-duda.com/">
   <meta property="og:title" content="Wojciech Duda | Software Developer – Portfolio">
-  <meta property="og:description" content="Portfolio of Wojciech Duda – Software Developer specializing in Angular, TypeScript, React and Node.js. Explore my projects, professional experience and skills.">
+  <meta property="og:description" content="Portfolio of Wojciech Duda – Software Developer specializing in Angular, TypeScript, React and Node.js. Explore my projects, experience and skills.">
   <meta property="og:image" content="https://wojciech-duda.com/assets/meta-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Wojciech Duda – Software Developer portfolio">
   <meta property="og:site_name" content="Wojciech Duda Portfolio">
   <meta property="og:locale" content="en_US">
 
@@ -26,29 +28,38 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://wojciech-duda.com/">
   <meta name="twitter:title" content="Wojciech Duda | Software Developer – Portfolio">
-  <meta name="twitter:description" content="Portfolio of Wojciech Duda – Software Developer specializing in Angular, TypeScript, React and Node.js. Explore my projects, professional experience and skills.">
+  <meta name="twitter:description" content="Portfolio of Wojciech Duda – Software Developer specializing in Angular, TypeScript, React and Node.js. Explore my projects, experience and skills.">
   <meta name="twitter:image" content="https://wojciech-duda.com/assets/meta-preview.png">
 
   <!-- Structured Data (JSON-LD) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Wojciech Duda",
+    "@type": "ProfilePage",
     "url": "https://wojciech-duda.com/",
-    "jobTitle": "Software Developer",
-    "sameAs": [
-      "https://www.linkedin.com/in/wojciechduda3/",
-      "https://github.com/wojd0"
-    ],
-    "knowsAbout": ["Angular", "TypeScript", "JavaScript", "React", "Node.js", "SaaS", "CI/CD", "Cloud"],
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Hyland"
-    },
-    "alumniOf": {
-      "@type": "EducationalOrganization",
-      "name": "WSB Merito Chorzów"
+    "name": "Wojciech Duda | Software Developer – Portfolio",
+    "inLanguage": "en",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Wojciech Duda",
+      "url": "https://wojciech-duda.com/",
+      "jobTitle": "Software Developer",
+      "description": "Software Developer specializing in Angular, TypeScript, React and Node.js.",
+      "email": "mailto:contact@wojciech-duda.com",
+      "knowsLanguage": ["en", "pl"],
+      "sameAs": [
+        "https://www.linkedin.com/in/wojciechduda3/",
+        "https://github.com/wojd0"
+      ],
+      "knowsAbout": ["Angular", "TypeScript", "JavaScript", "React", "Node.js", "SaaS", "CI/CD", "Cloud"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Hyland"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "WSB Merito Chorzów"
+      }
     }
   }
   </script>
@@ -69,13 +80,11 @@
   <base href="/">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-  <!-- GitHub Pages SPA redirect handler -->
   <script>
     (function(){
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect !== location.href) {
-        history.replaceState(null, null, redirect);
+      var dark = localStorage.getItem('darkMode');
+      if (dark ? dark === 'true' : matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
       }
     })();
   </script>

@@ -32,7 +32,7 @@ Run `bun run lint` before committing. There are no pre-commit hooks or CI workfl
 
 ## i18n
 
-- Library: `@ngx-translate/core` + `@ngx-translate/http-loader`
+- Library: `@ngx-translate/core`, translations bundled via `src/app/shared/json-translate.loader.ts`
 - Source of truth: `src/assets/i18n/en.json`, target: `pl.json`
 - After adding/removing translation keys in `en.json`, sync `pl.json` using the `sync-i18n` skill (`.agents/skills/sync-i18n/SKILL.md`). Missing keys get a `[TRANSLATE]` prefix.
 - Array-valued `description` fields may intentionally differ in element count between locales.

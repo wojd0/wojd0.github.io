@@ -1,5 +1,6 @@
 {
 	"about": {
+		"role": "Software Developer",
 		"description": "I have a passion for solving challenges. I enjoy working on projects that require technical thinking and creativity.",
 		"email": "E\u2011Mail me",
 		"linkedin": "LinkedIn",
@@ -154,6 +155,9 @@
 		"previewImage": "Preview project image",
 		"visitProject": "Visit project",
 		"reset": "Reset",
-		"icon": "icon"
+		"icon": "icon",
+		"closeLightbox": "Close lightbox",
+		"previousImage": "Previous image",
+		"nextImage": "Next image"
 	}
 }

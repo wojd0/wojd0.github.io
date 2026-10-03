@@ -1,10 +1,11 @@
-import { DOCUMENT } from '@angular/common';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import {
 	ChangeDetectionStrategy,
 	Component,
 	computed,
 	effect,
 	inject,
+	PLATFORM_ID,
 	signal,
 } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
@@ -37,25 +38,33 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 export class AppComponent {
 	private translateService = inject(TranslateService);
 	private document = inject(DOCUMENT);
+	private isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
+	private supportedLanguages = ['en', 'pl'];
 
 	language = signal('en');
 	nextLanguage = computed(() => (this.language() === 'pl' ? 'en' : 'pl'));
 	flag = computed(() => `./assets/${this.nextLanguage()}.svg`);
+	translated = computed(() => this.language() !== 'en');
 
 	darkMode = signal(false);
 	contactButtons = contactButtons;
 
 	constructor() {
-		const browserLanguage = navigator.language;
+		if (!this.isBrowser) return;
+
+		const browserLanguage = navigator.language.split('-')[0];
 		const lsLang = localStorage.getItem('lang');
 
-		if (lsLang) this.translateService.use(lsLang);
-		else if (browserLanguage in this.translateService.langs)
-			this.translateService.use(browserLanguage);
+		const language = [lsLang, browserLanguage].find(
+			(lang) => !!lang && this.supportedLanguages.includes(lang),
+		);
 
-		this.language.set(this.translateService.currentLang);
-		this.document.documentElement.lang =
-			this.translateService.currentLang || 'en';
+		if (language && language !== this.language()) {
+			this.translateService.use(language);
+			this.language.set(language);
+		}
+
+		this.document.documentElement.lang = this.language();
 
 		const lsDark = localStorage.getItem('darkMode');
 		const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
