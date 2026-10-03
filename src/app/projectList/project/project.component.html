@@ -2,16 +2,11 @@
   class="sm:pb-3 black mt-10 sm:mt-0 h-full flex flex-col border-page-border transition-colors duration-300">
   @if (this.project.images.length > 0) {
   <app-lightbox [images]="this.project.images" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
-    class="flex-none h-64 mx-auto mt-5 relative sm:pb-16">
-    <div class="w-full h-full overflow-hidden relative">
-      <div class="w-full h-full absolute z-20">
-        <img [ngSrc]="this.project.images[0].src" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
-          [width]="this.project.images[0].width" [height]="this.project.images[0].height"
-          class="object-contain origin-center lg:scale-90" decoding="async">
-      </div>
-      <img [ngSrc]="this.project.images[0].src" alt="" aria-hidden="true"
+    class="flex-none block w-full h-64 mt-5 px-5 sm:pb-16">
+    <div class="w-full h-full flex items-center justify-center">
+      <img [ngSrc]="this.project.images[0].src" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
         [width]="this.project.images[0].width" [height]="this.project.images[0].height"
-        class="-z-10 blur-sm h-full w-full object-cover opacity-70" decoding="async">
+        class="w-auto h-auto max-w-full max-h-full" decoding="async">
     </div>
   </app-lightbox>
   }
