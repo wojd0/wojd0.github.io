@@ -1,5 +1,11 @@
 import { animate, style, transition, trigger } from '@angular/animations';
-import { Component, Input, inject, type OnInit } from '@angular/core';
+import {
+	ChangeDetectionStrategy,
+	Component,
+	Input,
+	inject,
+	type OnInit,
+} from '@angular/core';
 import { ProjectsService } from '../projects.service';
 import type { ProjectInfo } from '../shared/types';
 import { ProjectComponent } from './project/project.component';
@@ -21,6 +27,7 @@ import { ProjectComponent } from './project/project.component';
 			),
 		]),
 	],
+	changeDetection: ChangeDetectionStrategy.Eager,
 	imports: [ProjectComponent],
 })
 export class ProjectList implements OnInit {

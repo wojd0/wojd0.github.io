@@ -1,5 +1,5 @@
 import { animate, style, transition, trigger } from '@angular/animations';
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { ButtonsBarComponent } from '../shared/buttons-bar/buttons-bar.component';
 import type { InteractionButton } from '../shared/types';
@@ -37,6 +37,7 @@ import type { InteractionButton } from '../shared/types';
 			),
 		]),
 	],
+	changeDetection: ChangeDetectionStrategy.Eager,
 	imports: [ButtonsBarComponent, TranslateModule],
 })
 export class AboutComponent {

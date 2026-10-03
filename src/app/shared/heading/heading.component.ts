@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -17,6 +17,7 @@ import { TranslateModule } from '@ngx-translate/core';
       {{ this.text | translate }}
     </h2>
   `,
+	changeDetection: ChangeDetectionStrategy.Eager,
 	imports: [TranslateModule],
 })
 export class HeadingComponent {

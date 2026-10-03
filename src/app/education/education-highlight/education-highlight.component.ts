@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
 export type HighlightPosition = 'top' | 'bottom';
 
@@ -6,6 +6,7 @@ export type HighlightPosition = 'top' | 'bottom';
 	selector: 'app-education-highlight',
 	imports: [],
 	templateUrl: './education-highlight.component.html',
+	changeDetection: ChangeDetectionStrategy.Eager,
 	styleUrl: './education-highlight.component.sass',
 })
 export class EducationHighlightComponent {

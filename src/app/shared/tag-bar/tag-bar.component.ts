@@ -1,9 +1,10 @@
-import { Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
 	selector: 'app-tag-bar',
 	imports: [TranslateModule],
+	changeDetection: ChangeDetectionStrategy.Eager,
 	template: `
 		<div class="flex flex-wrap gap-1.5 justify-center">
 			@for (tag of tags; track tag) {

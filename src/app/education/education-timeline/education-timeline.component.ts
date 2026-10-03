@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { EducationHighlightComponent } from '../education-highlight/education-highlight.component';
 
@@ -6,6 +6,7 @@ import { EducationHighlightComponent } from '../education-highlight/education-hi
 	selector: 'app-education-timeline',
 	imports: [EducationHighlightComponent, TranslateModule],
 	templateUrl: './education-timeline.component.html',
+	changeDetection: ChangeDetectionStrategy.Eager,
 	styleUrl: './education-timeline.component.sass',
 })
 export class EducationTimelineComponent {

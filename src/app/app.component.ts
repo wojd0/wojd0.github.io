@@ -1,5 +1,12 @@
 import { DOCUMENT } from '@angular/common';
-import { Component, computed, effect, inject, signal } from '@angular/core';
+import {
+	ChangeDetectionStrategy,
+	Component,
+	computed,
+	effect,
+	inject,
+	signal,
+} from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { AboutComponent } from './about/about.component';
 import { EducationTimelineComponent } from './education/education-timeline/education-timeline.component';
@@ -13,6 +20,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 	selector: 'app-root',
 	templateUrl: './app.component.html',
 	styleUrls: ['./app.component.sass'],
+	changeDetection: ChangeDetectionStrategy.Eager,
 	imports: [
 		ToolbarComponent,
 		AboutComponent,

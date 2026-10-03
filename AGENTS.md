@@ -2,7 +2,7 @@
 
 ## Stack
 
-Angular 21 single-page portfolio app. TypeScript 5.9, Tailwind CSS v4 (PostCSS), SASS/SCSS component styles, Biome linter/formatter. No routing (empty `routes.ts`).
+Angular 22 single-page portfolio app. TypeScript 6.0, Tailwind CSS v4 (PostCSS), SASS/SCSS component styles, Biome linter/formatter. No routing (empty `routes.ts`).
 
 ## Package manager
 

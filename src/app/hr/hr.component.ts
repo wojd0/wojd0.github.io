@@ -1,8 +1,15 @@
-import { Component, type ElementRef, Input, ViewChild } from '@angular/core';
+import {
+	ChangeDetectionStrategy,
+	Component,
+	type ElementRef,
+	Input,
+	ViewChild,
+} from '@angular/core';
 
 @Component({
 	selector: 'app-hr',
 	templateUrl: './hr.component.html',
+	changeDetection: ChangeDetectionStrategy.Eager,
 	styleUrls: ['./hr.component.css'],
 })
 export class HrComponent {

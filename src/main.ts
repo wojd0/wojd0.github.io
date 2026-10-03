@@ -2,6 +2,7 @@ import { NgOptimizedImage } from '@angular/common';
 import {
 	provideHttpClient,
 	withInterceptorsFromDi,
+	withXhr,
 } from '@angular/common/http';
 import {
 	enableProdMode,
@@ -24,7 +25,7 @@ bootstrapApplication(AppComponent, {
 	providers: [
 		provideZoneChangeDetection(),
 		importProvidersFrom(BrowserModule, NgOptimizedImage),
-		provideHttpClient(withInterceptorsFromDi()),
+		provideHttpClient(withXhr(), withInterceptorsFromDi()),
 		provideAnimations(),
 		provideAppRoutes(),
 		provideTranslateHttpLoader(),

@@ -1,10 +1,16 @@
-import { Component, input, output } from '@angular/core';
+import {
+	ChangeDetectionStrategy,
+	Component,
+	input,
+	output,
+} from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { HideNotLoadedDirective } from '../shared/hideNotLoaded.directive';
 
 @Component({
 	selector: 'app-toolbar',
 	templateUrl: './toolbar.component.html',
+	changeDetection: ChangeDetectionStrategy.Eager,
 	imports: [TranslateModule, HideNotLoadedDirective],
 })
 export class ToolbarComponent {

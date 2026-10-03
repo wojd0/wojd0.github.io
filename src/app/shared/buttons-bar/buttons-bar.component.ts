@@ -1,4 +1,11 @@
-import { Component, computed, Input, inject, input } from '@angular/core';
+import {
+	ChangeDetectionStrategy,
+	Component,
+	computed,
+	Input,
+	inject,
+	input,
+} from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { TranslateModule } from '@ngx-translate/core';
 import type { InteractionButton } from '../types';
@@ -7,6 +14,7 @@ import type { InteractionButton } from '../types';
 	selector: 'app-buttons-bar',
 	templateUrl: './buttons-bar.component.html',
 	styleUrls: ['./buttons-bar.component.sass'],
+	changeDetection: ChangeDetectionStrategy.Eager,
 	imports: [TranslateModule],
 })
 export class ButtonsBarComponent {
