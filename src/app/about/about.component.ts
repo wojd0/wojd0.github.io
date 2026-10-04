@@ -27,5 +27,5 @@ export class AboutComponent {
 
 	show = false;
 
-	buttons = contactButtons;
+	buttons = contactButtons.filter((button) => button.name !== 'about.email');
 }

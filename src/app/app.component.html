@@ -8,20 +8,9 @@
 
   <app-hr></app-hr>
 
-  <section id="experience">
-    @defer (on viewport; hydrate on viewport; hydrate when this.translated()) {
-      <app-heading text="about.experience" class="block mb-8"></app-heading>
-      <app-experience-timeline class="block my-10"></app-experience-timeline>
-    } @placeholder {
-      <div class="h-96"></div>
-    }
-  </section>
-
-  <app-hr></app-hr>
-
   <section id="projects">
     @defer (on viewport; hydrate on viewport; hydrate when this.translated()) {
-      <app-heading text="about.projects" class="block mb-8"></app-heading>
+      <app-heading text="about.projects" class="block mt-8 mb-14"></app-heading>
       <app-list type="projects" class="block my-10"></app-list>
     } @placeholder {
       <div class="h-96"></div>
@@ -30,7 +19,7 @@
 
   <section id="work">
     @defer (on viewport; hydrate on viewport; hydrate when this.translated()) {
-      <app-heading text="about.work" class="block mb-8"></app-heading>
+      <app-heading text="about.work" class="block mt-28 lg:mt-36 mb-14"></app-heading>
       <app-list type="work" class="block my-10"></app-list>
     } @placeholder {
       <div class="h-96"></div>
@@ -39,18 +28,29 @@
 
   <app-hr></app-hr>
 
+  <section id="experience">
+    @defer (on viewport; hydrate on viewport; hydrate when this.translated()) {
+      <app-heading text="about.experience" class="block mt-8 mb-14"></app-heading>
+      <app-experience-timeline class="block my-10"></app-experience-timeline>
+    } @placeholder {
+      <div class="h-96"></div>
+    }
+  </section>
+
   <section id="education">
     @defer (on viewport; hydrate on viewport; hydrate when this.translated()) {
-      <app-heading text="about.education" class="block mb-8"></app-heading>
+      <app-heading text="about.education" class="block mt-28 lg:mt-36 mb-14"></app-heading>
       <app-education-timeline class="block py-16 mt-52 md:mt-32"></app-education-timeline>
     } @placeholder {
       <div class="h-96"></div>
     }
   </section>
 
-  <section id="contact">
-    <app-heading text="about.contact" class="block mb-8"></app-heading>
-    <app-buttons-bar [buttons]="this.contactButtons" [expanded]="true" class="block my-10"></app-buttons-bar>
+  <app-hr></app-hr>
+
+  <section id="contact" class="pt-52 pb-56 lg:pt-74 lg:pb-80">
+    <app-heading text="about.contact" class="block mb-14"></app-heading>
+    <app-buttons-bar [buttons]="this.contactButtons" [expanded]="true" class="block"></app-buttons-bar>
   </section>
 </main>
 <footer class="pt-10 pb-1 text-center font-barlow">
