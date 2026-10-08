@@ -1,16 +1,15 @@
 [
 	{
-		"key": "freelance",
+		"key": "hyland",
 		"tags": [
-			"wordpress",
-			"joomla",
+			"angular",
+			"typescript",
 			"javascript",
-			"seo",
-			"gcp",
-			"oci",
-			"bootstrap",
-			"jquery",
-			"ecommerce"
+			"saas",
+			"git",
+			"cicd",
+			"cloud",
+			"sysarch"
 		]
 	},
 	{
@@ -28,16 +27,17 @@
 		]
 	},
 	{
-		"key": "hyland",
+		"key": "freelance",
 		"tags": [
-			"angular",
-			"typescript",
+			"wordpress",
+			"joomla",
 			"javascript",
-			"saas",
-			"git",
-			"cicd",
-			"cloud",
-			"sysarch"
+			"seo",
+			"gcp",
+			"oci",
+			"bootstrap",
+			"jquery",
+			"ecommerce"
 		]
 	}
 ]
