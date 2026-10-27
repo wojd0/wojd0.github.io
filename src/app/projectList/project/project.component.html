@@ -22,6 +22,17 @@
       }
     </div>
   </div>
-  <app-tag-bar class="w-full mt-auto basis-32 xl:basis-0"
-    [tags]="this.tags" [year]="this.project.year"></app-tag-bar>
+  <p class="w-full mt-auto basis-32 xl:basis-0 px-5 text-center text-sm font-medium transition-colors duration-300">
+    @if (this.project.year) {
+    <span class="text-page-foreground/70"><i class="ph ph-clock-counter-clockwise" aria-hidden="true"></i> {{ this.project.year }}</span>
+    @if (this.tags.length > 0) {
+    <span class="text-page-foreground/70" aria-hidden="true"> | </span>
+    }
+    }
+    <span class="text-page-foreground">
+      @for (tag of this.tags; track tag) {
+      {{ ('skills.' + tag) | translate }}@if (!$last) {,}
+      }
+    </span>
+  </p>
 </article>
