@@ -1,18 +1,17 @@
-<div class="mx-auto md:w-4/5 md:p-10 space-y-3 font-semibold"
-  (appear)="this.show = true">
+<div class="mx-auto md:w-4/5 md:p-10 space-y-3 font-semibold">
 
   <div class="text-center">
     <h1 class="name transition text-primary-500 dark:text-primary-400">
       Wojciech<br><span class="block">Duda</span>
-      <span class="block mt-4 text-xl md:text-2xl font-lato font-semibold tracking-wide text-page-foreground [text-shadow:none]">{{ 'about.role' | translate }}</span>
+      <span class="block mt-4 text-xl md:text-2xl font-semibold tracking-wide text-page-foreground [text-shadow:none]">{{ 'about.role' | translate }}</span>
     </h1>
   </div>
 
-  <p class="w-4/5 xl:w-2/5 pt-6 pb-6 mx-auto text-lg text-center text-page-foreground font-lato">
+  <p class="w-4/5 xl:w-2/5 pt-6 pb-6 mx-auto text-lg text-center text-page-foreground">
     {{ 'about.description' | translate}}</p>
   <app-buttons-bar [buttons]="this.buttons" [expanded]="true"></app-buttons-bar>
   <div
-    class="w-full flex justify-center pt-6 animate-pulse [animation-duration:8s] [animation-timing-function:ease]">
+    class="w-full flex justify-center pt-6 motion-safe:animate-pulse [animation-duration:8s] [animation-timing-function:ease]">
     <a href="#projects" [attr.aria-label]="'a11y.scrollToProjects' | translate">
       <i class="text-6xl ph ph-arrow-down text-primary-600 dark:text-primary-400 scale-125" aria-hidden="true"></i>
     </a>

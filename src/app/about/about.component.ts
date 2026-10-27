@@ -11,7 +11,5 @@ import { contactButtons } from '../shared/contactButtons';
 	imports: [ButtonsBarComponent, TranslateModule],
 })
 export class AboutComponent {
-	show = false;
-
 	buttons = contactButtons.filter((button) => button.name !== 'about.email');
 }

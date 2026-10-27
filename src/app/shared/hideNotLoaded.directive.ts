@@ -11,7 +11,7 @@ export class HideNotLoadedDirective {
 
 		this.el.style.opacity = '0';
 		this.el.addEventListener('load', () => {
-			this.el.style.opacity = '100';
+			this.el.style.opacity = '1';
 		});
 	}
 }

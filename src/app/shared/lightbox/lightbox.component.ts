@@ -1,9 +1,12 @@
 import {
+	afterRenderEffect,
 	ChangeDetectionStrategy,
 	Component,
 	computed,
+	type ElementRef,
 	input,
 	signal,
+	viewChild,
 } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import type { Image } from '../types';
@@ -15,7 +18,6 @@ import type { Image } from '../types';
 	styleUrl: './lightbox.component.sass',
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	host: {
-		'(document:keydown.escape)': 'close()',
 		'(document:keydown.arrowleft)': 'prev()',
 		'(document:keydown.arrowright)': 'next()',
 	},
@@ -24,12 +26,12 @@ export class LightboxComponent {
 	images = input.required<Image[]>();
 	alt = input<string>('');
 
+	dialog = viewChild<ElementRef<HTMLDialogElement>>('dialog');
+
 	open = signal(false);
 	index = signal(0);
 	loaded = signal(false);
 	closing = signal(false);
-
-	thumbnailSrc = computed(() => this.images()[0]?.src);
 
 	current = computed(() => this.images()[this.index()]);
 
@@ -39,6 +41,13 @@ export class LightboxComponent {
 	});
 
 	hasMultiple = computed(() => this.images().length > 1);
+
+	constructor() {
+		afterRenderEffect(() => {
+			const dialog = this.dialog()?.nativeElement;
+			if (dialog && !dialog.open) dialog.showModal();
+		});
+	}
 
 	openLightbox(): void {
 		this.index.set(0);
@@ -55,9 +64,13 @@ export class LightboxComponent {
 
 	onAnimationDone(): void {
 		if (this.closing()) {
-			this.open.set(false);
-			this.closing.set(false);
+			this.dialog()?.nativeElement.close();
 		}
+	}
+
+	onClosed(): void {
+		this.open.set(false);
+		this.closing.set(false);
 	}
 
 	next(): void {
