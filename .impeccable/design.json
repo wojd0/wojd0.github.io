@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T13:48:27.955Z",
+  "title": "Design System: Wojciech Duda Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "tide-emerald": {
+        "role": "primary",
+        "displayName": "Tide Emerald",
+        "canonical": "oklch(69.6% 0.17 162.48)",
+        "tonalRamp": [
+          "#004f3b",
+          "#006045",
+          "#007a55",
+          "#009966",
+          "#00bc7d",
+          "#00d492",
+          "#5ee9b5",
+          "#d0fae5"
+        ]
+      },
+      "tide-emerald-bright": {
+        "role": "primary",
+        "displayName": "Tide Emerald Bright",
+        "canonical": "oklch(76.5% 0.177 163.223)",
+        "tonalRamp": [
+          "#004f3b",
+          "#006045",
+          "#007a55",
+          "#009966",
+          "#00bc7d",
+          "#00d492",
+          "#5ee9b5",
+          "#d0fae5"
+        ]
+      },
+      "tide-emerald-pale": {
+        "role": "primary",
+        "displayName": "Tide Emerald Pale",
+        "canonical": "oklch(84.5% 0.143 164.978)",
+        "tonalRamp": [
+          "#004f3b",
+          "#006045",
+          "#007a55",
+          "#009966",
+          "#00bc7d",
+          "#00d492",
+          "#5ee9b5",
+          "#d0fae5"
+        ]
+      },
+      "tide-emerald-mid": {
+        "role": "primary",
+        "displayName": "Tide Emerald Mid",
+        "canonical": "oklch(59.6% 0.145 163.225)",
+        "tonalRamp": [
+          "#004f3b",
+          "#006045",
+          "#007a55",
+          "#009966",
+          "#00bc7d",
+          "#00d492",
+          "#5ee9b5",
+          "#d0fae5"
+        ]
+      },
+      "tide-emerald-deep": {
+        "role": "primary",
+        "displayName": "Tide Emerald Deep",
+        "canonical": "oklch(50.8% 0.118 165.612)",
+        "tonalRamp": [
+          "#004f3b",
+          "#006045",
+          "#007a55",
+          "#009966",
+          "#00bc7d",
+          "#00d492",
+          "#5ee9b5",
+          "#d0fae5"
+        ]
+      },
+      "deep-water-blue": {
+        "role": "secondary",
+        "displayName": "Deep Water Blue",
+        "canonical": "rgb(29 78 216)",
+        "tonalRamp": [
+          "#1e3a8a",
+          "#1e40af",
+          "#1d4ed8",
+          "#2563eb",
+          "#3b82f6",
+          "#60a5fa",
+          "#93c5fd",
+          "#dbeafe"
+        ]
+      },
+      "deep-water-blue-dark": {
+        "role": "secondary",
+        "displayName": "Deep Water Blue Dark",
+        "canonical": "rgb(30 64 175)",
+        "tonalRamp": [
+          "#1e3a8a",
+          "#1e40af",
+          "#1d4ed8",
+          "#2563eb",
+          "#3b82f6",
+          "#60a5fa",
+          "#93c5fd",
+          "#dbeafe"
+        ]
+      },
+      "open-water-blue": {
+        "role": "secondary",
+        "displayName": "Open Water Blue",
+        "canonical": "oklch(62.3% 0.214 259.815)",
+        "tonalRamp": [
+          "#1c398e",
+          "#193cb8",
+          "#1447e6",
+          "#155dfc",
+          "#2b7fff",
+          "#51a2ff",
+          "#8ec5ff",
+          "#dbeafe"
+        ]
+      },
+      "channel-blue": {
+        "role": "secondary",
+        "displayName": "Channel Blue",
+        "canonical": "oklch(42.4% 0.199 265.638)",
+        "tonalRamp": [
+          "#1c398e",
+          "#193cb8",
+          "#1447e6",
+          "#155dfc",
+          "#2b7fff",
+          "#51a2ff",
+          "#8ec5ff",
+          "#dbeafe"
+        ]
+      },
+      "channel-blue-bright": {
+        "role": "secondary",
+        "displayName": "Channel Blue Bright",
+        "canonical": "oklch(54.6% 0.245 262.881)",
+        "tonalRamp": [
+          "#1c398e",
+          "#193cb8",
+          "#1447e6",
+          "#155dfc",
+          "#2b7fff",
+          "#51a2ff",
+          "#8ec5ff",
+          "#dbeafe"
+        ]
+      },
+      "sea-foam": {
+        "role": "neutral",
+        "displayName": "Sea Foam",
+        "canonical": "oklch(98.4% 0.003 247.858)",
+        "tonalRamp": [
+          "#020618",
+          "#0f172b",
+          "#1d293d",
+          "#314158",
+          "#62748e",
+          "#cad5e2",
+          "#f1f5f9",
+          "#f8fafc"
+        ]
+      },
+      "night-sea-slate": {
+        "role": "neutral",
+        "displayName": "Night Sea Slate",
+        "canonical": "oklch(20.8% 0.042 265.755)",
+        "tonalRamp": [
+          "#020618",
+          "#0f172b",
+          "#1d293d",
+          "#314158",
+          "#62748e",
+          "#cad5e2",
+          "#f1f5f9",
+          "#f8fafc"
+        ]
+      },
+      "night-sea-surface": {
+        "role": "neutral",
+        "displayName": "Night Sea Surface",
+        "canonical": "oklch(27.9% 0.041 260.031)",
+        "tonalRamp": [
+          "#020618",
+          "#0f172b",
+          "#1d293d",
+          "#314158",
+          "#62748e",
+          "#cad5e2",
+          "#f1f5f9",
+          "#f8fafc"
+        ]
+      },
+      "foam-text": {
+        "role": "neutral",
+        "displayName": "Foam Text",
+        "canonical": "oklch(96.8% 0.007 247.896)",
+        "tonalRamp": [
+          "#020618",
+          "#0f172b",
+          "#1d293d",
+          "#314158",
+          "#62748e",
+          "#cad5e2",
+          "#f1f5f9",
+          "#f8fafc"
+        ]
+      },
+      "surf-white": {
+        "role": "neutral",
+        "displayName": "Surf White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#020618",
+          "#0f172b",
+          "#1d293d",
+          "#314158",
+          "#62748e",
+          "#cad5e2",
+          "#f1f5f9",
+          "#f8fafc"
+        ]
+      },
+      "wave-crest": {
+        "role": "tertiary",
+        "displayName": "Wave Crest",
+        "canonical": "#00d084",
+        "tonalRamp": [
+          "#004f3b",
+          "#006045",
+          "#007a55",
+          "#009966",
+          "#00bc7d",
+          "#00d492",
+          "#5ee9b5",
+          "#d0fae5"
+        ]
+      },
+      "wave-spray": {
+        "role": "tertiary",
+        "displayName": "Wave Spray",
+        "canonical": "#7bdcb5",
+        "tonalRamp": [
+          "#004f3b",
+          "#006045",
+          "#007a55",
+          "#009966",
+          "#00bc7d",
+          "#00d492",
+          "#5ee9b5",
+          "#d0fae5"
+        ]
+      },
+      "wave-crest-dark": {
+        "role": "tertiary",
+        "displayName": "Wave Crest Dark",
+        "canonical": "#059669",
+        "tonalRamp": [
+          "#004f3b",
+          "#006045",
+          "#007a55",
+          "#009966",
+          "#00bc7d",
+          "#00d492",
+          "#5ee9b5",
+          "#d0fae5"
+        ]
+      },
+      "wave-spray-dark": {
+        "role": "tertiary",
+        "displayName": "Wave Spray Dark",
+        "canonical": "#10b981",
+        "tonalRamp": [
+          "#004f3b",
+          "#006045",
+          "#007a55",
+          "#009966",
+          "#00bc7d",
+          "#00d492",
+          "#5ee9b5",
+          "#d0fae5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The hero name only. 6rem at 768px and up, with a 3px 3px Deep Water Blue offset."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings. 4.5rem at 1024px and up, with a 3px 3px offset and a 1px blue rule below."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Project titles in Tide Emerald, with a 1px 1px offset."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Job titles in the experience cards."
+      },
+      "tagline": {
+        "displayName": "Tagline",
+        "purpose": "The role line under the hero name. 1.5rem at 768px and up."
+      },
+      "body-lead": {
+        "displayName": "Body Lead",
+        "purpose": "The hero introduction."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Centered project descriptions at 80% opacity. 1.125rem at 1024px and up."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Experience descriptions at 80% opacity."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase dates, location, and job type in the experience cards."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Contact pill labels in Barlow."
+      }
+    },
+    "shadows": [
+      {
+        "name": "offset-display",
+        "value": "text-shadow: 3px 3px #1d4ed8",
+        "purpose": "The hero name."
+      },
+      {
+        "name": "offset-heading",
+        "value": "text-shadow: 3px 3px #1e40af",
+        "purpose": "Section headings."
+      },
+      {
+        "name": "offset-title",
+        "value": "text-shadow: 1px 1px #1d4ed8",
+        "purpose": "Project titles."
+      },
+      {
+        "name": "offset-pill",
+        "value": "0 3px #1d4ed8",
+        "purpose": "Contact pills. The first pill uses -3px 3px and the last pill uses 3px 3px, so the offsets fan out from the center."
+      },
+      {
+        "name": "legacy-card",
+        "value": "0 20px 25px -5px rgb(0 0 0 / 0.4), 0 8px 10px -6px rgb(0 0 0 / 0.4)",
+        "purpose": "Legacy. Experience and education cards. Do not use in new work."
+      },
+      {
+        "name": "legacy-project-halo",
+        "value": "0 0 40px -25px #000",
+        "purpose": "Legacy. Project cards; rgb(255 255 255 / 0.1) in the dark theme. Do not use in new work."
+      }
+    ],
+    "motion": [
+      {
+        "name": "theme-change",
+        "value": "color 300ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Page and text colors when the theme changes."
+      },
+      {
+        "name": "wave-drift",
+        "value": "40s linear infinite",
+        "purpose": "Path morph of the wave divider layers."
+      },
+      {
+        "name": "pill-expand",
+        "value": "200ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Contact pill label width, motion-safe only."
+      },
+      {
+        "name": "toolbar-hover",
+        "value": "transform 150ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Toolbar buttons grow to 110% scale on hover."
+      },
+      {
+        "name": "lightbox-fade",
+        "value": "120ms ease-out (in), 120ms ease-in (out)",
+        "purpose": "Lightbox overlay open and close."
+      },
+      {
+        "name": "lightbox-image",
+        "value": "150ms cubic-bezier(0, 0, 0.2, 1)",
+        "purpose": "Lightbox image grows from 95% to 100% scale when it loads."
+      },
+      {
+        "name": "scroll-cue-pulse",
+        "value": "8s ease infinite",
+        "purpose": "Opacity pulse of the arrow below the hero."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Contact Pill",
+      "kind": "button",
+      "refersTo": "button-contact",
+      "description": "Round emerald link with an icon and a Barlow label, on a hard blue offset. Shown in a centered row in the hero and the contact section.",
+      "html": "<div class=\"ds-pill-row\"><a class=\"ds-pill\" href=\"#\"><span class=\"ds-pill-icon\"><svg aria-hidden=\"true\" width=\"30\" height=\"30\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z\"/></svg></span><span class=\"ds-pill-label\">E‑Mail me</span></a><a class=\"ds-pill\" href=\"#\"><span class=\"ds-pill-icon\"><svg aria-hidden=\"true\" width=\"30\" height=\"30\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z\"/></svg></span><span class=\"ds-pill-label\">LinkedIn</span></a></div>",
+      "css": ".ds-pill-row { display: flex; justify-content: center; flex-wrap: wrap; gap: 4px; } .ds-pill { display: flex; align-items: center; padding: 8px; border-radius: 9999px; background: var(--color-primary-700, #007a55); color: #fff; text-decoration: none; box-shadow: 0 3px #1d4ed8; transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-pill:first-of-type { box-shadow: -3px 3px #1d4ed8; } .ds-pill:last-of-type { box-shadow: 3px 3px #1d4ed8; } .ds-pill:hover { background: var(--color-primary-600, #009966); } .ds-pill:focus-visible { outline: 2px solid var(--color-primary-400, #00d492); outline-offset: 3px; } .ds-pill-icon { width: 64px; display: grid; place-items: center; } .ds-pill-label { padding-right: 12px; font-family: Barlow, sans-serif; font-weight: 600; font-size: 1.125rem; line-height: 1.75rem; white-space: nowrap; }"
+    },
+    {
+      "name": "Toolbar Button",
+      "kind": "button",
+      "refersTo": "button-toolbar",
+      "description": "Square emerald icon button in the top-right toolbar, for the theme toggle and the language switch.",
+      "html": "<button class=\"ds-toolbar-btn\" aria-label=\"Toggle dark mode\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z\"/></svg></button>",
+      "css": ".ds-toolbar-btn { width: 44px; height: 44px; padding: 8px; display: grid; place-items: center; border: none; border-radius: 12px; background: var(--color-primary-500, #00bc7d); color: #fff; cursor: pointer; transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1); } :host-context(.dark) .ds-toolbar-btn { background: var(--color-primary-700, #007a55); } .ds-toolbar-btn:hover { transform: scale(1.1); } .ds-toolbar-btn:focus-visible { outline: 2px solid var(--color-primary-400, #00d492); outline-offset: 3px; }"
+    },
+    {
+      "name": "Section Heading",
+      "kind": "custom",
+      "refersTo": "heading-section",
+      "description": "Josefin Sans heading in emerald on a hard blue offset, with a 1px blue rule under the full width of the text.",
+      "html": "<h2 class=\"ds-heading\">My projects</h2>",
+      "css": ".ds-heading { position: relative; width: min-content; margin: 0 auto; padding: 0 8px 8px; white-space: nowrap; text-align: center; font-family: 'Josefin Sans', sans-serif; font-weight: 600; font-size: 3.4rem; line-height: 1; color: var(--color-primary-500, #00bc7d); text-shadow: 3px 3px #1e40af; } .ds-heading::after { content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background: var(--color-secondary-800, #193cb8); } :host-context(.dark) .ds-heading { color: var(--color-primary-400, #00d492); } :host-context(.dark) .ds-heading::after { background: var(--color-secondary-600, #155dfc); }"
+    },
+    {
+      "name": "Experience Card",
+      "kind": "card",
+      "refersTo": "card-experience",
+      "description": "Card with an uppercase meta row, a Josefin job title, the company, body text, and a centered skills line.",
+      "html": "<article class=\"ds-exp-card\"><div class=\"ds-exp-meta\"><span class=\"ds-exp-date\">Jul 2023 – Present</span><span class=\"ds-exp-dim\" aria-hidden=\"true\">|</span><span class=\"ds-exp-dim\">Remote</span><span class=\"ds-exp-dim\" aria-hidden=\"true\">|</span><span class=\"ds-exp-dim\">Full-time</span></div><h3 class=\"ds-exp-title\">Frontend Web Developer</h3><div class=\"ds-exp-company\">Hyland</div><p class=\"ds-exp-body\">Building and maintaining enterprise targeted process automation SaaS application using Angular and TypeScript.</p><p class=\"ds-exp-tags\">Angular, TypeScript, JavaScript, SaaS</p></article>",
+      "css": ".ds-exp-card { max-width: 640px; padding: 16px; border-radius: 12px; background: var(--color-card, #fff); color: var(--color-page-foreground, #0f172b); } .ds-exp-meta { display: flex; flex-wrap: wrap; column-gap: 12px; row-gap: 2px; margin-bottom: 4px; font-size: 0.75rem; line-height: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; } .ds-exp-date { color: var(--color-primary-700, #007a55); } :host-context(.dark) .ds-exp-date { color: var(--color-primary-300, #5ee9b5); } .ds-exp-dim { opacity: 0.6; } .ds-exp-title { margin: 4px 0 0; font-family: 'Josefin Sans', sans-serif; font-weight: 600; font-size: 1.5rem; line-height: 1.375; } .ds-exp-company { margin: 2px 0 12px; font-size: 0.875rem; opacity: 0.6; } .ds-exp-body { margin: 0 0 12px; font-size: 0.875rem; line-height: 1.625; opacity: 0.8; } .ds-exp-tags { margin: 0; text-align: center; font-size: 0.875rem; font-weight: 500; }"
+    },
+    {
+      "name": "Project Card",
+      "kind": "card",
+      "description": "Centered project block: a contained screenshot area, an emerald Josefin title with a 1px blue offset, a description, and a meta line with the year and the stack.",
+      "html": "<article class=\"ds-project\"><div class=\"ds-project-image\" aria-hidden=\"true\"></div><h3 class=\"ds-project-title\">Paragony</h3><p class=\"ds-project-body\">A receipt scanning app powered by Google Gemini AI.</p><p class=\"ds-project-meta\"><span class=\"ds-project-year\"><svg aria-hidden=\"true\" width=\"14\" height=\"14\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,128A96,96,0,0,1,62.11,197.82a8,8,0,1,1,11-11.64A80,80,0,1,0,71.43,71.43C67.9,75,64.58,78.51,61.35,82L77.66,98.34A8,8,0,0,1,72,112H32a8,8,0,0,1-8-8V64a8,8,0,0,1,13.66-5.66L50,70.7c3.22-3.49,6.54-7,10.06-10.55A96,96,0,0,1,224,128ZM128,72a8,8,0,0,0-8,8v48a8,8,0,0,0,3.88,6.86l40,24a8,8,0,1,0,8.24-13.72L136,123.47V80A8,8,0,0,0,128,72Z\"/></svg> 2025</span><span class=\"ds-project-year\" aria-hidden=\"true\"> | </span><span>TypeScript, Next.js, React</span></p></article>",
+      "css": ".ds-project { max-width: 560px; padding-bottom: 12px; text-align: center; color: var(--color-page-foreground, #0f172b); } .ds-project-image { height: 160px; margin: 20px 20px 0; background: color-mix(in oklab, var(--color-page-foreground, #0f172b) 8%, transparent); } .ds-project-title { margin: 16px 0 0; font-family: 'Josefin Sans', sans-serif; font-weight: 600; font-size: 2.25rem; line-height: 2.5rem; color: var(--color-primary-500, #00bc7d); text-shadow: 1px 1px #1d4ed8; } :host-context(.dark) .ds-project-title { color: var(--color-primary-400, #00d492); } .ds-project-body { margin: 16px 20px 0; font-size: 1rem; line-height: 1.25; letter-spacing: -0.025em; opacity: 0.8; } .ds-project-meta { margin: 20px 20px 0; font-size: 0.875rem; font-weight: 500; } .ds-project-year { opacity: 0.7; } .ds-project-year svg { vertical-align: -0.125em; }"
+    },
+    {
+      "name": "Experience Timeline",
+      "kind": "custom",
+      "refersTo": "timeline-dot",
+      "description": "Vertical emerald spine at 40% opacity with a triangle arrowhead on top, and a 24px emerald dot for each entry.",
+      "html": "<div class=\"ds-timeline\"><div class=\"ds-timeline-arrow\"></div><div class=\"ds-timeline-spine\"></div><div class=\"ds-timeline-entry\"><div class=\"ds-timeline-dot\"></div><div class=\"ds-timeline-card\">Frontend Web Developer</div></div><div class=\"ds-timeline-entry\"><div class=\"ds-timeline-dot\"></div><div class=\"ds-timeline-card\">Freelance Software Developer</div></div></div>",
+      "css": ".ds-timeline { position: relative; max-width: 480px; padding-top: 32px; } .ds-timeline-arrow { position: absolute; left: 6px; top: 0; width: 16px; height: 16px; background: var(--color-primary-500, #00bc7d); clip-path: polygon(50% 0, 100% 100%, 0 100%); } .ds-timeline-spine { position: absolute; left: 13px; top: 16px; bottom: 0; width: 2px; background: color-mix(in oklab, var(--color-primary-500, #00bc7d) 40%, transparent); } .ds-timeline-entry { position: relative; padding-left: 48px; margin-bottom: 24px; } .ds-timeline-dot { position: absolute; left: 2px; top: 12px; width: 24px; height: 24px; border-radius: 9999px; background: var(--color-primary-400, #00d492); } .ds-timeline-card { padding: 16px; border-radius: 12px; background: var(--color-card, #fff); color: var(--color-page-foreground, #0f172b); font-family: 'Josefin Sans', sans-serif; font-weight: 600; font-size: 1.25rem; }"
+    },
+    {
+      "name": "Wave Divider",
+      "kind": "custom",
+      "description": "Two-layer emerald gradient wave band that splits the page into section groups. In the site, two bands stack and the paths morph in a 40s linear loop.",
+      "html": "<svg class=\"ds-wave\" preserveAspectRatio=\"none\" viewBox=\"0 0 1440 700\" aria-hidden=\"true\"><defs><linearGradient id=\"ds-wave-grad\" x1=\"0%\" y1=\"50%\" x2=\"100%\" y2=\"50%\"><stop offset=\"5%\" class=\"ds-wave-start\"/><stop offset=\"95%\" class=\"ds-wave-end\"/></linearGradient></defs><path d=\"M 0,500 C 0,500 0,166 0,166 C 97,160 194,155 282,165 C 369,174 446,199 559,210 C 671,220 821,215 912,219 C 1002,222 1035,234 1114,227 C 1192,219 1316,192 1440,166 C 1440,166 1440,500 1440,500 Z\" fill=\"url(#ds-wave-grad)\" fill-opacity=\"0.53\" transform=\"rotate(-180 720 250)\"/><path d=\"M 0,500 C 0,500 0,333 0,333 C 121,298 242,264 336,289 C 429,313 493,397 590,390 C 686,382 813,285 898,277 C 982,268 1022,348 1106,373 C 1189,397 1314,365 1440,333 C 1440,333 1440,500 1440,500 Z\" fill=\"url(#ds-wave-grad)\" transform=\"rotate(-180 720 250)\"/></svg>",
+      "css": ".ds-wave { display: block; width: 100%; height: 10rem; transform: rotate(180deg); } .ds-wave-start { stop-color: var(--hr-start, #00d084); } .ds-wave-end { stop-color: var(--hr-end, #7bdcb5); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Emerald Tide",
+    "overview": "The page is a calm sea of slate. Bright emerald type floats on it, and a hard blue undertow sits below each important word and button. Animated waves divide the page into three tides: projects, history, and contact. Each section has a lot of open space, and every block sits on one center axis.\n\nThe mood is calm and clean. Color stays in a small set of roles: emerald for type and action, blue for the undertow, slate for everything else. Secondary text uses opacity steps of the foreground color, not new grays. Motion is slow and ambient, or it answers a direct action. Content does not animate into view.\n\nLight and dark themes have equal rank. The system preference selects the theme, and a toolbar toggle changes it. Each color role has one value for each theme.",
+    "keyCharacteristics": [
+      "Josefin Sans display type in emerald, on a hard blue offset with zero blur.",
+      "One center axis for all text, headings, cards, and tags.",
+      "Three animated emerald wave dividers: one under the hero, and one between each pair of section groups.",
+      "Depth comes from hard offsets. Soft blurred shadows are legacy.",
+      "Two corner radii only: 12px and full.",
+      "Timelines with emerald spines, dots, and triangle arrowheads."
+    ],
+    "rules": [
+      {
+        "name": "The Undertow Rule",
+        "body": "Blue never leads. It sits under emerald as an offset, under a heading as a 1px rule, or as the one job bar on the education timeline.",
+        "section": "colors"
+      },
+      {
+        "name": "The Semantic Surface Rule",
+        "body": "Use the `page`, `page-foreground`, and `card` tokens for neutrals. They change value with the theme, so a new surface needs no `dark:` override.",
+        "section": "colors"
+      },
+      {
+        "name": "The Josefin Ceiling Rule",
+        "body": "The Josefin Sans file stops at weight 600. `font-bold` and `font-black` render as 600, so use `font-semibold` for new Josefin text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Center Axis Rule",
+        "body": "Center new content on the page axis. Do not add left-aligned columns or sidebars.",
+        "section": "layout"
+      },
+      {
+        "name": "The Hard Offset Rule",
+        "body": "Depth has zero blur. If a shape must lift, give it a solid blue offset of 1px to 3px.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do set new display and heading text in Josefin Sans 600, in Tide Emerald (Tide Emerald Bright in the dark theme), on a hard Deep Water Blue offset.",
+      "Do give depth with a solid blue offset of 1px to 3px and zero blur (The Hard Offset Rule).",
+      "Do center new content on the page axis (The Center Axis Rule).",
+      "Do use the `page`, `page-foreground`, and `card` tokens, and step secondary text down to 80%, 70%, or 60% opacity.",
+      "Do give every new color role a value for the light theme and for the dark theme.",
+      "Do keep theme changes to a 300ms color transition.",
+      "Do put ambient motion behind `motion-safe`, as the contact pills do."
+    ],
+    "donts": [
+      "Don't add entrance fade-ins or slide-ins on page load. Content shows at once.",
+      "Don't blur project images or their previews. Show them sharp and centered.",
+      "Don't add new soft, blurred drop shadows. The existing card shadows are legacy.",
+      "Don't use blue as a text color or a large fill (The Undertow Rule).",
+      "Don't use `font-bold` or `font-black` on Josefin Sans (The Josefin Ceiling Rule).",
+      "Don't use the `font-lato` utility. No Lato font loads, so the class has no effect.",
+      "Don't add a third corner radius. Use 12px or full rounding."
+    ]
+  }
+}
