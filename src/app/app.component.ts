@@ -97,7 +97,6 @@ export class AppComponent {
 	}
 
 	secret() {
-		localStorage.removeItem('visited');
 		location.reload();
 	}
 }
