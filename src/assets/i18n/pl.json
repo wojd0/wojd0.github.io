@@ -38,9 +38,23 @@
 		"beercss": "Beer CSS",
 		"nestjs": "NestJS",
 		"ngxcharts": "Ngx Charts",
-		"echarts": "Apache ECharts"
+		"echarts": "Apache ECharts",
+		"nextjs": "Next.js",
+		"tailwind": "Tailwind CSS",
+		"gemini": "Gemini",
+		"swift": "Swift",
+		"swiftui": "SwiftUI",
+		"macos": "macOS"
 	},
 	"projects": {
+		"hmd": {
+			"title": "Handy Menu Dashboard",
+			"imageAlt": "[TRANSLATE] Screenshot of the Handy Menu Dashboard macOS app",
+			"description": [
+				"[TRANSLATE] A macOS menu bar app that shows the usage of AI coding agents at a glance. It tracks Claude, ChatGPT, Cursor and GitHub Copilot limits as money, credits, % used or % remaining.",
+				"[TRANSLATE] I made it in Swift and SwiftUI. The app reads sessions from an embedded sign‑in or from browser cookies and keeps them in the macOS Keychain. It runs in the App Sandbox with outbound network access only."
+			]
+		},
 		"paragony": {
 			"title": "Paragony",
 			"imageAlt": "Zrzut ekranu aplikacji Paragony do skanowania paragonów",

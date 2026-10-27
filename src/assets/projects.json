@@ -1,5 +1,33 @@
 [
 	{
+		"name": "hmd",
+		"year": 2026,
+		"images": [
+			{
+				"alt": "Screenshot of the Handy Menu Dashboard settings window",
+				"src": "assets/hmd-thumb.webp",
+				"full": "assets/hmd-ss.webp",
+				"width": 918,
+				"height": 1498
+			}
+		],
+		"interactions": [
+			{
+				"name": "swift",
+				"url": "https://www.swift.org/"
+			},
+			{
+				"name": "swiftui",
+				"url": "https://developer.apple.com/xcode/swiftui/"
+			},
+			{
+				"name": "macos",
+				"url": "https://developer.apple.com/macos/"
+			}
+		],
+		"enabled": true
+	},
+	{
 		"name": "paragony",
 		"year": 2025,
 		"description": [
