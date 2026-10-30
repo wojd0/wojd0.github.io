@@ -69,6 +69,8 @@ Toggled by adding/removing `.dark` class on `<html>`. Custom variant in Tailwind
 
 Dual deployment: GitHub Pages (`angular-cli-ghpages`) and Cloudflare Workers (`wrangler.toml`, site bucket `./dist/browser`). `src/404.html` handles SPA redirect for GitHub Pages.
 
+Cloudflare deploys the site automatically after each push to GitHub. A manual deploy step is not necessary. After a push, the change goes live on wojciech-duda.com.
+
 ## Commit conventions
 
 Conventional commits with lowercase type prefix: `feat:`, `fix:`, `build:`, `style:`, `refactor:`, `ci:`. No scope used. Keep messages short (under ~60 chars). Older history has unstructured messages — follow the newer pattern.
