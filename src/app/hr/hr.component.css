@@ -42,6 +42,12 @@ svg:last-child {
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
+@media (prefers-reduced-motion: reduce) {
+	.path-0,
+	.path-1 {
+		animation: none;
+	}
+}
 @keyframes pathAnim-1 {
 	0%,
 	100% {

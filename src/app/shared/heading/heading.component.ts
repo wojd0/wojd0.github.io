@@ -11,7 +11,7 @@ import { TranslateModule } from '@ngx-translate/core';
 	],
 	template: `
     <h2
-      class="heading relative text-[3.4rem] lg:text-7xl text-center text-primary-500 dark:text-primary-400 pb-2 px-2 font-josefin font-black mx-auto w-min whitespace-nowrap
+      class="heading relative text-[min(3.4rem,13.5vw)] leading-[1.1] lg:text-7xl lg:leading-none text-center text-balance text-primary-500 dark:text-primary-400 pb-2 px-2 font-josefin font-semibold mx-auto w-fit max-w-full
       after:h-px after:content-[''] after:bg-secondary-800 dark:after:bg-secondary-600 after:w-full after:left-0 after:absolute after:bottom-0"
     >
       {{ this.text | translate }}

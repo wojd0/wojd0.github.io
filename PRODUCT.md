@@ -47,9 +47,7 @@ Current implementation, not binding:
 - Projects, work projects, and experience come from JSON files in `src/assets/`. The text for each entry comes from the i18n files.
 - Project images open in a lightbox.
 
-Known gaps:
-
-- The Polish text for `about.contact` ("Get in touch") has the `[TRANSLATE]` marker.
+Known gaps: none.
 
 ## Brand Commitments
 

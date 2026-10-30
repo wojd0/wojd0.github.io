@@ -1,5 +1,6 @@
 {
 	"about": {
+		"role": "Software Developer",
 		"description": "Pasjonuje mnie rozwiązywanie problemów. Lubię pracować nad projektami wymagającymi technicznego myślenia i\u00a0kreatywności.",
 		"email": "Napisz e\u2011mail",
 		"linkedin": "LinkedIn",
@@ -8,7 +9,7 @@
 		"work": "Projekty komercyjne",
 		"education": "Edukacja",
 		"experience": "Doświadczenie",
-		"contact": "[TRANSLATE] Get in touch"
+		"contact": "Skontaktuj się"
 	},
 	"skills": {
 		"angular": "Angular",
@@ -49,17 +50,17 @@
 	"projects": {
 		"hmd": {
 			"title": "Handy Menu Dashboard",
-			"imageAlt": "[TRANSLATE] Screenshot of the Handy Menu Dashboard macOS app",
+			"imageAlt": "Zrzut ekranu aplikacji Handy Menu Dashboard na macOS",
 			"description": [
-				"[TRANSLATE] A macOS menu bar app that shows the usage of AI coding agents at a glance. It tracks Claude, ChatGPT, Cursor and GitHub Copilot limits as money, credits, % used or % remaining.",
-				"[TRANSLATE] I made it in Swift and SwiftUI. The app reads sessions from an embedded sign‑in or from browser cookies and keeps them in the macOS Keychain. It runs in the App Sandbox with outbound network access only."
+				"Aplikacja w pasku menu macOS, która na pierwszy rzut oka pokazuje zużycie agentów AI do programowania. Śledzi limity Claude, ChatGPT, Cursor i GitHub Copilot jako kwotę, kredyty, procent wykorzystania lub procent pozostałego limitu.",
+				"Stworzyłem ją w Swifcie i SwiftUI. Aplikacja odczytuje sesje z wbudowanego logowania lub z ciasteczek przeglądarki i przechowuje je w pęku kluczy macOS. Działa w App Sandbox z dostępem do sieci tylko dla połączeń wychodzących."
 			]
 		},
 		"paragony": {
 			"title": "Paragony",
 			"imageAlt": "Zrzut ekranu aplikacji Paragony do skanowania paragonów",
 			"description": [
-				"[TRANSLATE] A receipt scanning app powered by Google Gemini AI. Upload photos of receipts and get structured, editable data extracted automatically — item names, prices, discounts, and totals. Features a color-coded flagging system for organizing items."
+				"Aplikacja do skanowania paragonów oparta na Google Gemini AI. Wgraj zdjęcia paragonów, a aplikacja automatycznie wyodrębni z nich ustrukturyzowane, edytowalne dane — nazwy produktów, ceny, rabaty i sumy. Ma system kolorowych oznaczeń do porządkowania pozycji."
 			]
 		},
 		"polyform": {
@@ -115,12 +116,12 @@
 	},
 	"education": {
 		"highschool": {
-			"label": "2019 - 2023",
+			"label": "2019 – 2023",
 			"title": "Technikum, kwalifikacja technik\u00a0informatyk",
 			"description": "Zespół Szkół Technicznych, Wodzisław Śląski"
 		},
 		"university": {
-			"label": "2024 - obecnie",
+			"label": "2024 – obecnie",
 			"title": "Studia inżynierskie, kierunek\u00a0informatyka",
 			"description": "WSB Merito Chorzów"
 		},
@@ -162,11 +163,11 @@
 		"toggleDarkMode": "Przełącz tryb ciemny",
 		"switchLanguage": "Zmień język",
 		"switchToLanguage": "Przełącz na angielski",
-		"scrollToExperience": "[TRANSLATE] Scroll to experience section",
-		"scrollToEducation": "Przewiń do sekcji edukacja",
-		"previewImage": "Podgląd zdjęcia projektu",
-		"visitProject": "Odwiedź projekt",
+		"scrollToProjects": "Przewiń do sekcji projektów",
 		"reset": "Resetuj",
-		"icon": "ikona"
+		"icon": "ikona",
+		"closeLightbox": "Zamknij podgląd",
+		"previousImage": "Poprzedni obraz",
+		"nextImage": "Następny obraz"
 	}
 }

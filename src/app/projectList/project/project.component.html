@@ -1,28 +1,28 @@
 <article
-  class="sm:pb-3 black mt-10 sm:mt-0 h-full flex flex-col border-page-border transition-colors duration-300">
+  class="pb-5 h-full flex flex-col">
   @if (this.project.images.length > 0) {
   <app-lightbox [images]="this.project.images" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
-    class="flex-none block w-full h-64 mt-5 px-5 sm:pb-16">
-    <div class="w-full h-full flex items-center justify-center">
+    class="flex-none block w-full lg:h-64 mt-5 px-5">
+    <span class="w-full h-full flex items-center justify-center">
       <img [ngSrc]="this.project.images[0].src" [alt]="('projects.' + this.project.name + '.imageAlt') | translate"
         [width]="this.project.images[0].width" [height]="this.project.images[0].height"
-        class="w-auto h-auto max-w-full max-h-full" decoding="async">
-    </div>
+        class="w-auto h-auto max-w-full max-h-64" decoding="async">
+    </span>
   </app-lightbox>
   }
-  <div class="w-full p-2 sm:pb-5 grow">
+  <div class="w-full p-2 pb-5 grow">
     <h3
-      class="text-4xl font-bold text-center mt-10 md:mt-4 font-josefin text-primary-500 dark:text-primary-400 stroke w-full">
+      class="text-4xl font-semibold text-center mt-6 font-josefin text-primary-500 dark:text-primary-400 stroke w-full">
       {{ ('projects.'+this.project.name+'.title') | translate }}</h3>
     <div
-      class="basis-full text-center mx-5 mt-4 font-lato text-base lg:text-lg tracking-tight leading-tight text-page-foreground/80 transition-colors duration-300">
+      class="basis-full text-center mx-5 mt-4 text-base lg:text-lg tracking-tight leading-normal text-page-foreground/80 transition-colors duration-300">
       @for (paragraph of ('projects.'+this.project.name+'.description') | translate; track
       paragraph) {
       <p class="mt-1">{{ paragraph }}</p>
       }
     </div>
   </div>
-  <p class="w-full mt-auto basis-32 xl:basis-0 px-5 text-center text-sm font-medium transition-colors duration-300">
+  <p class="w-full mt-auto px-5 text-center text-sm font-medium transition-colors duration-300">
     @if (this.project.year) {
     <span class="text-page-foreground/70"><i class="ph ph-clock-counter-clockwise" aria-hidden="true"></i> {{ this.project.year }}</span>
     @if (this.tags.length > 0) {

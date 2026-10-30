@@ -1,13 +1,14 @@
-<div class="w-full h-full cursor-pointer" (click)="openLightbox()">
+<button type="button" class="block w-full h-full cursor-zoom-in" aria-haspopup="dialog" (click)="openLightbox()">
    <ng-content />
-</div>
+</button>
 @if (open()) {
-<div class="fixed inset-0 z-50 grid place-items-center bg-black/80 backdrop-blur-sm"
+<dialog #dialog class="fixed inset-0 m-0 p-0 w-full h-full max-w-none max-h-none border-none overflow-hidden open:grid place-items-center bg-black/80 backdrop-blur-sm backdrop:bg-transparent"
    [class.lightbox-closing]="closing()"
    (click)="close()"
+   (cancel)="$event.preventDefault(); close()"
+   (close)="onClosed()"
    (animationend)="onAnimationDone()"
-   role="dialog"
-   aria-modal="true"
+   [attr.aria-label]="alt()"
    [class.lightbox-opening]="!closing()">
    <button class="fixed top-4 right-4 z-51 text-4xl leading-none text-white bg-transparent border-none cursor-pointer opacity-70 transition-opacity hover:opacity-100 focus-visible:opacity-100"
       (click)="close()" [attr.aria-label]="'a11y.closeLightbox' | translate"><i class="ph ph-x"></i></button>
@@ -35,5 +36,5 @@
    @if (hasMultiple()) {
       <div class="fixed bottom-6 left-1/2 -translate-x-1/2 text-white text-sm opacity-70" (click)="$event.stopPropagation()">{{ index() + 1 }} / {{ images().length }}</div>
    }
-</div>
+</dialog>
 }

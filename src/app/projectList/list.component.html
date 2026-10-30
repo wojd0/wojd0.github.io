@@ -1,6 +1,6 @@
 <div class="mx-auto flex justify-center flex-col">
 
-  <div class="grid grid-cols-12 grid-flow-row lg:gap-10 mx-3">
+  <div class="grid grid-cols-12 grid-flow-row gap-y-10 lg:gap-x-10 mx-3">
     @for (project of this.projects; track project) {
       <div class="lg:col-span-6 col-span-12 lg:last:odd:col-start-4 lg:last:odd:col-span-6">
         <app-project [project]="project"></app-project>

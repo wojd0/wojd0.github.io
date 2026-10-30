@@ -57,7 +57,7 @@ typography:
     fontFamily: "ui-sans-serif, system-ui, sans-serif"
     fontSize: "1rem"
     fontWeight: 400
-    lineHeight: 1.25
+    lineHeight: 1.5
     letterSpacing: "-0.025em"
   body-sm:
     fontFamily: "ui-sans-serif, system-ui, sans-serif"
@@ -96,7 +96,7 @@ components:
   button-contact-hover:
     backgroundColor: "{colors.tide-emerald-mid}"
   button-toolbar:
-    backgroundColor: "{colors.tide-emerald}"
+    backgroundColor: "{colors.tide-emerald-mid}"
     textColor: "{colors.surf-white}"
     rounded: "{rounded.xl}"
     size: "44px"
@@ -154,10 +154,10 @@ The palette has one emerald family for type and action, one blue family that sta
 
 ### Primary
 
-- **Tide Emerald** (`tide-emerald`): the name and section headings in the light theme, project titles, and the toolbar buttons in the light theme.
+- **Tide Emerald** (`tide-emerald`): the name and section headings in the light theme, and project titles.
 - **Tide Emerald Bright** (`tide-emerald-bright`): the name and section headings in the dark theme, and the timeline dots in both themes.
 - **Tide Emerald Pale** (`tide-emerald-pale`): meta labels, such as dates, in the dark theme.
-- **Tide Emerald Mid** (`tide-emerald-mid`): the hover state of the contact pills.
+- **Tide Emerald Mid** (`tide-emerald-mid`): the hover state of the contact pills, the toolbar buttons in the light theme, and the focus ring in the light theme.
 - **Tide Emerald Deep** (`tide-emerald-deep`): the contact pill fill, the toolbar buttons in the dark theme, and meta labels in the light theme.
 
 ### Secondary
@@ -195,12 +195,12 @@ Secondary text uses the foreground color at 80% (body), 70% (project meta), or 6
 ### Hierarchy
 
 - **Display** (600, 4.5rem, 6rem at 768px and up, line height 1): the name in the hero only. It has a 3px 3px Deep Water Blue offset.
-- **Headline** (600, 3.4rem, 4.5rem at 1024px and up, line height 1): section headings. They have a 3px 3px Deep Water Blue Dark offset and a 1px Channel Blue rule below.
+- **Headline** (600, 3.4rem or 13.5vw if that is smaller, 4.5rem at 1024px and up, line height 1.1, and 1 at 1024px and up): section headings. They have a 3px 3px Deep Water Blue Dark offset and a 1px Channel Blue rule below.
 - **Title** (600, 2.25rem, line height 1.11): project titles in Tide Emerald, with a 1px 1px Deep Water Blue offset.
 - **Title Small** (600, 1.5rem, line height 1.375): job titles in the experience cards, in the foreground color.
 - **Tagline** (600, 1.25rem, 1.5rem at 768px and up, letter spacing 0.025em): the role line under the name, in the foreground color, with no offset.
 - **Body Lead** (600, 1.125rem, line height 1.556): the hero introduction. Its width is 80% of the column, and 40% at 1280px and up.
-- **Body** (400, 1rem, 1.125rem at 1024px and up, line height 1.25, letter spacing -0.025em): project descriptions, centered, at 80% opacity.
+- **Body** (400, 1rem, 1.125rem at 1024px and up, line height 1.5, letter spacing -0.025em): project descriptions, centered, at 80% opacity.
 - **Body Small** (400, 0.875rem, line height 1.625): experience descriptions at 80% opacity.
 - **Label** (600, 0.75rem, letter spacing 0.1em, uppercase): dates, location, and job type in the experience cards. The pipe character separates the items.
 - **Button** (Barlow 600, 1.125rem): contact pill labels. The footer uses Barlow 400.
@@ -215,7 +215,7 @@ The page is one long column on one center axis. Every heading, paragraph, card t
 
 - The hero fills the viewport height and centers its content.
 - The timelines use a 16px side margin below 768px, and 15vw on each side at 768px and up.
-- The project grid has 12 columns. It shows one card for each row below 1024px, and two cards with a 40px gap at 1024px and up. A last odd card is centered in columns 4 to 9.
+- The project grid has 12 columns. It shows one card for each row below 1024px, and two cards for each row at 1024px and up. The rows have a 40px gap. At 1024px and up, the columns also have a 40px gap. A last odd card is centered in columns 4 to 9.
 
 Wave dividers split the page into three groups: projects and work projects, experience and education, and contact. A heading that follows a wave has a 32px top margin. A heading that follows a section in the same group has a 112px top margin (144px at 1024px and up). Each heading has a 56px gap to its content. The contact section has the most space: 208px above and 224px below, and 296px and 320px at 1024px and up.
 
@@ -263,25 +263,25 @@ Calm and tactile: round pills that sit on a hard offset, with gentle hover chang
 
 - **Contact pill:** full rounding, Tide Emerald Deep fill, white 30px icon in a 64px slot, Barlow 600 label in white. It has the Pill offset. The hero and the contact section show the pills in one centered row, with a 4px gap.
 - **Contact pill hover:** the fill changes to Tide Emerald Mid. The label width can animate over 200ms, only with `motion-safe`.
-- **Toolbar button:** 44px square, 12px corners, Tide Emerald fill (Tide Emerald Deep in the dark theme), white 20px icon or a flag image. On hover, it grows to 110% scale.
+- **Toolbar button:** 44px square, 12px corners, Tide Emerald Mid fill (Tide Emerald Deep in the dark theme), white 20px icon or a flag image. On hover, it grows to 110% scale.
 
 ### Cards / Containers
 
 - **Experience card:** `card` surface, 12px corners, 16px padding, Legacy card shadow. The content order is a Label meta row, a Title Small job title, the company at 60%, Body Small paragraphs, and a centered comma-separated skills line.
-- **Project card:** no surface fill and no border. The Legacy project halo marks its area. The content order is a 256px image area with the screenshot contained and centered, a Title in Tide Emerald, Body paragraphs, and a meta line. The meta line has a clock icon, the year, a pipe, and the comma-separated stack.
+- **Project card:** no surface fill and no border. The Legacy project halo marks its area. The content order is a centered screenshot with a maximum height of 256px, a Title in Tide Emerald, Body paragraphs, and a meta line. At 1024px and up, the screenshot area is always 256px high, so that the titles in a row align. The meta line has a clock icon, the year, a pipe, and the comma-separated stack.
 - **Education card:** a floating `card` box with 12px corners and 12px padding, 192px minimum width (240px at 768px and up). It has an uppercase label at 60%, a Barlow title, and a description at 60%.
 
 ### Navigation
 
-There is no navigation bar. The toolbar sits at the top-right corner of the hero (20px inset) and scrolls away with the page. It holds the theme toggle and the language switch. A large emerald arrow below the hero links to the projects, with a slow 8s pulse.
+There is no navigation bar. The toolbar sits at the top-right corner of the hero (20px inset) and scrolls away with the page. It holds the theme toggle and the language switch. A large emerald arrow below the hero links to the projects, with a slow 8s pulse. The pulse stops when the visitor asks for reduced motion.
 
 ### Section Heading
 
-The signature heading. Josefin Sans Headline in Tide Emerald (Tide Emerald Bright in the dark theme), with the Heading offset. A 1px Channel Blue rule runs under the full width of the text. The heading does not wrap.
+The signature heading. Josefin Sans Headline in Tide Emerald (Tide Emerald Bright in the dark theme), with the Heading offset. A 1px Channel Blue rule runs under the full width of the heading. A long heading wraps to balanced lines, so that a long Polish heading does not overflow on a phone.
 
 ### Wave Divider
 
-Two stacked SVG wave bands, each 10rem high, filled with a horizontal gradient from `wave-crest` to `wave-spray` (`wave-crest-dark` to `wave-spray-dark` in the dark theme). Each band has two layers: a back layer at 53% opacity and a front layer at 100%. The paths morph slowly in a 40s linear loop.
+Two stacked SVG wave bands, each 10rem high, filled with a horizontal gradient from `wave-crest` to `wave-spray` (`wave-crest-dark` to `wave-spray-dark` in the dark theme). Each band has two layers: a back layer at 53% opacity and a front layer at 100%. The paths morph slowly in a 40s linear loop. The loop stops when the visitor asks for reduced motion.
 
 ### Timelines
 
@@ -290,7 +290,13 @@ Two stacked SVG wave bands, each 10rem high, filled with a horizontal gradient f
 
 ### Lightbox
 
-A full-screen overlay at 80% black with a small backdrop blur. The image is contained to 90% of the viewport. White controls show at 60% to 70% opacity and go to 100% on hover or focus. The overlay fades over 120ms. The image grows from 95% to 100% scale over 150ms when it loads.
+A native modal dialog that fills the viewport, at 80% black with a small backdrop blur. A button around each project screenshot opens it. The dialog moves focus to the close button and keeps focus inside. Escape or a click outside the image closes it, and focus goes back to the screenshot button. The image is contained to 90% of the viewport. White controls show at 60% to 70% opacity and go to 100% on hover or focus. The overlay fades over 120ms. The image grows from 95% to 100% scale over 150ms when it loads.
+
+### Focus and Selection
+
+- **Focus ring:** a 2px Tide Emerald Mid outline with a 3px offset on each element that has keyboard focus. The dark theme uses Tide Emerald Bright.
+- **Text selection:** an emerald 200 fill with emerald 950 text. The dark theme uses an emerald 800 fill with emerald 50 text.
+- **Color scheme:** the dark theme sets `color-scheme: dark`, so the scrollbars and other browser controls also change to dark.
 
 ## Do's and Don'ts
 
