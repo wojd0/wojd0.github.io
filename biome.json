@@ -7,7 +7,16 @@
 	},
 	"files": {
 		"ignoreUnknown": true,
-		"includes": ["**", "!**/dist", "!**/*.html", "!**/.angular"]
+		"includes": [
+			"**",
+			"!**/dist",
+			"!**/*.html",
+			"!**/.angular",
+			"!**/skills/impeccable",
+			"!**/.impeccable",
+			"!**/.codex",
+			"!**/.github/hooks"
+		]
 	},
 	"formatter": {
 		"enabled": true,
