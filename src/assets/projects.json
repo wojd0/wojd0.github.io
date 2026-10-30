@@ -9,6 +9,12 @@
 				"full": "assets/hmd-ss.webp",
 				"width": 918,
 				"height": 1498
+			},
+			{
+				"alt": "Screenshot of the Handy Menu Dashboard menu bar popover with GitHub Copilot and Claude usage",
+				"src": "assets/hmd-menu.webp",
+				"width": 604,
+				"height": 918
 			}
 		],
 		"interactions": [
